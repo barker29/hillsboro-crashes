@@ -1,3 +1,4 @@
+date,time,street0,street1,location-notes,longitude,lattitude,total-fatality,total-injury,pedestrian-fatality,pedestrian-injury,bicycle-fatality,bicyle-injury,source,link0,link1,notes,entry-method
 2018-01-24,15:00,OR 6,MP 49.56,Straight Roadway/RURAL MINOR ARTERIAL,-123.104833333,45.6085888889,0,4,0,0,0,0,ODOT,,,,extract-odot.py
 2018-01-16,16:00,NW VERBOORT RD,NW MC KIBBIN RD,Curve (horizontal curve)/RURAL MINOR ARTERIAL,-123.096741667,45.5476916667,0,1,0,0,0,0,ODOT,,,,extract-odot.py
 2018-10-19,13:00,I-5,MP 288.53,Bridge Structure/URBAN PRINCIPAL ARTERIAL - INTERSTATE,-122.756141667,45.3682361111,0,1,0,0,0,0,ODOT,,,,extract-odot.py

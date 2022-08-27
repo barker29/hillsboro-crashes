@@ -58,6 +58,12 @@ def validate(filename):
             p = line.split(",")
             if len(p) != EXPECTED_ENTRIES:
                 print("  line {0:d} does not have correct number of entries (fond {1:d}, expected {2:d}).".format(j+1, len(p), EXPECTED_ENTRIES))
+            if j == 0:
+                for t1, t2 in zip(p, tags):
+                    if t1.strip() != t2:
+                        print("  header line does not match expected header")
+                        break
+                continue
             try:
                 d = datetime.date.fromisoformat(p[0])
             except ValueError:

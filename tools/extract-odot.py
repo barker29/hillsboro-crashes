@@ -22,7 +22,29 @@ The main dependency is the pyshp library:
 https://github.com/GeospatialPython/pyshp
 """
 import csv
+import sys
+
 import shapefile
+
+
+tags = ["date",
+        "time",
+        "street0",
+        "street1",
+        "location-notes",
+        "longitude",
+        "lattitude",
+        "total-fatality",
+        "total-injury",
+        "pedestrian-fatality",
+        "pedestrian-injury",
+        "bicycle-fatality",
+        "bicyle-injury",
+        "source",
+        "link0",
+        "link1",
+        "notes",
+        "entry-method"]
 
 
 def print_record(fields, shapeRec):
@@ -64,16 +86,9 @@ def get_streets(sr):
     raise ValueError
 
 
-def make_crash_csv(year):
-    """Return a pre-csv list of list of strings based on odot data for given year
-
-    see keys.md for some attempt at copy/paste description
-
-    draft schema:
-
-    (date, time, street, otherstreet, locationnotes, long, lat, totdeath, totinjury,
-     pedeath, pedinjury, bikedeath, bikeinjury, source, link1, link2, othernotes, entry-method)
-    """
+def make_crash_csv(odot_path):
+    """Return a pre-csv list of list of strings based on odot data in given
+    path"""
     keep_keys = ["CRASH_DT",    # date, ISO
                  "CRASH_HR_N",  # crash hour (floor, 24-hour time)
                  "CRASH_SVRT",  # severity? (2=fatal?
@@ -100,8 +115,8 @@ def make_crash_csv(year):
     filter_value = "Washington"
     count = 0
     csv_data = []
-    filename = "../../crashes-gis/data" + str(year) + "/crashes" + str(year)
-    with shapefile.Reader(filename) as sf:
+    # filename = "../../crashes-gis/data" + str(year) + "/crashes" + str(year)
+    with shapefile.Reader(odot_path) as sf:
         for rec in sf.iterRecords(fields=[filter_field]):
             if rec[filter_field] == filter_value:
                 # load full record and shape
@@ -136,15 +151,14 @@ def make_crash_csv(year):
     return csv_data
 
 
-def write_crash_csv(year, outfile):
-    csv_data = make_crash_csv(year)
+def write_crash_csv(odot_path, outfile):
+    csv_data = make_crash_csv(odot_path)
     with open(outfile, "w", newline="") as fd:
         writer = csv.writer(fd)
+        writer.writerow(tags)
         writer.writerows(csv_data)
 
 
 if __name__ == "__main__":
-    # readdb()
-    # csv_data = make_crash_csv(2019)
-    # print(csv_data)
-    write_crash_csv(2019, "odot_crash_data_2019.csv")
+    if len(sys.argv) > 1:
+        write_crash_csv(sys.argv[1], "odot_crash_data.csv")

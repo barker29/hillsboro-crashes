@@ -1,3 +1,4 @@
+date,time,street0,street1,location-notes,longitude,lattitude,total-fatality,total-injury,pedestrian-fatality,pedestrian-injury,bicycle-fatality,bicyle-injury,source,link0,link1,notes,entry-method
 2020-07-26,08:00,OR 6,MP 50.33,Straight Roadway/RURAL MINOR ARTERIAL,-123.089372363,45.6114766356,0,2,0,0,0,0,ODOT,,,,extract-odot.py
 2020-07-16,17:00,PACIFIC HY I-5,NB EF NYBERG ST C3,Straight Roadway/URBAN PRINCIPAL ARTERIAL - INTERSTATE,-122.749792692,45.3894649947,0,2,0,0,0,0,ODOT,,,,extract-odot.py
 2020-07-15,20:00,NW CORNELIUS PASS RD,WB EXTO CRNLS PS NB,Intersection/URBAN PRINCIPAL ARTERIAL - OTHER,-122.900919665,45.5557887254,0,4,0,0,0,0,ODOT,,,,extract-odot.py

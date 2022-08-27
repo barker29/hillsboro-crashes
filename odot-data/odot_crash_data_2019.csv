@@ -1,3 +1,4 @@
+date,time,street0,street1,location-notes,longitude,lattitude,total-fatality,total-injury,pedestrian-fatality,pedestrian-injury,bicycle-fatality,bicyle-injury,source,link0,link1,notes,entry-method
 2019-06-28,14:00,NW 185TH AVE,WB EF 185TH AVE C6,Intersection/URBAN PRINCIPAL ARTERIAL - OTHER,-122.86753885,45.5425564225,0,2,0,0,0,0,ODOT,,,,extract-odot.py
 2019-05-21,15:00,SW FARMINGTON RD,SW TILE FLAT RD,Straight Roadway/RURAL MINOR ARTERIAL,-122.927021889,45.4474088526,0,1,0,0,0,0,ODOT,,,,extract-odot.py
 2019-05-09,11:00,US 26,MP 60.0,Straight Roadway/URBAN PRINCIPAL ARTERIAL - OTHER,-122.945461909,45.571109829,0,1,0,1,0,0,ODOT,,,,extract-odot.py
