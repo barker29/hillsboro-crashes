@@ -52,6 +52,7 @@ def validate(filename):
     - constants or keys or something for the literal numbers
     """
     with open(filename, "r") as fd:
+        print("Checking ", filename)
         count = 0
         missing_coords = 0
         for j,line in enumerate(fd):
