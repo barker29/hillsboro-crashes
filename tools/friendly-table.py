@@ -12,7 +12,9 @@ import csv
 import sys
 
 def get_data_from_csv(filename):
-    """Extract data from CSV, return list of lists"""
+    """Extract data from CSV, return list of lists
+
+    TODO: sort the dates, because they don't come that way in ODOT data"""
     out = []
     with open(filename, "r", newline="") as fd:
         reader = csv.reader(fd)
@@ -42,11 +44,17 @@ def build_markdown_table(csv_data):
 def main(infile, outfile):
     csv_data = get_data_from_csv(infile)
     md_string = build_markdown_table(csv_data)
-    print(md_string)
-    # with open(outfile, "w") as fd:
-    #     fd.write(md_string)
+    if outfile is None:
+        print(md_string)
+    else:
+        with open(outfile, "w") as fd:
+            fd.write(md_string)
 
 
 if __name__ == "__main__":
-    # main(sys.argv[1], sys.argv[2])
-    main("../collected-data/database-2022.csv", "")
+    if len(sys.argv) == 1:
+        main("../collected-data/database-2022.csv", None)
+    elif len(sys.argv) == 2:
+        main(sys.argv[1], None)
+    else:
+        main(sys.argv[1], sys.argv[2])
