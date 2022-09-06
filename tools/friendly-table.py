@@ -9,6 +9,7 @@ or https://mit-license.org/
 Take A CSV file ane output a more readable markdown-style table
 """
 import csv
+import datetime
 import sys
 
 def get_data_from_csv(filename):
@@ -44,6 +45,7 @@ def build_markdown_table(csv_data):
 def main(infile, outfile):
     csv_data = get_data_from_csv(infile)
     md_string = build_markdown_table(csv_data)
+    md_string = md_string + "\n*Table generated on " + str(datetime.date.today()) + "*\n"
     if outfile is None:
         print(md_string)
     else:
