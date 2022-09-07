@@ -9,7 +9,7 @@ Below is a list of all the fatalities in road crashes in Washington County, Oreg
 
 It is inspired by Bike Portland's [Fatality Tracker](https://bikeportland.org/fatality-tracker).
 
-The data is gathered from various sources and may have omissions and mistakes. I appreciate any help keeping this up to date and accurate, see the [github page](https://barker29.github.com/washington-county-oregon-crashes) for how to help.
+The data is gathered from various sources and may have omissions and mistakes. I appreciate any help keeping this up to date and accurate, see the [github page](https://github.com/barker29/washington-county-oregon-crashes) for how to help.
 
 |date|location|deaths|bike/pedestrian|source|
 |---|---|---|---|---|
