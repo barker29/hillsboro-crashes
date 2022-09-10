@@ -13,6 +13,7 @@ The data is gathered from various sources and may have omissions and mistakes. I
 
 |date|location|deaths|bike/pedestrian|source|
 |---|---|---|---|---|
+|2022-03-15|SW Rood Bridge Rd and SW Farmington Rd|1|yes|[KPTV](https://www.kptv.com/2022/03/15/bicyclist-dies-after-being-hit-by-driver-washington-county/)|
 |2022-03-15|SW Hall and SW Farmington|1|yes|[KGW](https://www.kgw.com/article/news/local/beaverton-mayor-calls-for-road-upgrades-near-hit-and-run/283-d1b5603a-b63d-4094-bc88-d648ad33f037?s=03)|
 |2022-04-11|SW 157th Ave and SW Barrows Rd|1|yes|[KGW](https://www.kgw.com/article/news/crime/beaverton-pedestrian-killed-hit-and-run/283-3ed7cfca-703c-432f-9fa8-0c8ac2e95149)|
 |2022-04-19|Tualatin Valley Highway and SW 198th Ave|1|yes|[Pamplin](https://pamplinmedia.com/ht/117-hillsboro-tribune-news/542855-434782-wcso-skateboarder-struck-killed-by-vehicle-in-aloha)|
@@ -22,4 +23,4 @@ The data is gathered from various sources and may have omissions and mistakes. I
 |2022-07-23|SW Gaarde St and HWY 99W|1|yes|[Pamplin](https://pamplinmedia.com/ttt/552805-442456-tigard-crash-kills-82-year-old-pedestrian)|
 |2022-08-25|NW Zion Church Rd and NW Milne Rd|1|no|[Pamplin](https://pamplinmedia.com/ht/117-hillsboro-tribune-news/555861-444920-cornelius-man-dies-in-two-vehicle-crash-in-washington-county)|
 
-*Table generated on 2022-09-05*
+*Table generated on 2022-09-10*
