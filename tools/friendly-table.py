@@ -10,6 +10,7 @@ Take A CSV file ane output a more readable markdown-style table
 """
 import csv
 import datetime
+import os
 import sys
 
 def get_data_from_csv(filename):
@@ -42,7 +43,8 @@ def build_markdown_table(csv_data):
     return out
 
 
-def main(infile, outfile):
+def old_main(infile, outfile):
+    """Load CSV from infile, produce markdown table in outfile."""
     csv_data = get_data_from_csv(infile)
     md_string = build_markdown_table(csv_data)
     md_string = md_string + "\n*Table generated on " + str(datetime.date.today()) + "*\n"
@@ -53,10 +55,25 @@ def main(infile, outfile):
             fd.write(md_string)
 
 
+def deploy(infile):
+    """Given CSV in infile, produce markdown table and deploy to github pages."""
+    tag = "|date|location|"
+    mdfile = os.path.join("..", "docs", "index.markdown")
+    with open(mdfile, "r") as fd:
+        text = fd.read()
+    point = text.find(tag)
+    csv_data = get_data_from_csv(infile)
+    table_string = build_markdown_table(csv_data)
+    table_string = table_string + "\n*Table generated on " + str(datetime.date.today()) + "*\n"
+    with open(mdfile, "w") as fd:
+        fd.write(text[:point])
+        fd.write(table_string)
+
+
 if __name__ == "__main__":
     if len(sys.argv) == 1:
-        main("../collected-data/database-2022.csv", None)
+        deploy("../collected-data/database-2022.csv")
     elif len(sys.argv) == 2:
-        main(sys.argv[1], None)
+        old_main(sys.argv[1], None)
     else:
-        main(sys.argv[1], sys.argv[2])
+        old_main(sys.argv[1], sys.argv[2])
