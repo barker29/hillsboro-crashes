@@ -32,14 +32,17 @@ def build_markdown_table(csv_data):
     Focused on fatalities for now"""
     out = "|date|location|deaths|bike/pedestrian|source|\n"
     out = out + "|---|---|---|---|---|\n"
+    fatality_count = 0
     for item in csv_data:
         if int(item[7]) > 0:
+            fatality_count = fatality_count + int(item[7])
             location = item[2] + " and " + item[3]
             bikeped = "no"
             if int(item[9]) > 0 or int(item[10]) > 0 or int(item[11]) > 0 or int(item[12]) > 0:
                 bikeped = "yes"
             source = "[" + item[13] + "](" + item[14] + ")"
             out = out + "|{0:s}|{1:s}|{2:d}|{3:s}|{4:s}|\n".format(item[0], location, int(item[7]), bikeped, source)
+    print("Total fatalities:", fatality_count)
     return out
 
 
