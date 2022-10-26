@@ -20,4 +20,4 @@ There are a variety of sources for the data I collect, mostly media and governme
 - [Hillsboro Police](https://flashalert.net/id/HPD/)
 - Monthly updates to the City of Hillsboro [Transportation Committee](https://hillsboro-oregon.civicweb.net/Portal/MeetingTypeList.aspx).
 
-It is quite possible for something to slip through the cracks, so please let me know if my data is missing anything.
+It is quite possible for something to slip through the cracks, so please let me know if the data is missing anything.
