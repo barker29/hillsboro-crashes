@@ -7,6 +7,8 @@ or https://mit-license.org/
 
 """
 Take A CSV file ane output a more readable markdown-style table
+
+reminder for testing: bundle exec jekyll serve
 """
 import csv
 import datetime

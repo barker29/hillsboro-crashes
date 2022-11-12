@@ -109,16 +109,22 @@ def crashes(ax, year, color):
 
 
 def main(year=2022):
-    plt.figure()
+    """An .svg is undeniably prettier but make an enormous file, probably
+    should do an ugly .png"""
+    plt.figure(figsize=(8.0, 6.0))
     backdrop(plt.gca())
     cities(plt.gca(), labels=True)
     roads(plt.gca())
     crashes(plt.gca(), year, (1.0, 0.0, 0.0))
     # plt.legend()
+    # TODO: make the bounding box depend on where crashes actually occur?
+    #       (ie, don't map emtpy western wasington county)
     plt.xlim(-123.5, -122.73)
     plt.ylim(45.31, 45.79)
     plt.axis("off")
-    plt.savefig("map" + str(year) + ".svg")
+    # outfile = os.path.join("..", "docs", "map" + str(year) + ".svg")
+    outfile = os.path.join("..", "docs", "map" + str(year) + ".png")
+    plt.savefig(outfile)
 
 
 if __name__ == "__main__":
