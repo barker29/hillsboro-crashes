@@ -95,6 +95,7 @@ def washco_fence(xin, yin):
 
 
 def roads(outfilename):
+    # TODO consider adding 99W (Pacific Hwy)
     badroads = [("TUALATIN VALLEY HWY",""),  # bad
                 ('SR-14', 'HWY'),
                 ('BARNES', 'RD')]

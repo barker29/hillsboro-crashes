@@ -34,6 +34,11 @@ tags = ["date",
         "notes",
         "entry-method"]
 
+washco_xmin = -123.5
+washco_xmax = -122.73
+washco_ymin = 45.31
+washco_ymax = 45.79
+
 
 def check_url(url):
     if "://" not in url:
@@ -46,19 +51,20 @@ def check_url(url):
 def validate(filename):
     """TODO:
     
-    - check if latitude/longitude is in a box that contains Washington County
     - better URL checking
-    - arithmetic on the total fatality / injury numbers
+    - report fatalities without lat/long coordinates
+    - arithmetic on the total fatality [done in friendly-table.py] / injury numbers
     - constants or keys or something for the literal numbers
+    - maybe a list of URLs instead of only 2
     """
     with open(filename, "r") as fd:
         print("Checking ", filename)
         count = 0
         missing_coords = 0
-        for j,line in enumerate(fd):
+        for j, line in enumerate(fd):
             p = line.split(",")
             if len(p) != EXPECTED_ENTRIES:
-                print("  line {0:d} does not have correct number of entries (fond {1:d}, expected {2:d}).".format(j+1, len(p), EXPECTED_ENTRIES))
+                print("  line {0:d} does not have correct number of entries (found {1:d}, expected {2:d}).".format(j+1, len(p), EXPECTED_ENTRIES))
             if j == 0:
                 for t1, t2 in zip(p, tags):
                     if t1.strip() != t2:
@@ -88,6 +94,9 @@ def validate(filename):
             count = count + 1
             if p[5] == "" or p[6] == "":
                 missing_coords = missing_coords + 1
+            elif (float(p[5]) < washco_xmin or float(p[5]) > washco_xmax or
+                  float(p[6]) < washco_ymin or float(p[6]) > washco_ymax):
+                print("line {0:d} lat/long is outside Washington County".format(j+1))
             if p[13] != "ODOT":
                 if not check_url(p[14]):
                     print("line {0:d} item {1:d}: non-ODOT data requires valid URL.".format(j+1, 14))

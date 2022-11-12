@@ -38,8 +38,6 @@ def backdrop(ax):
 
 
 def cities(ax, labels=False):
-    # TODO: probably actually make sense to hand-place the labels and
-    # note down the coords for it
     with open(os.path.join("..", "metro-data", "cities.json"), "r") as fd:
         city_limits = json.load(fd)
     colors = [(0.75, 0.75, 0.75),  # Beaverton
@@ -65,7 +63,7 @@ def cities(ax, labels=False):
             x, y = bounding_box_center(city_limits[city]["x"], city_limits[city]["y"])
             # ax.text(min(city_limits[city]["x"]), y, city.upper(), color=(0.25, 0.25, 0.25), fontsize=5)
             labelx, labely = label_locations[city]
-            print(city, labelx, labely)
+            # print(city, labelx, labely)
             ax.text(labelx, labely, city.upper(), color=(0.35, 0.35, 0.35), fontsize=5)
 
 
@@ -92,30 +90,35 @@ def roads(ax):
 
 def crashes(ax, year, color):
     """Plot fatalities from given year in given color"""
-    filename = "odot_crash_data_" + str(year) + ".csv"
     x = []
     y = []
-    with open(os.path.join("..", "odot-data", filename), "r", newline="") as fd:
+    if year >= 2022:
+        filename = os.path.join("..", "collected-data", "database-" + str(year) + ".csv")
+    else:
+        filename = os.path.join("..", "odot-data", "odot_crash_data_" + str(year) + ".csv")
+    with open(filename, "r", newline="") as fd:
         reader = csv.reader(fd)
         for k, line in enumerate(reader):
-            if k > 1:
-                if int(line[7]) > 0:
+            if k > 0:
+                # if int(line[7]) > 0:
+                #     print(k, line[7], "fatalities", line[5], line[6])
+                if int(line[7]) > 0 and line[5] != "":
                     x.append(float(line[5]))
                     y.append(float(line[6]))
     ax.plot(x, y, "x", color=color, markersize=4)
 
 
-def main():
+def main(year=2022):
     plt.figure()
     backdrop(plt.gca())
     cities(plt.gca(), labels=True)
     roads(plt.gca())
-    crashes(plt.gca(), 2020, (1.0, 0.0, 0.0))
+    crashes(plt.gca(), year, (1.0, 0.0, 0.0))
     # plt.legend()
     plt.xlim(-123.5, -122.73)
     plt.ylim(45.31, 45.79)
     plt.axis("off")
-    plt.savefig("map.svg")
+    plt.savefig("map" + str(year) + ".svg")
 
 
 if __name__ == "__main__":

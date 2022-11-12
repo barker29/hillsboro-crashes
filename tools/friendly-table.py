@@ -21,7 +21,7 @@ def get_data_from_csv(filename):
     with open(filename, "r", newline="") as fd:
         reader = csv.reader(fd)
         for k, line in enumerate(reader):
-            if k > 1:
+            if k > 0:
                 out.append(line)
     return out
 
