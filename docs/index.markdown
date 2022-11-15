@@ -16,6 +16,7 @@ The data is gathered from various [sources](resources/) and may have omissions a
 |date|location|deaths|bike/pedestrian|source|
 |---|---|---|---|---|
 |2022-02-20|SW Edy Rd and Trailblazer Place|2|yes|[Oregonian](https://www.oregonlive.com/washingtoncounty/2022/02/sherwood-car-crash-kills-2-children.html)|
+|2022-03-04|Hall Boulevard and SW Lucille Court|1|yes|[Pamplin](https://pamplinmedia.com/ht/117-hillsboro-tribune-news/563683-451526-orphan-highways-in-washco-receiving-renewed-attention)|
 |2022-03-15|SW Rood Bridge Rd and SW Farmington Rd|1|yes|[KPTV](https://www.kptv.com/2022/03/15/bicyclist-dies-after-being-hit-by-driver-washington-county/)|
 |2022-03-15|SW Hall and SW Farmington|1|yes|[KGW](https://www.kgw.com/article/news/local/beaverton-mayor-calls-for-road-upgrades-near-hit-and-run/283-d1b5603a-b63d-4094-bc88-d648ad33f037?s=03)|
 |2022-04-11|SW 157th Ave and SW Barrows Rd|1|yes|[KGW](https://www.kgw.com/article/news/crime/beaverton-pedestrian-killed-hit-and-run/283-3ed7cfca-703c-432f-9fa8-0c8ac2e95149)|
@@ -32,4 +33,4 @@ The data is gathered from various [sources](resources/) and may have omissions a
 |2022-11-03|Highway 47 and NW Kemper Rd|1|no|[KATU](https://katu.com/news/local/crash-closes-highway-47-near-forest-grove)|
 |2022-11-04|Highway 26 and Harrison Rd|1|no|[Banks Post](https://www.bankspost.com/posts/highway-26-closed-at-highway-6-junction-following-nearby-crash/)|
 
-*Table generated on 2022-11-12*
+*Table generated on 2022-11-14*
