@@ -29,8 +29,9 @@ The data is gathered from various [sources](resources/) and may have omissions a
 |2022-09-10|SW Scholls Sherwood Rd and SW Stark Rd|1|no|[WCSO](http://www.flashalertnewswire.net/images/news/2022-09/1128/157425/MR220911_Man_Killed_in_Rollover_Crash_Six_Injured_in_Head-on_DUII_Crash.pdf)|
 |2022-09-22|NW 185th Ave and Walker Rd|2|no|[Oregonian](https://www.oregonlive.com/washingtoncounty/2022/09/2-dead-in-car-crash-near-hillsboro-shopping-center-1-person-in-accident-runs-from-scene-police.html)|
 |2022-10-13|SE 10th Ave and SE Clipper Lane|1|yes|[City of Hillsboro](https://hillsboro-oregon.civicweb.net/document/50837/TC%20Crash%20Report%20Memo%2010.15.22.pdf)|
+|2022-10-17|NE Cornelius Pass Rd and NE Nicholas Ct|1|no|[City of Hillsboro](https://hillsboro-oregon.civicweb.net/document/51927/TC%20Crash%20Report%20Memo%2011.9.22.pdf)|
 |2022-10-31|SW Oak St and SW 1st Ave|1|yes|[KOIN](https://www.koin.com/news/crashes/bicyclist-dies-hillsboro-sw-oak-1st-10312022/)|
 |2022-11-03|Highway 47 and NW Kemper Rd|1|no|[KATU](https://katu.com/news/local/crash-closes-highway-47-near-forest-grove)|
 |2022-11-04|Highway 26 and Harrison Rd|1|no|[Banks Post](https://www.bankspost.com/posts/highway-26-closed-at-highway-6-junction-following-nearby-crash/)|
 
-*Table generated on 2022-11-14*
+*Table generated on 2022-11-19*
