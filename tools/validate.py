@@ -94,12 +94,14 @@ def validate(filename):
             count = count + 1
             if p[5] == "" or p[6] == "":
                 missing_coords = missing_coords + 1
+                if int(p[7]) > 0:
+                    print("  line {0:d} with fatal crash is missing coordinates.".format(j+1))
             elif (float(p[5]) < washco_xmin or float(p[5]) > washco_xmax or
                   float(p[6]) < washco_ymin or float(p[6]) > washco_ymax):
-                print("line {0:d} lat/long is outside Washington County".format(j+1))
+                print("  line {0:d} lat/long is outside Washington County".format(j+1))
             if p[13] != "ODOT":
                 if not check_url(p[14]):
-                    print("line {0:d} item {1:d}: non-ODOT data requires valid URL.".format(j+1, 14))
+                    print("  line {0:d} item {1:d}: non-ODOT data requires valid URL.".format(j+1, 14))
     print("Checked {0:d} entries, {1:d} are missing latitude/longitude info.".format(count, missing_coords))
 
 

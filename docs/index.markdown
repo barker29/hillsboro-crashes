@@ -33,5 +33,6 @@ The data is gathered from various [sources](resources/) and may have omissions a
 |2022-10-31|SW Oak St and SW 1st Ave|1|yes|[KOIN](https://www.koin.com/news/crashes/bicyclist-dies-hillsboro-sw-oak-1st-10312022/)|
 |2022-11-03|Highway 47 and NW Kemper Rd|1|no|[KATU](https://katu.com/news/local/crash-closes-highway-47-near-forest-grove)|
 |2022-11-04|Highway 26 and Harrison Rd|1|no|[Banks Post](https://www.bankspost.com/posts/highway-26-closed-at-highway-6-junction-following-nearby-crash/)|
+|2022-11-29|Highway 26 and NW Dersham Rd|1|no|[KOIN](https://www.koin.com/news/crashes/deadly-crash-highway-26-near-banks-11292022/)|
 
-*Table generated on 2022-11-19*
+*Table generated on 2022-11-29*
