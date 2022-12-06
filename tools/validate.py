@@ -15,18 +15,18 @@ import sys
 
 EXPECTED_ENTRIES=18
 
-tags = ["date",
+tags = ["date",  # 0
         "time",
         "street0",
-        "street1",
+        "street1",  # 3
         "location-notes",
         "longitude",
         "lattitude",
-        "total-fatality",
+        "total-fatality",  # 7
         "total-injury",
-        "pedestrian-fatality",
+        "pedestrian-fatality",  # 9
         "pedestrian-injury",
-        "bicycle-fatality",
+        "bicycle-fatality",  # 11
         "bicyle-injury",
         "source",
         "link0",
@@ -52,7 +52,6 @@ def validate(filename):
     """TODO:
     
     - better URL checking
-    - report fatalities without lat/long coordinates
     - arithmetic on the total fatality [done in friendly-table.py] / injury numbers
     - constants or keys or something for the literal numbers
     - maybe a list of URLs instead of only 2
@@ -91,6 +90,10 @@ def validate(filename):
                     n = int(p[k])
                 except ValueError:
                     print("  line {0:d} item {1:d} (fatality/injury count) is not a number.".format(j+1, k))
+            if int(p[7]) < int(p[9]) + int(p[11]):
+                print("  line {0:d} total fatalities do not add up.".format(j+1))
+            if int(p[8]) < int(p[10]) + int(p[12]):
+                print("  line {0:d} total injuries do not add up.".format(j+1))
             count = count + 1
             if p[5] == "" or p[6] == "":
                 missing_coords = missing_coords + 1
