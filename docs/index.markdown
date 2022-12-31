@@ -34,5 +34,6 @@ The data is gathered from various [sources](resources/) and may have omissions a
 |2022-11-03|Highway 47 and NW Kemper Rd|1|no|[KATU](https://katu.com/news/local/crash-closes-highway-47-near-forest-grove)|
 |2022-11-04|Highway 26 and Harrison Rd|1|no|[Banks Post](https://www.bankspost.com/posts/highway-26-closed-at-highway-6-junction-following-nearby-crash/)|
 |2022-11-29|Highway 26 and NW Dersham Rd|1|no|[KOIN](https://www.koin.com/news/crashes/deadly-crash-highway-26-near-banks-11292022/)|
+|2022-12-30|SW Allen Blvd and SW Murray Blvd|1|yes|[Beaverton Police](https://twitter.com/BeavertonPolice/status/1609027518933401601)|
 
-*Table generated on 2022-11-29*
+*Table generated on 2022-12-30*
