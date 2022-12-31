@@ -109,7 +109,7 @@ def crashes(ax, year, color):
 
 
 def main(year=2022):
-    """An .svg is undeniably prettier but make an enormous file, probably
+    """An .svg is undeniably prettier but makes an enormous file, probably
     should do an ugly .png"""
     plt.figure(figsize=(8.0, 6.0))
     backdrop(plt.gca())

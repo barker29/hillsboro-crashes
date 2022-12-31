@@ -42,7 +42,8 @@ def build_markdown_table(csv_data):
             bikeped = "no"
             if int(item[9]) > 0 or int(item[10]) > 0 or int(item[11]) > 0 or int(item[12]) > 0:
                 bikeped = "yes"
-            source = "[" + item[13] + "](" + item[14] + ")"
+            url = item[14].split(",")[0]
+            source = "[" + item[13] + "](" + url + ")"
             out = out + "|{0:s}|{1:s}|{2:d}|{3:s}|{4:s}|\n".format(item[0], location, int(item[7]), bikeped, source)
     print("Total fatalities:", fatality_count)
     return out

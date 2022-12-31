@@ -22,6 +22,7 @@ The main dependency is the pyshp library:
 https://github.com/GeospatialPython/pyshp
 """
 import csv
+import os
 import sys
 
 import shapefile
@@ -41,8 +42,7 @@ tags = ["date",
         "bicycle-fatality",
         "bicyle-injury",
         "source",
-        "link0",
-        "link1",
+        "links",  # previously two separate fields
         "notes",
         "entry-method"]
 
@@ -141,7 +141,6 @@ def make_crash_csv(odot_path):
                                   "ODOT",
                                   "",
                                   "",
-                                  "",
                                   "extract-odot.py"]
                     # print(new_record)
                     csv_data.append(new_record)
@@ -154,7 +153,7 @@ def make_crash_csv(odot_path):
 def write_crash_csv(odot_path, outfile):
     csv_data = make_crash_csv(odot_path)
     with open(outfile, "w", newline="") as fd:
-        writer = csv.writer(fd)
+        writer = csv.writer(fd, lineterminator=os.linesep)
         writer.writerow(tags)
         writer.writerows(csv_data)
 

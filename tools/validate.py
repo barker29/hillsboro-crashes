@@ -9,11 +9,12 @@ or https://mit-license.org/
 This script is intended to do some very basic sanity checking of csv
 files that may be hand-entered.
 """
+import csv
 import datetime
 import os
 import sys
 
-EXPECTED_ENTRIES=18
+EXPECTED_ENTRIES=17
 
 tags = ["date",  # 0
         "time",
@@ -29,8 +30,7 @@ tags = ["date",  # 0
         "bicycle-fatality",  # 11
         "bicyle-injury",
         "source",
-        "link0",
-        "link1",
+        "links", # 14, previously two fields
         "notes",
         "entry-method"]
 
@@ -56,18 +56,19 @@ def validate(filename):
     - constants or keys or something for the literal numbers
     - maybe a list of URLs instead of only 2
     """
-    with open(filename, "r") as fd:
+    with open(filename, "r", newline="") as fd:
         print("Checking ", filename)
         count = 0
         missing_coords = 0
-        for j, line in enumerate(fd):
-            p = line.split(",")
+        reader = csv.reader(fd)
+        for j, p in enumerate(reader):
+            # p = line.split(",")
             if len(p) != EXPECTED_ENTRIES:
                 print("  line {0:d} does not have correct number of entries (found {1:d}, expected {2:d}).".format(j+1, len(p), EXPECTED_ENTRIES))
             if j == 0:
                 for t1, t2 in zip(p, tags):
                     if t1.strip() != t2:
-                        print("  header line does not match expected header")
+                        print("  header line does not match expected header:", t1, t2)
                         break
                 continue
             try:
@@ -103,8 +104,12 @@ def validate(filename):
                   float(p[6]) < washco_ymin or float(p[6]) > washco_ymax):
                 print("  line {0:d} lat/long is outside Washington County".format(j+1))
             if p[13] != "ODOT":
-                if not check_url(p[14]):
+                urls = p[14].split(",")
+                if len(urls) == 0:
                     print("  line {0:d} item {1:d}: non-ODOT data requires valid URL.".format(j+1, 14))
+                for url in urls:
+                    if not check_url(url):
+                        print("  line {0:d} item {1:d}: non-ODOT data requires valid URL.".format(j+1, 14))
     print("Checked {0:d} entries, {1:d} are missing latitude/longitude info.".format(count, missing_coords))
 
 
