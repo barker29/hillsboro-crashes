@@ -36,4 +36,4 @@ The data is gathered from various [sources](resources/) and may have omissions a
 |2022-11-29|Highway 26 and NW Dersham Rd|1|no|[KOIN](https://www.koin.com/news/crashes/deadly-crash-highway-26-near-banks-11292022/)|
 |2022-12-30|SW Allen Blvd and SW Murray Blvd|1|yes|[Beaverton Police](https://twitter.com/BeavertonPolice/status/1609027518933401601)|
 
-*Table generated on 2022-12-30*
+*Table generated on 2022-12-31*
