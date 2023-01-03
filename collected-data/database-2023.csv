@@ -1,0 +1,2 @@
+date,time,street0,street1,location-notes,longitude,lattitude,total-fatality,total-injury,pedestrian-fatality,pedestrian-injury,bicycle-fatality,bicyle-injury,source,links,notes,entry-method
+2023-01-02,16:30,SW Baseline St,SW 17th Ave,Hillsboro,,0,3,0,0,0,0,TVFR,https://twitter.com/HillsboroFire/status/1610076208561270784,,manual-entry

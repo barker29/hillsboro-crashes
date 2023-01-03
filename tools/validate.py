@@ -1,5 +1,5 @@
 """
-Copyright (c) 2022 Andrew T. Barker
+Copyright (c) 2023 Andrew T. Barker
 
 This software is distributed under the MIT License, see the LICENSE file
 or https://mit-license.org/
@@ -115,6 +115,6 @@ def validate(filename):
 
 if __name__ == "__main__":
     if len(sys.argv) == 1:
-        validate(os.path.join("..", "collected-data", "database-2022.csv"))
+        validate(os.path.join("..", "collected-data", "database-2023.csv"))
     else:
         validate(sys.argv[1])
