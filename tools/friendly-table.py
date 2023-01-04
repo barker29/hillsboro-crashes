@@ -1,5 +1,5 @@
 """
-Copyright (c) 2022 Andrew T. Barker
+Copyright (c) 2023 Andrew T. Barker
 
 This software is distributed under the MIT License, see the LICENSE file
 or https://mit-license.org/
@@ -78,7 +78,7 @@ def deploy(infile):
 
 if __name__ == "__main__":
     if len(sys.argv) == 1:
-        deploy("../collected-data/database-2022.csv")
+        deploy("../collected-data/database-2023.csv")
     elif len(sys.argv) == 2:
         old_main(sys.argv[1], None)
     else:

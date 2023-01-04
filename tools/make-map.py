@@ -1,5 +1,5 @@
 """
-Copyright (c) 2022 Andrew T. Barker
+Copyright (c) 2023 Andrew T. Barker
 
 This software is distributed under the MIT License, see the LICENSE file
 or https://mit-license.org/
@@ -14,6 +14,7 @@ import csv
 import json
 import os
 from matplotlib import pyplot as plt
+import sys
 
 
 def fill_multipoly(ax, x, y, parts, color):
@@ -108,7 +109,7 @@ def crashes(ax, year, color):
     ax.plot(x, y, "x", color=color, markersize=4)
 
 
-def main(year=2022):
+def main(year=2023):
     """An .svg is undeniably prettier but makes an enormous file, probably
     should do an ugly .png"""
     plt.figure(figsize=(8.0, 6.0))
@@ -128,4 +129,7 @@ def main(year=2022):
 
 
 if __name__ == "__main__":
-    main()
+    if len(sys.argv) == 1:
+        main()
+    else:
+        main(int(sys.argv[1]))
