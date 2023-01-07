@@ -1,3 +1,4 @@
 date,time,street0,street1,location-notes,longitude,lattitude,total-fatality,total-injury,pedestrian-fatality,pedestrian-injury,bicycle-fatality,bicyle-injury,source,links,notes,entry-method
 2023-01-02,16:30,SW Baseline St,SW 17th Ave,Hillsboro,,,0,3,0,0,0,0,TVFR,"https://twitter.com/HillsboroFire/status/1610076208561270784,https://www.koin.com/news/crashes/3-hospitalized-after-serious-2-car-crash-in-hillsboro/?utm_campaign=socialflow&utm_medium=referral&utm_source=t.co",,manual-entry
 2023-01-05,07:00,19th Avenue,Hawthorne St,Forest Grove,,,0,2,0,2,0,0,Forest Grove Police,"https://flashalert.net/id/ForestGrovePolice/160265,https://www.koin.com/news/crashes/lifeflight-called-to-serious-morning-crash-in-forest-grove/",,manual-entry
+2023-01-06,17:00,SW Murray Blvd,SW Weir Rd,,,,0,1,0,0,0,0,TVFR,https://twitter.com/TVFR/status/1611538066333896704,,manual-entry
