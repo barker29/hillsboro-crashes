@@ -17,6 +17,7 @@ The data is gathered from various [sources](resources/) and may have omissions a
 
 |date|location|deaths|bike/pedestrian|source|
 |---|---|---|---|---|
-|2023-01-05|19th Avenue and Hawthorne St|1|yes|[Forest Grove Police](https://flashalert.net/id/ForestGrovePolice/160265)|
+|2023-01-05|19th Avenue and Hawthorne St|1|yes|[Forest Grove Police](https://flashalert.net/id/ForestGrovePolice/160338)|
+|2023-01-21|HWY 47 and NW Speedborough Rd|1|no|[WCSO](https://twitter.com/WCSOOregon/status/1616935472454045696)|
 
-*Table generated on 2023-01-09*
+*Table generated on 2023-01-21*
