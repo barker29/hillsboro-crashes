@@ -18,6 +18,7 @@ The data is gathered from various [sources](resources/) and may have omissions a
 |date|location|deaths|bike/pedestrian|source|
 |---|---|---|---|---|
 |2023-01-05|19th Avenue and Hawthorne St|1|yes|[Forest Grove Police](https://flashalert.net/id/ForestGrovePolice/160338)|
-|2023-01-21|HWY 47 and NW Speedborough Rd|1|no|[WCSO](https://twitter.com/WCSOOregon/status/1616935472454045696)|
+|2023-01-21|HWY 47 and NW Speedborough Rd|1|no|[KOIN](https://www.koin.com/news/crashes/osp-man-crashes-dies-after-fleeing-earlier-hwy-47-collision/)|
+|2023-02-01|HWY 26 and SW Murray Blvd|1|no|[KPTV](https://www.kptv.com/2023/02/01/motorcyclist-dies-after-being-hit-by-car-overpass-beaverton/)|
 
-*Table generated on 2023-01-21*
+*Table generated on 2023-02-01*
