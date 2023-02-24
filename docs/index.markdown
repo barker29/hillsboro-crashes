@@ -21,7 +21,8 @@ The data is gathered from various [sources](resources/) and may have omissions a
 |2023-01-21|HWY 47 and NW Speedborough Rd|1|no|[KOIN](https://www.koin.com/news/crashes/osp-man-crashes-dies-after-fleeing-earlier-hwy-47-collision/)|
 |2023-02-01|HWY 26 and NW Murray Blvd|1|no|[KPTV](https://www.kptv.com/2023/02/01/motorcyclist-dies-after-being-hit-by-car-overpass-beaverton/)|
 |2023-02-03|HWY 26 and NW Ridge Rd|1|no|[KOIN](https://www.koin.com/news/crashes/lengthy-closure-expected-on-highway-26-following-deadly-crash/)|
+|2023-02-13|NE Cornell Road and NE Stucki Blvd|1|yes|[KPTV](https://www.kptv.com/2023/02/13/man-seriously-injured-after-being-hit-by-van-hillsboro/)|
 |2023-02-17|NW Gales Creek Road and NW Balm Grove Loop|1|yes|[Gales Creek Journal](https://www.galescreekjournal.com/2023/02/gales-creek-road-closed-for-fatal-crash-involving-pedestrian/)|
 |2023-02-17|HWY 47 and NW Nowakowski Rd|2|no|[Oregon State Police](https://flashalert.net/id/OSPOre/161319)|
 
-*Table generated on 2023-02-20*
+*Table generated on 2023-02-23*
