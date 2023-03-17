@@ -24,5 +24,6 @@ The data is gathered from various [sources](resources/) and may have omissions a
 |2023-02-13|NE Cornell Road and NE Stucki Blvd|1|yes|[KPTV](https://www.kptv.com/2023/02/13/man-seriously-injured-after-being-hit-by-van-hillsboro/)|
 |2023-02-17|NW Gales Creek Road and NW Balm Grove Loop|1|yes|[Gales Creek Journal](https://www.galescreekjournal.com/2023/02/gales-creek-road-closed-for-fatal-crash-involving-pedestrian/)|
 |2023-02-17|HWY 47 and NW Nowakowski Rd|2|no|[Oregon State Police](https://flashalert.net/id/OSPOre/161319)|
+|2023-03-17|SW Tualatin Valley Hwy and SW 178th Ave|1|yes|[WCSO](https://www.washingtoncountyor.gov/sheriff/news/pedestrian-hit-and-killed-vehicle-while-crossing-tv-highway)|
 
-*Table generated on 2023-02-23*
+*Table generated on 2023-03-17*
