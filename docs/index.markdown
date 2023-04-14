@@ -25,5 +25,6 @@ The data is gathered from various [sources](resources/) and may have omissions a
 |2023-02-17|NW Gales Creek Road and NW Balm Grove Loop|1|yes|[Gales Creek Journal](https://www.galescreekjournal.com/2023/02/gales-creek-road-closed-for-fatal-crash-involving-pedestrian/)|
 |2023-02-17|HWY 47 and NW Nowakowski Rd|2|no|[Oregon State Police](https://flashalert.net/id/OSPOre/161319)|
 |2023-03-17|SW Tualatin Valley Hwy and SW 178th Ave|1|yes|[WCSO](https://www.washingtoncountyor.gov/sheriff/news/pedestrian-hit-and-killed-vehicle-while-crossing-tv-highway)|
+|2023-04-13|SW Kinnaman Rd and SW 188th Ave|1|yes|[KATU](https://katu.com/news/local/duii-suspect-arrested-for-deadly-hit-and-run-crash-in-aloha-may-be-involved-in-2nd-crash)|
 
-*Table generated on 2023-03-17*
+*Table generated on 2023-04-14*
