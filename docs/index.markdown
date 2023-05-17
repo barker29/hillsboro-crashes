@@ -29,5 +29,6 @@ The data is gathered from various [sources](resources/) and may have omissions a
 |2023-04-16|SW Murray Blvd and SW Sexton Mountain Dr|1|no|[KOIN](https://www.koin.com/news/crashes/1-dead-another-hospitalized-after-car-strikes-tree-in-beaverton)|
 |2023-05-03|SW Upper Boones Ferry and SW Sequoya|1|no|[Tigard PD](https://twitter.com/TigardPolice/status/1653850850966765568)|
 |2023-05-08|I-5 and SW Bradbury Ct|1|no|[Oregonian](https://www.oregonlive.com/crime/2023/05/73-year-old-killed-after-crashing-sports-car-in-washington-county.html)|
+|2023-05-11|SW Pfaffle St and HWY 99W|1|no|[Oregonian](https://www.oregonlive.com/news/2023/05/81-year-old-woman-killed-in-tigard-car-crash-loved-intensely.html)|
 
-*Table generated on 2023-05-08*
+*Table generated on 2023-05-16*
