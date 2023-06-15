@@ -30,5 +30,6 @@ The data is gathered from various [sources](resources/) and may have omissions a
 |2023-05-03|SW Upper Boones Ferry and SW Sequoya|1|no|[Tigard PD](https://twitter.com/TigardPolice/status/1653850850966765568)|
 |2023-05-08|I-5 and SW Bradbury Ct|1|no|[Oregonian](https://www.oregonlive.com/crime/2023/05/73-year-old-killed-after-crashing-sports-car-in-washington-county.html)|
 |2023-05-11|SW Pfaffle St and HWY 99W|1|no|[Oregonian](https://www.oregonlive.com/news/2023/05/81-year-old-woman-killed-in-tigard-car-crash-loved-intensely.html)|
+|2023-06-14|E Main St and NE 55th Ave|1|no|[Hillsboro PD](https://twitter.com/HillsboroPolice/status/1669183335028101120)|
 
-*Table generated on 2023-05-16*
+*Table generated on 2023-06-14*
