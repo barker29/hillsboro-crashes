@@ -32,5 +32,7 @@ The data is gathered from various [sources](resources/) and may have omissions a
 |2023-05-11|SW Pfaffle St and HWY 99W|1|no|[Oregonian](https://www.oregonlive.com/news/2023/05/81-year-old-woman-killed-in-tigard-car-crash-loved-intensely.html)|
 |2023-06-14|E Main St and NE 55th Ave|1|no|[Oregonian](https://www.oregonlive.com/crime/2023/06/motorcyclist-23-dies-in-collision-with-hillsboro-school-bus-with-students-onboard.html)|
 |2023-07-13|Roy Rogers Rd and Scholls Sherwood Rd|1|no|[KATU](https://katu.com/news/local/deadly-crash-closes-roy-rogers-rd-scholls-elsner-in-sherwood-area-thursday)|
+|2023-07-18|Oregon 219 and SW Jaquith Rd|1|no|[Oregonian](https://www.oregonlive.com/washingtoncounty/2023/07/bicyclist-76-dies-after-collision-with-semi-truck-30-feet-from-job-in-washington-county.html)|
+|2023-07-21|NW Susbauer Rd and Hornecker Rd|1|yes|[Oregonian](https://www.oregonlive.com/washingtoncounty/2023/07/bicyclist-76-dies-after-collision-with-semi-truck-30-feet-from-job-in-washington-county.html)|
 
-*Table generated on 2023-07-13*
+*Table generated on 2023-07-22*
