@@ -35,10 +35,7 @@ def parsetext(text):
     for each crash"""
     out = []
     # split text by dates
-    pattern = r"\d*/\d*/\d*"  # TODO: allow some whitespace?
-    # ss = re.split(pattern, text)
-    # for s in ss:
-    #     print(s)
+    pattern = r"\d*/\d*/\d*"  # TODO: allow some whitespace? multiline?
     laststart = None
     for m in re.finditer(pattern, text):
         # print(m)
@@ -49,6 +46,8 @@ def parsetext(text):
         entry = {}
         entry["date"] = text[m.start():m.end()]  # TODO: ISO date
         laststart = m.start()
+    entry["description"] = text[laststart:]
+    out.append(entry)
     for entry in out:
         timepattern = r"\d*:\d*\s*[ap]\.m\."
         m = re.search(timepattern, entry["description"])
