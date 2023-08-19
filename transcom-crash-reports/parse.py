@@ -49,6 +49,11 @@ def parsetext(text):
         entry = {}
         entry["date"] = text[m.start():m.end()]  # TODO: ISO date
         laststart = m.start()
+    for entry in out:
+        timepattern = r"\d*:\d*\s*[ap]\.m\."
+        m = re.search(timepattern, entry["description"])
+        if m:
+            entry["time"] = entry["description"][m.start():m.end()]
     print(out)
 
 
