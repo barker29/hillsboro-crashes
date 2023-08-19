@@ -10,7 +10,9 @@ Try to scrape crash information from the crash reports
 to the Hillsboro Transporation Commission
 """
 import glob
-x
+import json
+import re
+
 from pypdf import PdfReader
 
 
@@ -28,8 +30,33 @@ def textfile(infile, outfile):
         fd.write(text)
 
 
+def parsetext(text):
+    """Input is a string, output is a list of dicts, one
+    for each crash"""
+    out = []
+    # split text by dates
+    pattern = r"\d*/\d*/\d*"  # TODO: allow some whitespace?
+    # ss = re.split(pattern, text)
+    # for s in ss:
+    #     print(s)
+    laststart = None
+    for m in re.finditer(pattern, text):
+        # print(m)
+        # print(text[m.start():m.end()])
+        if laststart is not None:
+            entry["description"] = text[laststart:m.start()]
+            out.append(entry)
+        entry = {}
+        entry["date"] = text[m.start():m.end()]  # TODO: ISO date
+        laststart = m.start()
+    print(out)
+
+
 def main():
-    textfile("20230725_crashes.pdf", "20230725_crashes.txt")
+    # textfile("20230725_crashes.pdf", "20230725_crashes.txt")
+    with open("20230725_clean.txt", "r") as fd:
+        text = fd.read()
+    parsetext(text)
 
 
 if __name__ == "__main__":
