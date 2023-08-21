@@ -16,6 +16,25 @@ import re
 from pypdf import PdfReader
 
 
+def standard_date(d):
+    """input is string in month/day/year form, output
+    is ISO YYYY-MM-DD format (still string, no python datetime)"""
+    p = d.strip().split("/")
+    out = p[2] + "-" + p[0].zfill(2) + "-" + p[1].zfill(2)
+    return out
+
+
+def standard_time(t):
+    """input is time like 4:23 p.m., output is 16:23 (both strings)"""
+    p = t.strip().split(":")
+    if "p.m." in t:
+        hour = str(int(p[0]) + 12).zfill(2)
+    else:
+        hour = p[0].zfill(2)
+    out = hour + ":" + p[1][:2]
+    return out
+
+
 def scrape(filename):
     text = ""
     reader = PdfReader(filename)
@@ -44,7 +63,7 @@ def parsetext(text):
             entry["description"] = text[laststart:m.start()]
             out.append(entry)
         entry = {}
-        entry["date"] = text[m.start():m.end()]  # TODO: ISO date
+        entry["date"] = standard_date(text[m.start():m.end()])
         laststart = m.start()
     entry["description"] = text[laststart:]
     out.append(entry)
@@ -52,7 +71,7 @@ def parsetext(text):
         timepattern = r"\d*:\d*\s*[ap]\.m\."
         m = re.search(timepattern, entry["description"])
         if m:
-            entry["time"] = entry["description"][m.start():m.end()]
+            entry["time"] = standard_time(entry["description"][m.start():m.end()])
     print(out)
 
 
