@@ -57,8 +57,6 @@ def parsetext(text, source=""):
     pattern = r"\d*/\d*/\d*"  # TODO: allow some whitespace? multiline?
     laststart = None
     for m in re.finditer(pattern, text):
-        # print(m)
-        # print(text[m.start():m.end()])
         if laststart is not None:
             entry["description"] = text[laststart:m.start()]
             out.append(entry)
