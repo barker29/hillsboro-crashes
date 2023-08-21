@@ -49,7 +49,7 @@ def textfile(infile, outfile):
         fd.write(text)
 
 
-def parsetext(text):
+def parsetext(text, source=""):
     """Input is a string, output is a list of dicts, one
     for each crash"""
     out = []
@@ -62,7 +62,7 @@ def parsetext(text):
         if laststart is not None:
             entry["description"] = text[laststart:m.start()]
             out.append(entry)
-        entry = {}
+        entry = {"source": source}
         entry["date"] = standard_date(text[m.start():m.end()])
         laststart = m.start()
     entry["description"] = text[laststart:]
@@ -72,14 +72,18 @@ def parsetext(text):
         m = re.search(timepattern, entry["description"])
         if m:
             entry["time"] = standard_time(entry["description"][m.start():m.end()])
-    print(out)
+    return out
 
 
 def main():
     # textfile("20230725_crashes.pdf", "20230725_crashes.txt")
-    with open("20230725_clean.txt", "r") as fd:
+    filename = "20230725_clean.txt"
+    with open(filename, "r") as fd:
         text = fd.read()
-    parsetext(text)
+    jo = parsetext(text, filename)
+    # print(jo)
+    with open(filename.replace(".txt", ".json"), "w") as fd:
+        json.dump(jo, fd)
 
 
 if __name__ == "__main__":
