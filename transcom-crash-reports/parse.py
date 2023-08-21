@@ -75,13 +75,16 @@ def parsetext(text, source=""):
 
 def main():
     # textfile("20230725_crashes.pdf", "20230725_crashes.txt")
-    filename = "20230725_clean.txt"
-    with open(filename, "r") as fd:
-        text = fd.read()
-    jo = parsetext(text, filename)
-    # print(jo)
-    with open(filename.replace(".txt", ".json"), "w") as fd:
-        json.dump(jo, fd)
+    # textfile("20230523_crashes.pdf", "20230523_crashes.txt")
+    if True:
+        # filename = "20230725_clean.txt"
+        filename = "20230523_clean.txt"
+        with open(filename, "r") as fd:
+            text = fd.read()
+        jo = parsetext(text, filename)
+        # print(jo)
+        with open(filename.replace(".txt", ".json"), "w") as fd:
+            json.dump(jo, fd)
 
 
 if __name__ == "__main__":
