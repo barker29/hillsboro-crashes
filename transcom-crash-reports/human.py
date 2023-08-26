@@ -25,6 +25,7 @@ fault? cause? type?
 
 import json
 import readline
+import sys
 
 
 def prefill_input(prompt, prefill=""):
@@ -105,4 +106,6 @@ if __name__ == "__main__":
     # human("20230725_clean.json", "20230725_human.json")
     # test_streets("20230725_clean.json")
     # human("20230523_clean.json", "20230523_human.json")
-    test_coords()
+    # test_coords()
+    if len(sys.argv) > 1:
+        human(sys.argv[1], sys.argv[1].replace("clean", "human"))
