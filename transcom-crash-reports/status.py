@@ -46,8 +46,16 @@ def main():
             print("  basic .json file:", basicjson, "{0:d} entries, {1:d} have date/time".format(entries, datetimecount))
         except FileNotFoundError:
             print("  no basic .json file, try parse.py:parsetext")
-        # TODO: human.json check
-        # TODO: check existence of coordinates, other tags
+            continue
+        humanjson = basicjson.replace("clean", "human")
+        try:
+            with open(humanjson, "r") as fd:
+                jo = json.load(fd)
+            # TODO: count coordinates, other tags
+            print("  human .json file found.")
+        except FileNotFoundError:
+            print("  no human .json file, try human.py")
+            continue
 
 
 if __name__ == "__main__":

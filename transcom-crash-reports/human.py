@@ -17,6 +17,7 @@ TODO: most of this so far could be automated
 
 things I want:
 
+coordinates
 control: ODOT, county, city
 classification: arterial, collector, ...
 fault? cause? type?
@@ -33,6 +34,25 @@ def prefill_input(prompt, prefill=""):
         return input(prompt)
     finally:
         readline.set_startup_hook()
+
+
+def interpret_coordinates(s):
+    """Input s is human-entered lat-long pair as string, maybe with order reversed.
+    Returns (latitude, longitude) pair of floats."""
+    sp = s.split(",")
+    try:
+        a = float(sp[0].strip())
+        b = float(sp[1].strip())
+    except ValueError:
+        return (0.0, 0.0)
+    washco_xmin = -123.5
+    washco_xmax = -122.73
+    washco_ymin = 45.31
+    washco_ymax = 45.79
+    if washco_xmin < a and a < washco_xmax and washco_ymin < b and b < washco_ymax:
+        return (b, a)
+    if washco_xmin < b and b < washco_xmax and washco_ymin < a and a < washco_ymax:
+        return (a, b)
 
 
 def guess_streets(d):
@@ -54,16 +74,18 @@ def human(fin, fout):
         jo = json.load(fd)
     for item in jo:
         print(item["description"])
-        # for key in ["street0", "street1", "in_intersection", "severity"]:
-        #     item[key] = input(key + "> ")
         street0, street1 = guess_streets(item["description"])
-        item["street0"] = prefill_input("street0> ", street0)
-        item["street1"] = prefill_input("street1> ", street1)
-        item["in_intersection"] = prefill_input("in_intersection> ", "yes")
-        item["severity"] = input("severity> ")
+        if "street0" not in item.keys():
+            item["street0"] = prefill_input("street0> ", street0)
+        if "street1" not in item.keys():
+            item["street1"] = prefill_input("street1> ", street1)
+        if "in_intersection" not in item.keys():
+            item["in_intersection"] = prefill_input("in_intersection> ", "yes")
+        if "severity" not in item.keys():
+            item["severity"] = input("severity> ")
         out.append(item)
     with open(fout, "w") as fd:
-        json.dump(out, fd)
+        json.dump(out, fd, sort_keys=True, indent=4)
 
 
 def test_streets(fin):
@@ -73,9 +95,14 @@ def test_streets(fin):
         print(guess_streets(item["description"]))
 
 
+def test_coords():
+    for k in range(3):
+        s = input("coords> ")
+        print(interpret_coordinates(s))
+
+
 if __name__ == "__main__":
     # human("20230725_clean.json", "20230725_human.json")
     # test_streets("20230725_clean.json")
-    human("20230523_clean.json", "20230523_human.json")    
-
-
+    # human("20230523_clean.json", "20230523_human.json")
+    test_coords()
