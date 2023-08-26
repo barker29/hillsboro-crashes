@@ -52,7 +52,11 @@ def main():
             with open(humanjson, "r") as fd:
                 jo = json.load(fd)
             # TODO: count coordinates, other tags
-            print("  human .json file found.")
+            coordcount = 0
+            for entry in jo:
+                if "latitude" in entry.keys():
+                    coordcount = coordcount + 1
+            print("  human .json file found, {0:d} entries, {1:d} have coordinates".format(len(jo), coordcount))
         except FileNotFoundError:
             print("  no human .json file, try human.py")
             continue

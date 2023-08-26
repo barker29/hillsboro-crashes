@@ -23,6 +23,7 @@ classification: arterial, collector, ...
 fault? cause? type?
 """
 
+import glob
 import json
 import readline
 import sys
@@ -84,6 +85,10 @@ def human(fin, fout):
             item["in_intersection"] = prefill_input("in_intersection> ", "yes")
         if "severity" not in item.keys():
             item["severity"] = input("severity> ")
+        if "latitude" not in item.keys():
+            llat, llong = interpret_coordinates(input("coords> "))
+            item["latitude"] = llat
+            item["longitude"] = llong
         out.append(item)
     with open(fout, "w") as fd:
         json.dump(out, fd, sort_keys=True, indent=4)
@@ -108,4 +113,9 @@ if __name__ == "__main__":
     # human("20230523_clean.json", "20230523_human.json")
     # test_coords()
     if len(sys.argv) > 1:
-        human(sys.argv[1], sys.argv[1].replace("clean", "human"))
+        ds = sys.argv[1]
+        fns = glob.glob(ds + "_*.json")
+        if ds + "_human.json" in fns:
+            human(ds + "_human.json", ds + "_human.json")
+        else:
+            human(ds + "_clean.json", ds + "_human.json")
