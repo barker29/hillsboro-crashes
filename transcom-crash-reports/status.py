@@ -39,8 +39,11 @@ def main():
             with open(basicjson, "r") as fd:
                 jo = json.load(fd)
             entries = len(jo)
-            # TODO: check that date and time entries are there?
-            print("  basic .json file:", basicjson)
+            datetimecount = 0
+            for entry in jo:
+                if "date" in entry.keys() and "time" in entry.keys():
+                    datetimecount = datetimecount + 1
+            print("  basic .json file:", basicjson, "{0:d} entries, {1:d} have date/time".format(entries, datetimecount))
         except FileNotFoundError:
             print("  no basic .json file, try parse.py:parsetext")
         # TODO: human.json check

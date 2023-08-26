@@ -74,9 +74,14 @@ def parsetext(text, source=""):
 
 
 def main():
+    # TODO: textfile and parsetext should have different entry points?
     # textfile("20230725_crashes.pdf", "20230725_crashes.txt")
     # textfile("20230523_crashes.pdf", "20230523_crashes.txt")
     if True:
+        for fn in glob.glob("*_crashes.pdf"):
+            print(fn)
+            textfile(fn, fn.replace(".pdf", ".txt"))
+    if False:
         # filename = "20230725_clean.txt"
         filename = "20230523_clean.txt"
         with open(filename, "r") as fd:
