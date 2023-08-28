@@ -26,7 +26,15 @@ def hillsboro_limits(ax):
 
 
 def crashes(ax, db):
-    pass
+    x = []
+    y = []
+    for crash in db:
+        if "latitude" in crash.keys() and "longitude" in crash.keys():
+            color = (0.0, 0.0, 1.0)
+            if "fatal" in crash["severity"]:
+                color = (1.0, 0.0, 0.0)
+            ax.plot(crash["longitude"], crash["latitude"],
+                    "x", color=color, markersize=4)
 
 
 def draw_map(db):
@@ -50,4 +58,6 @@ def draw_map(db):
 
 
 if __name__ == "__main__":
-    draw_map(3)
+    with open("20230725_human.json", "r") as fd:
+        db = json.load(fd)
+    draw_map(db)
