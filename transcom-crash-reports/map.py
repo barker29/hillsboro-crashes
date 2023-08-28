@@ -25,6 +25,27 @@ def hillsboro_limits(ax):
                    city_limits[city]["parts"], color)
 
 
+def roads(ax):
+    """Stolen from ../tools/make-map.py"""
+    colors = ["gray", "orange", "blue", "purple", "black", "red", "orange", "orange", "purple", "black", "blue",
+              "green", "cyan", "red", "purple", "green", "blue", "black"]
+    with open(os.path.join("..", "metro-data", "roads.json"), "r") as fd:
+        road_data = json.load(fd)
+    legendset = []
+    for r, color in zip(road_data.keys(), colors):
+        for item in road_data[r]:
+            if "I5" in r or "217" in r or "SUNSET" in r:
+                color = (0.0, 0.0, 0.0)
+            else:
+                color=(0.45, 0.45, 0.45)
+            ax.plot(item["x"], item["y"], color=color, linewidth=1.0)
+            # if r in legendset:
+            #     ax.plot(item["x"], item["y"], color=color)
+            # else:
+            #     ax.plot(item["x"], item["y"], color=color, label=r)
+            #     legendset.append(r)
+
+
 def crashes(ax, db):
     x = []
     y = []
@@ -38,18 +59,20 @@ def crashes(ax, db):
 
 
 def draw_map(db):
-    """db is a list of dicts, probably loaded from one or more human .json files"""
+    """db is a list of dicts, probably loaded from one or more human .json files
+
+    TODO: roads, see ../tools/gis-helper and start specializing for Hillsboro"""
     plt.figure(figsize=(8.0, 6.0))
     # backdrop(plt.gca())
     # cities(plt.gca(), labels=True)
     hillsboro_limits(plt.gca())
-    # roads(plt.gca())
+    roads(plt.gca())
     crashes(plt.gca(), db)
     # plt.legend()
     # TODO: make the bounding box depend on where crashes actually occur?
     #       (ie, don't map emtpy western wasington county)
-    # plt.xlim(-123.5, -122.73)
-    # plt.ylim(45.31, 45.79)
+    plt.xlim(-123.0193707343201, -122.85186472294419)
+    plt.ylim(45.47142187468111, 45.58077218413512)    
     plt.axis("off")
     # outfile = os.path.join("..", "docs", "map" + str(year) + ".svg")
     # outfile = os.path.join("..", "docs", "map" + str(year) + ".png")
@@ -58,6 +81,8 @@ def draw_map(db):
 
 
 if __name__ == "__main__":
-    with open("20230725_human.json", "r") as fd:
-        db = json.load(fd)
+    db = []
+    for fn in ["20230523_human.json", "20230725_human.json"]:
+        with open(fn, "r") as fd:
+            db = db + json.load(fd)
     draw_map(db)
