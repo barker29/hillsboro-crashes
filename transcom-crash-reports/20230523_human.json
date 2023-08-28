@@ -1,0 +1,38 @@
+[
+    {
+        "date": "2023-04-20",
+        "description": "4/20/2023  \u2013 at around 8 :37 a.m. at the intersection of NE 3rd Avenue and NE Main Street.   \n This crash involved a vehicle versus pedestrian with no injuries.  \n Weather was rainy and the pavement surface was wet.  \n \nThe vehicle was stopped  westbound at a red light on NE Main Street. Driver\u2019s intention was to turn left o n \nNE 3rd. After checking for traffic, driver proceeded with their  turn and stuck pedestrian in the crosswalk.  \n \n Pedestrian  was crossing northbound in crosswalk with a walk signal when they were struck by the turning \nvehi cle.  \n \nNo citations were issued.  \n Driver said they  failed to see the pedestrian due to rain, dark skies, and dark clothing.  \n\n",
+        "in_intersection": "yes",
+        "latitude": 45.522587,
+        "longitude": -122.986162,
+        "severity": "none",
+        "source": "20230523_clean.txt",
+        "street0": "NE 3rd Avenue",
+        "street1": "NE Main Street",
+        "time": "00:37"
+    },
+    {
+        "date": "2023-04-28",
+        "description": "4/28/2023  \u2013 at around 7:39 a.m.  at the intersection of NW 185th Avenue and N E Walker Road . \n This crash involved a vehicle versus a pedestrian. Pedestrian reported no to minor injuries.  \n Weather was clear and the pavement was dry.  \n The pedestrian was crossing from the north to south on NW 185\nth when a driver turning right from NE \nWalker Road struck them.  \n Driver immediately stopped to administer aid and offered to take pedestrian to a hospital. Pedestrian told \ndriver to \u201c get away from them and leave them alon e\u201d. Driver then proceeded to leave the scene.  \n No citations were issued.  \n \n",
+        "in_intersection": "yes",
+        "latitude": 45.527638,
+        "longitude": -122.867458,
+        "severity": "minor injury",
+        "source": "20230523_clean.txt",
+        "street0": "NW 185th Avenue",
+        "street1": "NE Walker Road",
+        "time": "07:39"
+    },
+    {
+        "date": "2023-05-11",
+        "description": "5/11/2023 \u2013 at around 6:14 p.m. at about 250 ft east of the intersection of NW 185th Avenue and NE \nWalker Road.  \n \nThis crash involved a vehicle versus a bicyclist. Bicyclist was transported with minor injuries.  \n Weather was clear and the pavement was dry.  \n Driver said they  were driving westbound on NE Evergreen Pkwy., driver said they intended to  \nturn left into a parking lot to turn  around . Driver said they did not see anything coming, so they made the \nturn. Driver said just as they started into the parking lot they heard a bump, behind them. They said they turned around and  saw the bicyclist on the ground in the bicycle lane. They said they immediately called \n911.  \n The bicycle was riding eastbound in the eastbound bicycle lane when the driver turned their car into the  \npath of the bicycle.  \n Driver was cited for dangerous left turn.  \n",
+        "in_intersection": "no",
+        "latitude": 45.527352,
+        "longitude": -122.866621,
+        "severity": "minor injury",
+        "source": "20230523_clean.txt",
+        "street0": "NW 185th Avenue",
+        "street1": "NE Walker Road",
+        "time": "18:14"
+    }
+]
