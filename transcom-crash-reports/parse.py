@@ -84,7 +84,8 @@ def main():
             textfile(fn, fn.replace(".pdf", ".txt"))
     if True:
         # filename = "20230725_clean.txt"
-        filename = "20230523_clean.txt"
+        # filename = "20230523_clean.txt"
+        filename = "20230124_clean.txt"
         if len(sys.argv) > 1:
             filename = sys.argv[1] + "_clean.txt"
         with open(filename, "r") as fd:

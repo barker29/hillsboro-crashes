@@ -26,7 +26,7 @@ def hillsboro_limits(ax):
 
 
 def roads(ax):
-    """Stolen from ../tools/make-map.py"""
+    """Stolen from ../tools/make-map.py, see also ../tools/gis-helper.py"""
     colors = ["gray", "orange", "blue", "purple", "black", "red", "orange", "orange", "purple", "black", "blue",
               "green", "cyan", "red", "purple", "green", "blue", "black"]
     with open(os.path.join("..", "metro-data", "roads.json"), "r") as fd:
@@ -82,7 +82,10 @@ def draw_map(db):
 
 if __name__ == "__main__":
     db = []
-    for fn in ["20230523_human.json", "20230725_human.json"]:
+    for fn in ["20230124_human.json",
+               "20230425_human.json",
+               "20230523_human.json",
+               "20230725_human.json"]:
         with open(fn, "r") as fd:
             db = db + json.load(fd)
     draw_map(db)

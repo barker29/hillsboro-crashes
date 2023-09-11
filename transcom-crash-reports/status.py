@@ -8,6 +8,9 @@ or https://mit-license.org/
 """
 This documents the workflow and progress we are making.
 
+TODO: every entry in 20230228_clean.txt is duplicated in 20230425_clean.txt
+      we should just skip the 20230228 database
+
 It should be a checklist or document or something, but I am a nerd
 so it is a python script.
 """
