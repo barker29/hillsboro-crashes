@@ -62,7 +62,8 @@ def draw_map(db):
     """db is a list of dicts, probably loaded from one or more human .json files
 
     TODO: roads, see ../tools/gis-helper and start specializing for Hillsboro"""
-    plt.figure(figsize=(8.0, 6.0))
+    fig = plt.figure(figsize=(8.0, 6.0))
+    fig.set_tight_layout(True)
     # backdrop(plt.gca())
     # cities(plt.gca(), labels=True)
     hillsboro_limits(plt.gca())
@@ -82,7 +83,8 @@ def draw_map(db):
 
 if __name__ == "__main__":
     db = []
-    for fn in ["20230124_human.json",
+    for fn in ["20221122_human.json",
+               "20230124_human.json",
                "20230425_human.json",
                "20230523_human.json",
                "20230725_human.json"]:

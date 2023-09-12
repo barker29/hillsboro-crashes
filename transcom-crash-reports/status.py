@@ -48,7 +48,7 @@ def main():
                     datetimecount = datetimecount + 1
             print("  basic .json file:", basicjson, "{0:d} entries, {1:d} have date/time".format(entries, datetimecount))
         except FileNotFoundError:
-            print("  no basic .json file, try parse.py:parsetext")
+            print("  no basic .json file, try `parse.py " + cleantext_file.replace("_clean.txt", "") + "`")
             continue
         humanjson = basicjson.replace("clean", "human")
         try:
@@ -61,7 +61,7 @@ def main():
                     coordcount = coordcount + 1
             print("  human .json file found, {0:d} entries, {1:d} have coordinates".format(len(jo), coordcount))
         except FileNotFoundError:
-            print("  no human .json file, try human.py")
+            print("  no human .json file, try `human.py " + cleantext_file.replace("_clean.txt", "") + "`")
             continue
 
 
