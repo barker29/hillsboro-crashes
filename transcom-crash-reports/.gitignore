@@ -1,1 +1,4 @@
 *.pdf
+*_crashes.txt
+*_clean.txt
+*_clean.json

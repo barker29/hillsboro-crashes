@@ -5,10 +5,10 @@ This software is distributed under the MIT License, see the LICENSE file
 or https://mit-license.org/
 """
 
+import glob
 import json
 from matplotlib import pyplot as plt
 import os
-
 
 def fill_multipoly(ax, x, y, parts, color):
     for i in range(len(parts)-1):
@@ -83,11 +83,8 @@ def draw_map(db):
 
 if __name__ == "__main__":
     db = []
-    for fn in ["20221122_human.json",
-               "20230124_human.json",
-               "20230425_human.json",
-               "20230523_human.json",
-               "20230725_human.json"]:
+    for fn in glob.glob("*_human.json"):
+        print(fn)
         with open(fn, "r") as fd:
             db = db + json.load(fd)
     draw_map(db)

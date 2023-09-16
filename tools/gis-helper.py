@@ -95,33 +95,31 @@ def washco_fence(xin, yin):
 
 
 def roads(outfilename):
+    # shifting to only hillsboro
     # TODO consider adding 99W (Pacific Hwy)
-    badroads = [("TUALATIN VALLEY HWY",""),  # bad
-                ('SR-14', 'HWY'),
-                ('BARNES', 'RD')]
-    mayberoads = [("MURRAY", "BLVD"),
-                  ('OAK', 'ST'),
-                  ("GLENCOE", "RD"),]
     roads = [("CORNELIUS PASS", "RD"),
              ("CORNELL", "RD"),
              ("SUNSET", "HWY"),
              ("TUALATIN VALLEY", "HWY"),  # good
-             ("HWY 217", ""),
              ("BASELINE", "RD"),
              ('BASELINE', 'ST'),
-             ('PACIFIC', 'AVE'),
-             ("FARMINGTON", "RD"),
+             ('BROOKWOOD', 'PKWY'),  # not a major arterial, not listed?
              ("RIVER", "RD"),
-             ("I5", "FWY"),
-             ('BEAVERTON HILLSDALE', 'HWY'),
              ('10TH', 'AVE'),
-             ('SCHOLLS FERRY', 'RD')]
-    filename = "metro-data-path/maj_art"
+             ('185TH', 'AVE'),  # new
+             ('SCHOLLS FERRY', 'RD'),  #not in hillsboro?
+             ('OAK', 'ST'),
+             ("GLENCOE", "RD"),
+             ('HILLSBORO', 'HWY'),  # new
+             ('1ST', 'AVE'),  # new
+    ]
+    filename = "/home/andrew/local-politics/metro-data/maj_art"
     transformer = get_coords_transformer()
     out = {}
     with shapefile.Reader(filename) as sf:
         for sr in sf.shapeRecords():
             k = (sr.record["STREETNAME"], sr.record["FTYPE"])
+            # print(k)
             if k in roads:
                 key = k[0] + " " + k[1]  # why isn't the key just k?
                 nad83x, nad83y = zip(*sr.shape.points)
