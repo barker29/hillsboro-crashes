@@ -1,0 +1,50 @@
+[
+    {
+        "date": "2023-07-20",
+        "description": "7/20/2023 \u2013 at around 7:40 p.m. at approximately 300 ft east of the intersection of SW 185th and NE Cornell Road.  \n \nThis crash involved a vehicle versus a pedestrian. Pedestrian was suspected to have serious  injuries.  \n Weather was clear  and the pavement surface was dry . \n \n \n The pedestrian was travelling north to south (outside a crosswalk) across NW Cornell Road when they were \nhit by a driver travelling westbound on NW Cornell Road. The driver was travelling westbound and was \nexperiencing sun  glare from the setting sun. Driver saw pedestrian at the last minute and swerved to avoid \nthe pedestrian but was unable to do so. It should be noted that driver was using a sun visor and had \nreduced their speed due to sun glare.  \n \nNo citations were issued.  \n\n",
+        "in_intersection": "no",
+        "latitude": 45.53422,
+        "longitude": -122.866964,
+        "severity": "serious injury",
+        "source": "20230926_clean.txt",
+        "street0": "SW 185th Avenue",
+        "street1": "NE Cornell Road",
+        "time": "19:40"
+    },
+    {
+        "date": "2023-08-20",
+        "description": "8/20/2023 \u2013 at around 1:10 p.m. at approximately 100 ft south of the intersection of SE 18th Avenue and SE Oak Street.  \n \nThis crash involved a vehicle versus a juvenile pedestrian. Pedestrian was suspected to have serious \ninjuries.  \n \nWeather was clear and the pavement surface was dry.  \n \nThe juvenile pedestrian and it s parent were walking southbound on the sidewalk, with the juvenile just \nahead of the parent. The parent observed the juvenile look toward the park which was directly acros s \nthe street on the westside and saw people they knew. The juvenile then ran into the street between \ntwo parked vehicles and was struck by the vehicle travelling northbound on SE 18th. The vehicle \nimmediately stopped . Witnesses confirmed the parent\u2019s statement and added that they did not feel \nthat the driver could see the juvenile, nor could they react in time to avoid the impact. It was also noted that the witnesses did not feel the driver was speeding. On scene offi cers later did some \ncalculations to estimate the speed of the vehicle based on the  length of the skid marks it had left when \nit slammed on the breaks. Based on the formula, the vehicle was traveling approximately 15.85 MPH to \n17.79 MPH  \n No citations were issued.\n \n ",
+        "in_intersection": "no",
+        "latitude": 45.518204,
+        "longitude": -122.964054,
+        "severity": "serious injury",
+        "source": "20230926_clean.txt",
+        "street0": "SE 18th Avenue",
+        "street1": "SE Oak Street",
+        "time": "13:10"
+    },
+    {
+        "date": "2023-08-22",
+        "description": "8/22/2023 \u2013 at around 5:53 p.m. at the intersection of SE 30th Avenue and SE TV Hwy.\n \n This crash involved a vehicle versus a juvenile bicyclist . Bicyclist  had no injuries . \n Weather was clear and the pavement surface was dry.  \n The bicyclist  stated they had been riding eastbound on the northside of SE Tualatin Valley Highway on \nthe sidewalk as they approached SE 30th Avenue. The bicyclist  stated they saw the car as they entered \nthe crosswalk and suddenly , they were hit by the car in the middle of the crosswalk. The driver stated \nthey were in the left turn lane from SE 30th Avenue to turn onto SE TV Hwy. They stopped at the stop sign looking left and right and was looking left when the crash happened. The driver said they started \nto make their turn once they  noticed traffic was clear and never saw the bicyclist. Staff visited the \nlocation and did not observe any obstructions that would\u2019ve prevented a driver from seeing a bicyclist  \nat this location.  \n   \n No citations were issued.  \n \n",
+        "in_intersection": "yes",
+        "latitude": 45.503284,
+        "longitude": -122.95256,
+        "severity": "no injury",
+        "source": "20230926_clean.txt",
+        "street0": "SE 30th Avenue",
+        "street1": "SE TV Hwy",
+        "time": "17:53"
+    },
+    {
+        "date": "2023-08-29",
+        "description": "8/29/2023 \u2013 at around 9:17 p.m. at the intersection of NE 53rd and NE Hidden Creek Drive.  \n \nThis crash involved a vehicle versus a bicyclist . Bicyclist  had minor injuries . \n \nWeather was clear and the pavement surface was dry.  \n \nThe bicyclist stated they were riding their bicycle southbound on NE 53rd Ave, in the  northbound \nbicycle travel lane , to turn eastbound on NE Hidden Creek Dr. The bicyclist stated the vehicle was \nfacing westbound on NE Hidden Creek Dr stopped to head north on NE 53rd Ave. When the bicyclis t \nproceeded to make their turn, they stated the vehicle hit them during their turn. The driver stated they \nwere driving westbound on NE Hidden  Creek Dr, stopped at NE 53rd Ave to head south bound. They \nstated they observed the bicyclist riding southbound in the northbound bike lane, which they noticed \nafter they began their turn, causing the impact.  \n \nStaff visited the location and did not observe any obstructions that would\u2019ve prevented a driver from seeing a bicyclist  at this location.  \n  \nNo citations were issued.  \n",
+        "in_intersection": "yes",
+        "latitude": 45.524474,
+        "longitude": -122.928851,
+        "severity": "minor injury",
+        "source": "20230926_clean.txt",
+        "street0": "NE 53rd Ave",
+        "street1": "NE Hidden Creek Drive",
+        "time": "21:17"
+    }
+]
