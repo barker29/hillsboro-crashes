@@ -1,0 +1,72 @@
+[
+    {
+        "date": "2022-07-15",
+        "description": "7/15/2022 \u2013 at approximately 7:05 p.m. at the intersection of SE 53rd Avenue and SE Drake Street.\n Weather  was clear and the pavement surface was dry .  \n This crash involved a single vehicle  where serious i njuries  were  reported . \n \n The d river was  traveling east bound on SE Drake at what witnesses stated as normal speed. The driver \nsuddenly veered off the roadway, struck a parked vehicle and rolled over. Alcohol appeared to be a \nfactor in this crash.  \n \nThe driver was cited  for reckless driving and DUI .  \n Staff did not visit the location .  \n \n",
+        "in_intersection": "yes",
+        "latitude": 45.502851,
+        "longitude": -122.927477,
+        "severity": "serious injury",
+        "source": "20220927_clean.txt",
+        "street0": "SE 53rd Avenue",
+        "street1": "SE Drake Street",
+        "time": "19:05"
+    },
+    {
+        "date": "2022-08-04",
+        "description": "8/4/2022 \u2013 at 8:19 a.m. at  the intersection of SE River Road and TV Hwy.\n \nWeather was clear and the pavement surface was dry.  \n This crash involved a single motorcycle v ehicle crash which resulted in serious injuries.  \n The motorcyclist was traveling south on SE 13\nth to continue onto River Road. The driver was observed \nexceeding the speed limit and hit the railroad  tracks too fast which resulted in the driver losing control \nof the vehicle and crashing.  \n The report does not indicate whether  the driver was cited . \n Speeding behavior w as a factor  in this crash;  therefore,  Public Works staff did not visit the crash \nlocation.  \n  \n",
+        "in_intersection": "yes",
+        "latitude": 45.50999,
+        "longitude": -122.968939,
+        "severity": "serious injury",
+        "source": "20220927_clean.txt",
+        "street0": "SE River Road",
+        "street1": "TV Hwy",
+        "time": "08:19"
+    },
+    {
+        "date": "2022-07-18",
+        "description": "7/18/2022 \u2013 at around 1:38 p.m. at a private driveway and NE Cornell Road.  \n \nWeather  was clear and the pavement surface was dry  \n This crash involved a vehicle versus a bicyclist with no to minor injuries . \n Bicyclist was travelling eastbound on the sidewalk and rode into a vehicle waiting to exit the driveway. \nVehicle stopped to yield to pedestrians, when none were observed the driver pulled forward and hit \nthe bicyclist.  \n   \nStaff visited the location and did not observe any vision obstructions, its unknown why the driver and \nbicyclist did not see each other prior to impact.  \n \nThe report does not indicate whether  the driver was cited.  \n \n",
+        "in_intersection": "no",
+        "severity": "minor injury",
+        "source": "20220927_clean.txt",
+        "street0": "private driveway",
+        "street1": "NE Cornell Road",
+        "time": "13:38"
+    },
+    {
+        "date": "2022-07-21",
+        "description": "7/21/2022 at around 2:20 p.m. at the intersection of NW Connell Avenue and NW Cory Street.  \n \nWeather was clear and the pavement surface was dry  \n This crash involved a vehicle versus a bicyclist with minor injuries.  \n  \n Bicyclist was travelling westbound On NW Connell Avenue. Bicyclist failed to remain stopped at the \nstop sign and impacted a vehicle  turning left on NW Connell from south bound Cory Street. The vehicle \ndid not have a stop sign and has the right of way at the intersection.   \n   \nStaff did not visit the location.  \n The report does not indicate whether  the bicyclist was cited.  \n \n",
+        "in_intersection": "yes",
+        "latitude": 45.53904,
+        "longitude": -122.997674,
+        "severity": "minor injury",
+        "source": "20220927_clean.txt",
+        "street0": "NW Connell Avenue",
+        "street1": "NW Cory Street",
+        "time": "14:20"
+    },
+    {
+        "date": "2022-07-26",
+        "description": "7/26/2022 at around 12:52 p.m. at the intersection of S E 9\nth Avenue and SE Walnut Street .  \n \nWeather was clear and the pavement surface was dry  \n \nThis crash involved a vehicle versus a scooter  with minor injuries.  \n Scooter  was travelling at a high speed, on the sidewalk southbound on SE 9\nth Avenue. Scooter  failed to  \nstop or l ook both ways before crossing the intersection. Vehicle failed to see the scooter before it \nentered the intersection. Driver did catch movement in time to turn vehicle sharply away from scooter to avoid a head on collision.        \nStaff did not visit the location.  \n The report does not indicate whether  the bicyclist was cited.  \n\n",
+        "in_intersection": "yes",
+        "latitude": 45.517465,
+        "longitude": -122.975632,
+        "severity": "minor injury",
+        "source": "20220927_clean.txt",
+        "street0": "SE 9th Avenue",
+        "street1": "SE Walnut Street",
+        "time": "24:52"
+    },
+    {
+        "date": "2022-08-30",
+        "description": "8/30/2022 at around 3:04 p.m. at a private drive just on SE Cornelius Pass Road just south of SE Baseline Street.\n Weather was clear and the pavement surface was dry  \n This crash involved a vehicle versus a bicycle with no injuries.  \n \nBicyclist was travelling northbound on the sidewalk and  collided with a vehicle exiting right  out of the \ndriveway. Bicyclist did note the driver checking for cross traffic  and assumed the driver saw her .   \n   \nStaff visited the location and did not observe any vision obstructions, its unknown why the driver did  \nnot see the bicyclist , and why the bicyclist (who could see the driver) did not stop prior to impact.  \n",
+        "in_intersection": "no",
+        "latitude": 45.514476,
+        "longitude": -122.901597,
+        "severity": "no injury",
+        "source": "20220927_clean.txt",
+        "street0": "SE Cornelius Pass Road",
+        "street1": "SE Baseline Street",
+        "time": "15:04"
+    }
+]

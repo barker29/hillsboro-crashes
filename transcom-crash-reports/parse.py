@@ -79,7 +79,7 @@ def main():
     # textfile("20230725_crashes.pdf", "20230725_crashes.txt")
     # textfile("20230523_crashes.pdf", "20230523_crashes.txt")
     if False:
-        for fn in glob.glob("*_crashes.pdf"):
+        for fn in glob.glob("202309*_crashes.pdf"):
             print(fn)
             textfile(fn, fn.replace(".pdf", ".txt"))
     if True:
