@@ -1,0 +1,38 @@
+[
+    {
+        "date": "2022-06-28",
+        "description": "6/28/2022 \u2013 at approximately 3:05 p.m. at the RRFB (Rapid Rectangular Flashing Beacon) at the intersection of NE Jackson School Road and NE Estate Drive.\n \n Weather  was clear and the pavement surface was dry .  \n This crash involved a v ehicle versus juvenile pedestrian  where injuries  were  reported . \n \n \n The d river was  traveling southbound at the speed limit listed on her GPS which was 35 mph. The speed \nposted on NE Jackson School Road was temporarily signed at 25 mph. Driver indicated that suddenly  3 \nchildren started to run across the crosswalk from west to east. The driver was u nable to stop in time \nand made contact with one of the children. The witness  on scene  stated that they believed that based \non how the children entered the roadway, a driver would not have had enough time to react to avoid a \ncollision , they also did not believe the driver was exceeding the speed limit .   \n The report does not indicate whether the driver was cited .  \n Staff visited the location and found that the beacon was operating properly. S taff also checked sight \ndistance at the beacon.   In this case  staff investigated stopping sight distance, ensuring the driver had \nadequate sight line to see, perceive, and stop for a pedestrian.   Sight distance needs are based on the \nspeed of the roadway.   While the speed at  this location is still under review, staff w as conservative and \nevaluated the location to ensure it met the speed limit of 35 mph as well as the temporary 30 mph \nspeed. Staff found the stopping sight distance to be adequate for a speed limit of 35 mph or below.\n\n ",
+        "in_intersection": "yes",
+        "latitude": 45.542854,
+        "longitude": -122.979705,
+        "severity": "injury",
+        "source": "20220726_clean.txt",
+        "street0": "NE Jackson School Road",
+        "street1": "NE Estate Drive",
+        "time": "15:05"
+    },
+    {
+        "date": "2022-07-03",
+        "description": "7/3/2022 \u2013 at 10:18 a.m. at just north of the NE Brookwood/Cornell intersection.\n \n Weather was clear and the pavement surface was dry.  \n This crash involved a single motorcycle vehicle crash which resulted in serious injuries.  \n \nThe driver was cited for careless driving, driving while suspended , and driving without insurance.  \n \nThe motorcycle was traveling south on NE Brookwood Pkwy. The driver was going too fast around the \ncurve and crashed into the curb. The driver was ejected from the motorcycle , slid across the asphalt,  \nand was stopped by a fence. Based on onsite measurements and witness statements, s peeds were \nestimated to be well over the posted speed limit.  \n Speeding and careless behavior were  factor s in this crash;  therefore,  Public Works staff did not visit the \ncrash location.  \n  \n",
+        "in_intersection": "no",
+        "latitude": 45.533114,
+        "longitude": -122.938506,
+        "severity": "serious injury",
+        "source": "20220726_clean.txt",
+        "street0": "NE Brookwood",
+        "street1": "NE Cornell Rd",
+        "time": "10:18"
+    },
+    {
+        "date": "2022-07-03",
+        "description": "7/3/2022 \u2013 at around 4:30 a.m. near the intersection of NE Tanasbourne Drive and NE Stucki Avenue.\n\n Weather : Unknown.\n \nThis crash involved a single vehicle crash which resulted in one fatality and serious injuries.  \n \nThis crash is still under investigation and details have not been released , however  early reports indicate \nexcessive speed and alcohol may have been factors in the crash.   \n\n",
+        "in_intersection": "yes",
+        "latitude": 45.53672,
+        "longitude": -122.876416,
+        "severity": "fatality",
+        "source": "20220726_clean.txt",
+        "street0": "NE Tanasbourne Drive",
+        "street1": "NE Stucki Avenue",
+        "time": "04:30"
+    }
+]
