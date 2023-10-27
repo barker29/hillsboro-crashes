@@ -1,0 +1,14 @@
+[
+    {
+        "date": "2022-05-03",
+        "description": "5/3/2022 \u2013 at approximately 9:00 a.m. at the intersection of NE John Olsen Road and NW Overlook Drive.\n \n This crash report was not available for t he May Transportation Committee meeting .  \n Weather  was not provided on the report .  \n \nThis crash involved a v ehicle versus pedestrian where minor injuries  were  reported . \n \nThe d river was  traveling westbound pulling out from Overlook Drive  (a private street)  and \nturning south bound and failed to see the pedestrian . The pedestrian was travelling east  to west \non John Olsen from the east  side of the intersection and was in the center of the turn lane. \nBecause the driver was behind the pedestrian,  the p edestrian did not see the driver and could \nnot take evasive action . \n \nThe driver was cited for, \u201cdangerous left turn and driving while  suspended/violation.\u201d  \n Staff v isited the location and did not find any obvious indicators that would have contributed to \nthe crash. The crash occurred in the morning when lighting would have been adequate. The crash occurred in the center of the roadway where vision of the pedestrian would not have \nbeen obstructed.  \n",
+        "in_intersection": "yes",
+        "latitude": 45.540937,
+        "longitude": -122.884947,
+        "severity": "minor injury",
+        "source": "20220628_clean.txt",
+        "street0": "NE John Olsen Road",
+        "street1": "NW Overlook Drive",
+        "time": "09:00"
+    }
+]
