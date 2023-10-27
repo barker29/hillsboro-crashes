@@ -30,7 +30,7 @@ def main():
             out += ", raw text: " + rawtext_file
         else:
             print(out)
-            print("  no raw text, try parse.py:textfile")
+            print("  no raw text, try `scrape.py " + datetag + "`")
             continue
         cleantext_file = rawtext_file.replace("crashes", "clean")
         if os.path.exists(cleantext_file):

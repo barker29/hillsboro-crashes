@@ -6,15 +6,13 @@ or https://mit-license.org/
 """
 
 """
-Try to scrape crash information from the crash reports
-to the Hillsboro Transporation Commission
+Parse basic info (date/time) from text files extracted from
+pdf reports of crash reports to the Hillsboro Transportation Committee
 """
 import glob
 import json
 import re
 import sys
-
-from pypdf import PdfReader
 
 
 def standard_date(d):
@@ -34,20 +32,6 @@ def standard_time(t):
         hour = p[0].zfill(2)
     out = hour + ":" + p[1][:2]
     return out
-
-
-def scrape(filename):
-    text = ""
-    reader = PdfReader(filename)
-    for page in reader.pages:
-        text = text + page.extract_text()
-    return text
-
-
-def textfile(infile, outfile):
-    text = scrape(infile)
-    with open(outfile, "w") as fd:
-        fd.write(text)
 
 
 def parsetext(text, source=""):
@@ -75,25 +59,17 @@ def parsetext(text, source=""):
 
 
 def main():
-    # TODO: textfile and parsetext should have different entry points?
-    # textfile("20230725_crashes.pdf", "20230725_crashes.txt")
-    # textfile("20230523_crashes.pdf", "20230523_crashes.txt")
-    if False:
-        for fn in glob.glob("202309*_crashes.pdf"):
-            print(fn)
-            textfile(fn, fn.replace(".pdf", ".txt"))
-    if True:
-        # filename = "20230725_clean.txt"
-        # filename = "20230523_clean.txt"
-        filename = "20230124_clean.txt"
-        if len(sys.argv) > 1:
-            filename = sys.argv[1] + "_clean.txt"
-        with open(filename, "r") as fd:
-            text = fd.read()
-        jo = parsetext(text, filename)
-        # print(jo)
-        with open(filename.replace(".txt", ".json"), "w") as fd:
-            json.dump(jo, fd)
+    # filename = "20230725_clean.txt"
+    # filename = "20230523_clean.txt"
+    filename = "20230124_clean.txt"
+    if len(sys.argv) > 1:
+        filename = sys.argv[1] + "_clean.txt"
+    with open(filename, "r") as fd:
+        text = fd.read()
+    jo = parsetext(text, filename)
+    # print(jo)
+    with open(filename.replace(".txt", ".json"), "w") as fd:
+        json.dump(jo, fd)
 
 
 if __name__ == "__main__":
