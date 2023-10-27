@@ -1,0 +1,38 @@
+[
+    {
+        "date": "2023-09-23",
+        "description": "9/23/2023 \u2013 at around 2:30 a.m. at just east of the intersection of SE 50th Avenue and E Main Street.\n\n This crash involved a single vehicle with a single occupant which resulted in a fatality.  \n \nThis crash is still under investigation,  and we currently have limited details.  \n \nDriver had been at a local food service establishment and was reported driving recklessly in their \nlot.  As the driver left, they turned onto Main from 53\nrd still driving recklessly and struck an electric  pole \n \n just east of SE 50th.   Speed and potential intoxication most likel y contributed to the crash. It\u2019s plausible that \nthe injuries suffered may not have been fatal if a seat belt had been used.  \n \n",
+        "in_intersection": "no",
+        "latitude": 45.519883,
+        "longitude": -122.930628,
+        "severity": "fatal",
+        "source": "20231024_clean.txt",
+        "street0": "SE 50th Avenue",
+        "street1": "E Main Street",
+        "time": "02:30"
+    },
+    {
+        "date": "2023-09-22",
+        "description": "9/22/2023 \u2013 at around 4:21 p.m. at the intersection of SE Imlay and SE TV Hwy.  \n This crash involved a vehicle versus a bicyclist . Bicyclist  was transported  for injuries that  bicyclist stated  \nwere sustained from a previous crash but were aggravated by this crash.  \n Weather and pavement sur face condition unknown . \n The bicyclist reported  they were riding on the sidewalk , eastbound on the northside of TV Hwy. They were \ncrossing the intersection when they were hit by the vehicle. The driver was stopped at the intersection of SE Imlay Avenue and SE Tualatin Valley Highway. The driver said they were waiting for traffic to clear so that they can turn westbound on to SE Tualatin Valley Highway. Driver said they were looking both ways \nand inching forward. Driver estimated that they were going about 5 MPH during their turn when they hit the bicyclist which \u201ccame out of nowhere\u201d. Independent witness confirmed the movem ents that occurred \nduring this crash.  \n No citations were issued.  \n Staff did visit the crash site to investigate why a crash occurred at this location. Staff did not find any vision obstructions at this location.\n\n",
+        "in_intersection": "yes",
+        "latitude": 45.499635,
+        "longitude": -122.922839,
+        "severity": "injury",
+        "source": "20231024_clean.txt",
+        "street0": "SE Imlay Ave",
+        "street1": "SE TV Hwy",
+        "time": "16:21"
+    },
+    {
+        "date": "2023-10-13",
+        "description": "10/13/2023 \u2013 at around 7:27 p.m. at the intersection of SE Cornelius Pass Road and SW Augusta Lane.\n \nThis crash involved two vehicles crashed which resulted in a fatality.  \n This crash is still under investigation, and we currently have limited details.  \n A vehicle travelling southbound on SE Cornel ius Pass stuck a vehicle which was trying to cross from west to \neast over Corn elius Pass at  SW Augusta Lane .   \n \nIt was indicated that the crossing vehicle which pull ed out onto SE Cornelius Pass Road did not appear to \nhave any lights on and there was not en ough time for the southbound vehicle to avoid the crash. Speed and \nimpairment were not factors in the crash.  \n \nHillsboro Police visited the location during day light hours and reported that vegetation on the NW corner \nof the intersection may have caused a vision obstruction. This location  is under Washington County \njurisdiction; therefore, this observation was forwarded to County for review. Washington County staff has \nresponded that this intersection is under review.    \n",
+        "in_intersection": "yes",
+        "latitude": 45.503521,
+        "longitude": -122.902184,
+        "severity": "fatal",
+        "source": "20231024_clean.txt",
+        "street0": "SE Cornelius Pass Road",
+        "street1": "SW Augusta Lane",
+        "time": "19:27"
+    }
+]
