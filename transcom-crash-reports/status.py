@@ -23,18 +23,20 @@ import os
 def main():
     for fn in sorted(glob.glob("*_crashes.pdf")):
         datetag = fn[:8]
-        print(datetag)
-        print("  have .pdf of crash report:", fn)
+        print(datetag + ":")
+        out = "  .pdf: " + fn
         rawtext_file = fn.replace(".pdf", ".txt")
         if os.path.exists(rawtext_file):
-            print("  have raw text:", rawtext_file)
+            out += ", raw text: " + rawtext_file
         else:
+            print(out)
             print("  no raw text, try parse.py:textfile")
             continue
         cleantext_file = rawtext_file.replace("crashes", "clean")
         if os.path.exists(cleantext_file):
-            print("  have cleaned up text:", cleantext_file)
+            out += ", cleaned text: " + cleantext_file
         else:
+            print(out)
             print("  no clean text, clean it up by hand")
             continue
         basicjson = cleantext_file.replace(".txt", ".json")
@@ -46,8 +48,10 @@ def main():
             for entry in jo:
                 if "date" in entry.keys() and "time" in entry.keys():
                     datetimecount = datetimecount + 1
-            print("  basic .json file:", basicjson, "{0:d} entries, {1:d} have date/time".format(entries, datetimecount))
+            # print("  basic .json file:", basicjson, "{0:d} entries, {1:d} have date/time".format(entries, datetimecount))
+            out += ", basic .json: " + basicjson
         except FileNotFoundError:
+            print(out)
             print("  no basic .json file, try `parse.py " + cleantext_file.replace("_clean.txt", "") + "`")
             continue
         humanjson = basicjson.replace("clean", "human")
@@ -59,10 +63,13 @@ def main():
             for entry in jo:
                 if "latitude" in entry.keys():
                     coordcount = coordcount + 1
-            print("  human .json file found, {0:d} entries, {1:d} have coordinates".format(len(jo), coordcount))
+            # print("  human .json file found, {0:d} entries, {1:d} have coordinates".format(len(jo), coordcount))
+            out += ", human .json: " + humanjson
         except FileNotFoundError:
+            print(out)
             print("  no human .json file, try `human.py " + cleantext_file.replace("_clean.txt", "") + "`")
             continue
+        print(out)
 
 
 if __name__ == "__main__":
