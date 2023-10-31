@@ -1,7 +1,7 @@
 ---
 layout: page
-title: 2022 Fatalities
-permalink: /fatalities2022/
+title: Washington County 2022
+permalink: /washington-county/fatalities2022/
 ---
 
 Below is a map and list of fatalities in road crashes in Washington County, Oregon, in 2022.
