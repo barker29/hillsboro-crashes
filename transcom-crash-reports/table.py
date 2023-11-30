@@ -4,7 +4,7 @@ Copyright (c) 2023 Andrew T. Barker
 This software is distributed under the MIT License, see the LICENSE file
 or https://mit-license.org/
 """
-
+import glob
 import json
 import os
 import sys
@@ -21,11 +21,14 @@ def make_table(db):
         if "fatal" not in crash["severity"]:
             continue
         out += "|"
+        out += str(crash["date"]) + "|"
+        out += str(crash["street0"]) + " and " + str(crash["street1"]) + "|\n"
+    return out
 
 
 if __name__ == "__main__":
     db = []
-    for fn in glob.glob("*_human.json"):
+    for fn in sorted(glob.glob("*_human.json")):
         print(fn)
         with open(fn, "r") as fd:
             db = db + json.load(fd)
