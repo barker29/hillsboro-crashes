@@ -12,7 +12,7 @@ The [Transportation Committee](https://www.hillsboro-oregon.gov/our-city/commiss
 
 ## Fatal crashes
 
-| date | intersection | type | report |
+| Date | Intersection | Type | Report |
 | --- | --- | --- | --- |
 | 2022-07-03 | NE Tanasbourne Drive and NE Stucki Avenue |  |  |
 | 2022-10-15 | SE 10th Avenue and SE Clipper Lane | pedestrian |  |
@@ -28,5 +28,5 @@ The [Transportation Committee](https://www.hillsboro-oregon.gov/our-city/commiss
 
 Previously, we attempted to track crashes throughout Washington County, not just in Hillsboro. That got to be too much to manage, but some old data is still available:
 
-- Partial crash data from [2023](washington-county/)
-- Archived data from [2022](washington-county/fatalities2022/) is also available.
+- Partial Washington County crash data from [2023](washington-county/)
+- Archived Washington County data from [2022](washington-county/fatalities2022/).
