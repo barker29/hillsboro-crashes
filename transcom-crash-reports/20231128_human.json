@@ -1,0 +1,38 @@
+[
+    {
+        "date": "2023-10-22",
+        "description": "10/22/2023 \u2013 at around 5:44 p.m.  at the intersection of SE Brookwood Avenue and SE Montego Street.  \n Weather was clear and pavement surface was dry.  \n This crash involved a vehicle versus a person in a wheelchair which resulted in no injuries.  \n The driver was traveling northbound on SE Brookwood Ave as they approached SE Montego Drive when they realized they needed to turn left onto SE Montego Drive. Driver made a quick turn and \n \n didn't realize there was a pedestrian crossing the road and clipped the wheelchair with the front \npassenger side bumper.  \nThe person in the wheelchair, was crossing from the southside of the road to the northside on the eastside of SE Brookwood when they were bumped by the car because they \u201csteered away\u201d from it.  The pedestrian said they were not injured nor were they knocke d from their chair, nor was their chair \ndamaged from being hit.  \n An independent collaborated the incident actions.  \n \nNo citations were issued.  \n Staff visited the crash site to investigate factors that might have caused the crash and found none.\n\n",
+        "in_intersection": "yes",
+        "latitude": 45.504113,
+        "longitude": -122.931073,
+        "severity": "no injury",
+        "source": "20231128_clean.txt",
+        "street0": "SE Brookwood Avenue",
+        "street1": "SE Montego Street",
+        "time": "17:44"
+    },
+    {
+        "date": "2023-10-27",
+        "description": "10/27/2023 \u2013 at around 12:32 p.m. at the intersection of SE Baseline Street and SE 3rd Avenue.  \n This crash involved a vehicle versus a bicyclist . Bicyclist  reported minor injuries .  \n Weather was clear and pavement sur face was dry . \n The bicyclist was travelling eastbound on the sidewalk on SE Baseline and crossed SE 3\nrd Ave when they \nwere struck by the vehicle. Bicyclist said they knew vehicles had a green light but thought they \"had \nenough time.\"  \n \nThe driver was westbound on SE Baseline and turned left as their light was green. They said the bicyclist struck the side of their vehicle.  \n It is unknow if citations were issued.  \n Staff did not visit the crash site to investigate , as the crash factor in this crash was the bicyclist who \nfailed to obey a traffic control device.  \n \n",
+        "in_intersection": "yes",
+        "latitude": 45.520176,
+        "longitude": -122.986294,
+        "severity": "minor injury",
+        "source": "20231128_clean.txt",
+        "street0": "SE Baseline Street",
+        "street1": "SE 3rd Avenue",
+        "time": "24:32"
+    },
+    {
+        "date": "2023-11-11",
+        "description": "11/11/2023 \u2013 at around 8:51 a.m. at the intersection of SE Baseline St. and SE 4th Ave.  \n \nWeather was rainy and pavement surface was wet.\n \nThis crash involved a vehicle vers us pedestrian where minor injuries were suspected.  \n \nThe driver was i n the far -left hand lane of SE  Baseline St., approaching the intersection at  SE 4th Ave. \nThe driver did not notice the vehicle stopped  in the other lane . The pedestrian ran out in front of the \nvehicle where he was struck.  \n The pedestrian said they stopped before crossing south, at SE 4th Ave. and SE Baseline Rd. The \npedestrian observed no  traffic in the lane closest to them and the traffic in the middle lane stopped,  \n and they didn\u2019t observe  traffic in the far-left lane of SE Baseline Rd.,  so they began to cross SE Baseline \nSt., south, by  running. The vehicle came out of nowhere and they were struck.  \n \nThe driver was cited for failing to yield the right of way to the pedestrian.  \n Staff did not visit the crash site to investigate , as the crash factor in this crash was the driver who failed \nto stop for the pedestrian in the roadway.  \n",
+        "in_intersection": "yes",
+        "latitude": 45.520085,
+        "longitude": -122.984384,
+        "severity": "minor injury",
+        "source": "20231128_clean.txt",
+        "street0": "SE Baseline St.",
+        "street1": "SE 4th Ave",
+        "time": "08:51"
+    }
+]
