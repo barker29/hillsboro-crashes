@@ -16,10 +16,10 @@ The [Transportation Committee](https://www.hillsboro-oregon.gov/our-city/commiss
 | --- | --- | --- | --- |
 | 2022-07-03 | NE Tanasbourne Drive and NE Stucki Avenue |  | [link](https://hillsboro-oregon.civicweb.net/document/46501/TC%20Crash%20Report%20Memo%207.21.pdf) |
 | 2022-10-15 | SE 10th Avenue and SE Clipper Lane | pedestrian | [link](https://hillsboro-oregon.civicweb.net/document/50837/TC%20Crash%20Report%20Memo%2010.15.22.pdf) |
-| 2022-10-17 | NE Cornelius Pass Road and NE Nicholas Court | bicycle | [link](https://hillsboro-oregon.civicweb.net/document/51927/TC%20Crash%20Report%20Memo%2011.9.22.pdf) |
+| 2022-10-17 | NE Cornelius Pass Road and NE Nicholas Court |  | [link](https://hillsboro-oregon.civicweb.net/document/51927/TC%20Crash%20Report%20Memo%2011.9.22.pdf) |
 | 2022-10-31 | S 1st Ave and SW Oak Street | pedestrian | [link](https://hillsboro-oregon.civicweb.net/document/51927/TC%20Crash%20Report%20Memo%2011.9.22.pdf) |
 | 2023-02-13 | NE Cornell Road and NE Stucki Avenue | pedestrian | [link](https://hillsboro-oregon.civicweb.net/document/57390/TC%20Crash%20Report%20Memo%204.25.23.pdf) |
-| 2023-06-14 | E Main St and NE 55th Ave | bicycle | [link](https://hillsboro-oregon.civicweb.net/document/60479/TC%20Crash%20Report%20Memo%207.25.23.pdf) |
+| 2023-06-14 | E Main St and NE 55th Ave |  | [link](https://hillsboro-oregon.civicweb.net/document/60479/TC%20Crash%20Report%20Memo%207.25.23.pdf) |
 | 2023-09-23 | SE 50th Avenue and E Main Street |  | [link](https://hillsboro-oregon.civicweb.net/document/164356/TC%20Crash%20Report%20Memo%2010.24.23.pdf) |
 | 2023-10-13 | SE Cornelius Pass Road and SW Augusta Lane |  | [link](https://hillsboro-oregon.civicweb.net/document/164356/TC%20Crash%20Report%20Memo%2010.24.23.pdf) |
 

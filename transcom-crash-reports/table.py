@@ -42,8 +42,7 @@ def make_table(db):
         out += crash["street0"] + " and " + crash["street1"] + " | "
         if "pedestrian" in crash["description"].lower():
             out += "pedestrian"
-        elif ("bicycle" in crash["description"].lower() or
-              "cyclist" in crash["description"].lower()):
+        elif ("bicycl" in crash["description"].lower()):
             out += "bicycle"
         out += " | "
         reportdate = crash["source"][:8]
@@ -78,7 +77,6 @@ def deploy(db, outmd=None):
         text = fd.read()
     begin_point = text.find(begin_tag)
     end_point = text.find(end_tag)
-    print("begin, end", begin_point, end_point)
     table_string = make_table(db)
     table_string = table_string + "\n*Table generated on " + str(datetime.date.today()) + "*\n\n"
     with open(mdfile, "w") as fd:
