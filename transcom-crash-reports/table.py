@@ -4,13 +4,13 @@ Copyright (c) 2023 Andrew T. Barker
 This software is distributed under the MIT License, see the LICENSE file
 or https://mit-license.org/
 """
+import datetime
 import glob
 import json
 import os
 import sys
 
 # TODO: maybe put links in a separate .json file or something
-# TODO: automatically include the table in index.markdown
 
 links = {
     "20220628": "https://hillsboro-oregon.civicweb.net/document/45643/TC%20Crash%20Report%20Memo.pdf",
@@ -65,6 +65,29 @@ def load_data():
     return db        
 
 
+def deploy(db, outmd=None):
+    """Given crash data in db, produce markdown table and deploy to github
+    pages."""
+    begin_tag = "| Date | Intersection | Type | Report |"
+    end_tag = "## This site's past life"
+    if outmd is None:
+        mdfile = os.path.join("..", "docs", "index.markdown")
+    else:
+        mdfile = outmd
+    with open(mdfile, "r") as fd:
+        text = fd.read()
+    begin_point = text.find(begin_tag)
+    end_point = text.find(end_tag)
+    print("begin, end", begin_point, end_point)
+    table_string = make_table(db)
+    table_string = table_string + "\n*Table generated on " + str(datetime.date.today()) + "*\n\n"
+    with open(mdfile, "w") as fd:
+        fd.write(text[:begin_point])
+        fd.write(table_string)
+        fd.write(text[end_point:])
+
+
 if __name__ == "__main__":
     db = load_data()
-    print(make_table(db))
+    # print(make_table(db))
+    deploy(db)
