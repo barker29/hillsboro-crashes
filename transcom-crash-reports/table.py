@@ -55,10 +55,16 @@ def make_table(db):
     return out
 
 
-if __name__ == "__main__":
+def load_data():
+    """Loads data from all human.json file, returns list of dicts"""
     db = []
     for fn in sorted(glob.glob("*_human.json")):
-        print(fn)
+        # print(fn)
         with open(fn, "r") as fd:
             db = db + json.load(fd)
+    return db        
+
+
+if __name__ == "__main__":
+    db = load_data()
     print(make_table(db))
