@@ -5,6 +5,16 @@ This software is distributed under the MIT License, see the LICENSE file
 or https://mit-license.org/
 """
 
+"""
+Someday, in your dreams, you may want to make this interactive, so you can
+click on a crash and look at the crash report / other data.
+ One place to start:
+
+https://matplotlib.org/stable/gallery/user_interfaces/embedding_in_tk_sgskip.html
+
+There's also some native event handling in matplotlib...
+"""
+
 import glob
 import json
 from matplotlib import pyplot as plt
@@ -15,11 +25,10 @@ def fill_multipoly(ax, x, y, parts, color):
         ax.fill(x[parts[i]:parts[i+1]], y[parts[i]:parts[i+1]], color=color)
 
 
-def hillsboro_limits(ax):
+def hillsboro_limits(ax, color=(0.8, 0.8, 0.8)):
     """mostly stolen from ../tools/make-map.py"""
     with open(os.path.join("..", "metro-data", "cities.json"), "r") as fd:
         city_limits = json.load(fd)
-    color = (0.85, 0.85, 0.85)  # Hillsboro
     city = "Hillsboro"
     fill_multipoly(ax, city_limits[city]["x"], city_limits[city]["y"],
                    city_limits[city]["parts"], color)
@@ -52,10 +61,16 @@ def crashes(ax, db):
     for crash in db:
         if "latitude" in crash.keys() and "longitude" in crash.keys():
             color = (0.0, 0.0, 1.0)
+            symbol = "."
+            if "serious" in crash["severity"]:
+                color = (1.0, 1.0, 0.0)
             if "fatal" in crash["severity"]:
                 color = (1.0, 0.0, 0.0)
+            if ("pedestrian" in crash["description"].lower() or
+                "bicycl" in crash["description"].lower()):
+                symbol = "x"
             ax.plot(crash["longitude"], crash["latitude"],
-                    "x", color=color, markersize=4)
+                    symbol, color=color, markersize=4)
 
 
 def draw_map(db):
@@ -71,7 +86,6 @@ def draw_map(db):
     crashes(plt.gca(), db)
     # plt.legend()
     # TODO: make the bounding box depend on where crashes actually occur?
-    #       (ie, don't map emtpy western wasington county)
     plt.xlim(-123.0193707343201, -122.85186472294419)
     plt.ylim(45.47142187468111, 45.58077218413512)    
     plt.axis("off")
@@ -84,7 +98,7 @@ def draw_map(db):
 if __name__ == "__main__":
     db = []
     for fn in glob.glob("*_human.json"):
-        print(fn)
+        # print(fn)
         with open(fn, "r") as fd:
             db = db + json.load(fd)
     draw_map(db)
