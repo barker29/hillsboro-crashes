@@ -17,6 +17,7 @@ There's also some native event handling in matplotlib...
 
 import glob
 import json
+import math
 from matplotlib import pyplot as plt
 import os
 
@@ -73,10 +74,40 @@ def crashes(ax, db):
                     symbol, color=color, markersize=4)
 
 
-def draw_map(db):
-    """db is a list of dicts, probably loaded from one or more human .json files
+class ClickHandler:
+    def __init__(self, db, annot, fig):
+        self.db = db
+        self.annot = annot
+        self.fig = fig
 
-    TODO: roads, see ../tools/gis-helper and start specializing for Hillsboro"""
+    def __call__(self, event):
+        x = event.xdata
+        y = event.ydata
+        print("x", x, "y", y)
+        closest = 200.0
+        for crash in db:
+            if "latitude" in crash.keys() and "longitude" in crash.keys():
+                cx = crash["longitude"]
+                cy = crash["latitude"]
+                dist = math.sqrt((cx-x)*(cx-x) + (cy-y)*(cy-y))
+                if dist < closest:
+                    closest = dist
+                    ccrash = crash
+        cx = ccrash["longitude"]
+        cy = ccrash["latitude"]
+        print("  cx", cx, "cy", cy, "closest", closest)
+        if closest < 0.005:
+            print("    " + ccrash["date"] + ": " + ccrash["severity"] + ": " + ccrash["description"][0:200])
+            self.annot.set(x=cx, y=cy, text=ccrash["date"])
+            self.annot.set_visible(True)
+        else:
+            self.annot.set_visible(False)
+        self.fig.canvas.draw_idle()
+
+
+def draw_map(db, interactive=True):
+    """db is a list of dicts, probably loaded from one or more human
+    .json files"""
     fig = plt.figure(figsize=(8.0, 6.0))
     fig.set_tight_layout(True)
     # backdrop(plt.gca())
@@ -92,6 +123,10 @@ def draw_map(db):
     # outfile = os.path.join("..", "docs", "map" + str(year) + ".svg")
     # outfile = os.path.join("..", "docs", "map" + str(year) + ".png")
     # plt.savefig(outfile)
+    if interactive:
+        annot = plt.gca().annotate("SOMETEXT", xy=(-123.0, 45.5))
+        ch = ClickHandler(db, annot, fig)
+        plt.connect('button_press_event', ch)
     plt.show()
 
 
