@@ -9,6 +9,10 @@ This site is an attempt to do real-time tracking of car crashes in Hillsboro, Or
 
 The [Transportation Committee](https://www.hillsboro-oregon.gov/our-city/commissions-committees-boards) appointed by the City Council receives a monthly report on some crashes in the city. The data here is compiled from those reports.
 
+## Crash map
+
+![Hillsboro crash map](hillsboro_crashes.png)
+
 
 ## Fatal crashes
 

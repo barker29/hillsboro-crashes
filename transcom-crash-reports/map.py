@@ -18,6 +18,7 @@ import json
 import math
 from matplotlib import pyplot as plt
 import os
+import shutil
 import sys
 
 def fill_multipoly(ax, x, y, parts, color):
@@ -122,19 +123,13 @@ def draw_map(db, interactive=False):
     .json files"""
     fig = plt.figure(figsize=(7.5, 6.0))
     fig.set_tight_layout(True)
-    # backdrop(plt.gca())
-    # cities(plt.gca(), labels=True)
     hillsboro_limits(plt.gca())
     roads(plt.gca())
     crashes(plt.gca(), db)
-    # plt.legend()
-    # TODO: make the bounding box depend on where crashes actually occur?
+    # make the bounding box depend on where crashes actually occur?
     plt.xlim(-123.0193707343201, -122.85186472294419)
     plt.ylim(45.47142187468111, 45.58077218413512)    
     plt.axis("off")
-    # outfile = os.path.join("..", "docs", "map" + str(year) + ".svg")
-    # outfile = os.path.join("..", "docs", "map" + str(year) + ".png")
-    # plt.savefig(outfile)
     plt.legend()
     if interactive:
         annot = plt.gca().annotate("", xy=(-123.0, 45.5))
@@ -142,7 +137,10 @@ def draw_map(db, interactive=False):
         plt.connect('button_press_event', ch)
         plt.show()
     else:
-        plt.savefig("hillsboro_crashes.png")
+        # could do .svg, outfile should maybe be an argument
+        outfile = "hillsboro_crashes.png"
+        plt.savefig(outfile)
+        shutil.copyfile(outfile, os.path.join("..", "docs", outfile))
 
 
 if __name__ == "__main__":
