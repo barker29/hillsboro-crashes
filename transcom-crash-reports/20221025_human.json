@@ -1,0 +1,50 @@
+[
+    {
+        "date": "2022-09-21",
+        "description": "9/21/2022 \u2013 at approximately 12:55 p.m. at the intersection of NE Cornell Road and NE Elam Young Parkway.\n Weather  was clear  and the pavement surface was dry .  \n This crash was  a motorcycle versus v ehicle  crash where serious i njuries  were  reported.  \n \n The motorcyclist was traveling on a green light, east bound on NE Cornell Road  at what witnesses \nstated as normal speed. The vehicle was in the westbound turn lane on NE Cornell attempting to travel \nsouth on NE Elam Young Parkway. The motorcyclist impacted the vehicle when the vehicle attempted a \nleft turn against the light.  \n The driver of the vehicle was cited  for: no driver\u2019s license and failure to obey a traffic control device.   \n Staff did not visit the location .\n \n ",
+        "in_intersection": "yes",
+        "latitude": 45.533861,
+        "longitude": -122.923077,
+        "severity": "serious injury",
+        "source": "20221025_clean.txt",
+        "street0": "NE Cornell Road",
+        "street1": "NE Elam Young Parkway",
+        "time": "24:55"
+    },
+    {
+        "date": "2022-10-02",
+        "description": "10/2/2022 \u2013 at 8:20 p.m. at  the intersection of NW 273 rd Avenue and NE Evergreen Road.\n Weather was clear and the pavement surface was dry.  \n This crash involved a single vehicle which rolled over several times and resulted in serious injuries  for \nboth the driver and passenger . \n Several witnesses stated the vehicle had been observed exceeding the speed limit, swerving , and \nhitting medians at several locations before the vehicle lost control and rolled multiple times ending up \nin a field.   The report does not indicate whether  the driver was cited . \n \nExcessive speed appeared to be a factor is this crash . Intoxicants may have also  contributed to this \ncrash . Public Works staff did not visit the crash location.  \n  \n",
+        "in_intersection": "yes",
+        "latitude": 45.552424,
+        "longitude": -122.958627,
+        "severity": "serious injury",
+        "source": "20221025_clean.txt",
+        "street0": "NW 273rd Avenue",
+        "street1": "NE Evergreen Road",
+        "time": "20:20"
+    },
+    {
+        "date": "2022-10-03",
+        "description": "10/3/2022 \u2013 at around 4:25 p.m. at the intersection of NE Cornelius Pass Road and E Main Street.   \n \nWeather  was clear and the pavement surface was dry  \n This crash involved a vehicle versus a scooter  with minor  injuries . \n The scooter  was travelling west bound on the sidewalk and rode into a vehicle as a vehicle was leaving \nthe intersection. Driver stated that he was creeping forward on a red light ; when he received a green \nlight he proceeded forward, this is when he impacted the scooter. Witnesses confirmed this statement.    \n   \nThis is a signalized intersection. It\u2019s unclear why the scooter user did not use the pedestrian activated \nbutton at this intersection. Staff did not visit the location.  \n \nNo citations were issued.\n\n",
+        "in_intersection": "yes",
+        "latitude": 45.515253,
+        "longitude": -122.901003,
+        "severity": "minor injury",
+        "source": "20221025_clean.txt",
+        "street0": "NE Cornelius Pass Road",
+        "street1": "E Main Street",
+        "time": "16:25"
+    },
+    {
+        "date": "2022-10-15",
+        "description": "10/15/2022 \u2013 at around 11:13 p.m. at the intersection of SE 10th Avenue and just south of SE Clipper Lane. (near \nCarl\u2019s Jr.)   \nWeather was clear and the pavement surface was dry   \n  \nThis crash involved a vehicle versus a pedestrian with fatal injuries.  \n The pedestrian was observed running from east to west across SE 10\nth. A vehicle was travelling \nsouthbound on SE 10th at about 30 mph when they impacted the pedestrian.  \nThe driver remained on scene, was cooperative, and was not impaired.  \nDue to the emotional state of the driver, it was unclear if the driver briefly saw the pedestrian and was \nunable to stop in time or if they did not react until after the impact.      \n   \nThis crash occurred outside a crosswalk and in poor lighting conditions  (night) . Staff did not visit the \nlocation.   \n",
+        "in_intersection": "no",
+        "latitude": 45.516715,
+        "longitude": -122.973953,
+        "severity": "fatality",
+        "source": "20221025_clean.txt",
+        "street0": "SE 10th Avenue",
+        "street1": "SE Clipper Lane",
+        "time": "23:13"
+    }
+]

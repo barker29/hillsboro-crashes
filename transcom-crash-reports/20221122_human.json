@@ -1,0 +1,36 @@
+[
+    {
+        "date": "2022-10-16",
+        "description": "10/16/2022 \u2013 at around 3:36 p.m. near the intersection of SE 10th Avenue and SE Walnut Street. \nWeather was clear and the pavement surface was dry  \nThis crash involved a vehicle versus a pedestrian with minor injuries.  \nThe vehicle was travelling northbound on SE 10th in the turn lane to turn left onto SE Walnut when a \npedestrian stepped out into traffic. Vehicle was unable to stop in time to avoid impact.  \n \n Pedestrian was observed crossing  SE 10th travelling west to east about 150 ft south of crosswalk.  \nWitness stated vehicle was travelling slowly , and pedestrian was observed looking northbound \nwatching for southbound traffic and did not see impact coming.  \n \nPedestrian admitted fault and alcohol  consumption which may have contributed to crash.  \n No citations were issued.  \n \n \n",
+        "in_intersection": "no",
+        "latitude": 45.517295,
+        "longitude": -122.973888,
+        "severity": "minor injury",
+        "source": "20221122_clean.txt",
+        "street0": "SE 10th Avenue",
+        "street1": "SE Walnut Street",
+        "time": "15:36"
+    },
+    {
+        "date": "2022-10-17",
+        "description": "10/17/2022 \u2013 at the intersect ion of NE Cornelius Pass Road and NE Nicholas Court.\n This crash is still under investigation and full details have yet to be released.  \n This crash was  a motorcycle versus vehicle  crash where fatal injuries  were  reported . \n The vehicle was turning left onto NE Nicholas Court from southbound Cornelius Pass when it was struck by a motorcycle.  \n Witnesses stated that the motorcycle was observed slaloming through the traffic lanes and was travelling well above the pos ted speed limit . The motorcyclist struck the passenger side of the turning \nvehicle as it was almost out of the number 2 lane for northbound Cornelius Pass Road.  \n \n",
+        "in_intersection": "yes",
+        "latitude": 45.531922,
+        "longitude": -122.899634,
+        "severity": "fatal",
+        "source": "20221122_clean.txt",
+        "street0": "NE Cornelius Pass Road",
+        "street1": "NE Nicholas Court"
+    },
+    {
+        "date": "2022-10-31",
+        "description": "10/31/2022  \u2013 near the intersection of S 1st Ave and SW Oak Street.  \n \nThis crash is still under investigation and full details have yet to be released.  \n This crash was a vehicle versus pedestrian crash where fatal injuries were reported.  \n A pedestrian was walking their bike mid -block between cars which were stopped at the red light at S 1st \nand SE Oak. The pedestrian was crossing from south to north. As they  cleared the 2nd and 3rd lanes, \nthey got on their bike to ride through the number 1 lane where they were struck.  \n\n",
+        "in_intersection": "no",
+        "latitude": 45.518912,
+        "longitude": -122.990129,
+        "severity": "fatal",
+        "source": "20221122_clean.txt",
+        "street0": "S 1st Ave",
+        "street1": "SW Oak Street"
+    }
+]

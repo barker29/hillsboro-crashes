@@ -1,0 +1,74 @@
+[
+    {
+        "date": "2023-01-25",
+        "description": "1/25/2023 \u2013 at around 7:04 a.m. at the intersection of NE Cornelius Pass Road and NE Ronler Drive .  \n This crash involved a vehicle versus a n electric bicyclist with no to minor  injuries.  \n Weather was clear and the pavement surface was dry . \n The vehicle was stopped  eastbound on NE Ronler Drive. Driver pulled forward on green light to \nproceed with right turn to travel southbound when they struck the electric bicyclis t. Electric bicyclist \n was travelling north on the west side sidewalk of NE Cornelius Pass Road.  Bicyclist was unaware of the \ncycle track on east side of Cornelius Pass Road. Independent witness stated driver had green light and \nbicyclist rode directly in front of driver.  \n Bicyclist was cited for not obeying crosswalk traffic control device.\n \n ",
+        "in_intersection": "yes",
+        "latitude": 45.543149,
+        "longitude": -122.900074,
+        "severity": "minor injury",
+        "source": "20230425_clean.txt",
+        "street0": "NE Cornelius Pass Road",
+        "street1": "NE Ronler Drive",
+        "time": "07:04"
+    },
+    {
+        "date": "2023-01-25",
+        "description": "1/25/2023 \u2013 at around 6:37 p.m. at the intersection of S E 10\nth Avenue and SE Maple Street . \n \nThis crash involved a vehicle versus a pedestrian. Pedestrian reported minor injuries.  \n \nWeather was clear and the pavement was dry . \n The driver of the vehicle was stopped westbound on SE Maple St with intent to turn right, northbound \nonto SE 10\nth. Driver was looking right for vehicles, as they pulled forward to make their turn, they \nstruck the pedestrian in the crosswalk. Pedestrian was walking north in the crosswal k when they were \nstruck by a vehicle attempting to make a turn.  \n \nNo citations were issued.\n\n ",
+        "in_intersection": "yes",
+        "latitude": 45.514889,
+        "longitude": -122.97406,
+        "severity": "minor injury",
+        "source": "20230425_clean.txt",
+        "street0": "SE 10th Avenue",
+        "street1": "SE Maple Street",
+        "time": "18:37"
+    },
+    {
+        "date": "2023-02-01",
+        "description": "2/1/2023 \u2013 at around 7:32 p.m. at the private parking lot of Baseline Center, ab out 300 ft south of the \nintersection of NW 18 5th Avenue  and W Baseline Road . \n \nThis crash was a vehicle versus vehicle where serious injuries (likely broken ankle) were reported.  \n \nWeather was clear and the pavement was dry.  \n A driver was exiting the parking lot and failed to see oncoming vehicle travelling southbound and \nstruck this vehicle.\n\n ",
+        "in_intersection": "no",
+        "latitude": 45.514874,
+        "longitude": -122.868016,
+        "severity": "serious injury",
+        "source": "20230425_clean.txt",
+        "street0": "NW 185th Avenue",
+        "street1": "W Baseline Road",
+        "time": "19:32"
+    },
+    {
+        "date": "2023-02-13",
+        "description": "2/13/2023 \u2013 at around 5:32 a.m. at the intersection of NE Cornell Road and NE Stucki Avenue.  \n This crash was a vehicle versus pedestrian where serious injuries later resulted in a fatality.  \n Weather was cloudy and the pavement was wet.  \n The driver stated that they were travelling westbound on NE Cornell Road roughly the speed limit of 45 \nmph. As they proceeded through the green light,  they struck a pedestrian in the crosswalk.  The driver \nwas visibly shaken, stayed on scene and was cooperative.   \n \nPedestrian was found to be wearing a hospital ID tag from Kaiser Westside Hospital.  \n There were no independent witnesses to comment on crash.  \n  \n\n On Feb 15 2023 \u2013  investigating officers learned that the pedestrians blood alcohol level was a 0.402 \nwhich is more than 5 times the legal limit when driving. It is unknown if the pedestrian\u2019s blood alcohol \nlevel was a factor in the crash. This crash is still under investigation.  \n \nUnknown if citation was issued . \n\n",
+        "in_intersection": "yes",
+        "latitude": 45.534688,
+        "longitude": -122.877865,
+        "severity": "fatal",
+        "source": "20230425_clean.txt",
+        "street0": "NE Cornell Road",
+        "street1": "NE Stucki Avenue",
+        "time": "05:32"
+    },
+    {
+        "date": "2023-03-17",
+        "description": "3/17/2023 \u2013 at around 3:25 p.m. at approximately 100 ft north of the intersection of SE Davis Road and \nSE River Road .  \n Weather was clear and the pavement was dry.  \n Driver claimed that they had experienced a medical emergency and passed o ut. While unconscious. \nThe driver drove over a curb, struck a fence,  and went down an embankment. Driver suffered serious \ninjuries due to the collision. Several hours later, OHSU reported that driver\u2019s  blood had been tested as \npart of routine medical intak e. Driver\u2019s  blood was 0.17%.   \n Driver cited for DUII and Reckless Driving . \n\n",
+        "in_intersection": "no",
+        "latitude": 45.493835,
+        "longitude": -122.939931,
+        "severity": "serious injury",
+        "source": "20230425_clean.txt",
+        "street0": "SE Davis Road",
+        "street1": "SE River Road",
+        "time": "15:25"
+    },
+    {
+        "date": "2023-03-17",
+        "description": "3/17/2023 \u2013 at around 8:46 p.m. at approximately 50 ft south of the intersection of SE 10th and SE \nCedar.  \n This crash was a vehicle versus bicyclist where serious injuries occurred.  \n Weather was clear and the pavement was dry.  \n Pedestrian was in the middle line of SE 10\nth trying to cross the street. Driver was driving south, down \ncenter lane and stuck pedestrian and proceeded to leave the scene. Driver and passenger was late r \nlocated, passenger confirmed that driver knew that a bicyclist was hit and chose to leave scene. Driver was found to be DUII.  \n Driver was arrested . \n",
+        "in_intersection": "no",
+        "latitude": 45.51619,
+        "longitude": -122.973973,
+        "severity": "serious injury",
+        "source": "20230425_clean.txt",
+        "street0": "SE 10th Avenue",
+        "street1": "SE Cedar St",
+        "time": "20:46"
+    }
+]

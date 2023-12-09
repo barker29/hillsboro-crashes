@@ -1,0 +1,74 @@
+[
+    {
+        "date": "2023-05-21",
+        "description": "5/21/2023 \u2013\n\nat around 8:10 a.m. at the intersection of S E 21st Avenue and S E Cypress Street.  \nThis crash involved a vehicle versus scooter  with minor injuries.  \nWeather was clear and the pavement surface was dry. \n \n The scooter  was travelling southbound on SE Cypress within the bike lane. Driver was also travelling \nsouthbound on SE Cypress. Scooter suddenly turned left into the side of the vehicle. Scooter operator \nadmitted fault and  said that they were distracted and wearing headphones. \n No citations were issued.  \n\n",
+        "in_intersection": "yes",
+        "latitude": 45.507742,
+        "longitude": -122.960425,
+        "severity": "minor injury",
+        "source": "20230725_clean.txt",
+        "street0": "SE 21st Avenue",
+        "street1": "SE Cypress St",
+        "time": "08:10"
+    },
+    {
+        "date": "2023-06-01",
+        "description": "6/1/2023  \u2013\n\nat around 10:58 a.m.  at the intersect ion of SW Adams Avenue and SW Baseline Street.  \n This crash involved a vehicle versus a pedestrian. Pedestrian reported serious injuries.  \n Weather and pavement surface unknown.  \n The driver was travelling westbound on Baseline when they struck a pedestrian who stepped off curb to \ntravel from north to south at SW Adams. Witnesses stated driver was not driving reckless. Pedestrian \nadmitted they saw the car approaching and considered turning around. Pedestrian admitted fault.   \n \nNo citations were issued.\n\n",
+        "in_intersection": "yes",
+        "latitude": 45.520126,
+        "longitude": -122.99127,
+        "severity": "serious injury",
+        "source": "20230725_clean.txt",
+        "street0": "SW Adams Ave",
+        "street1": "SW Baseline St",
+        "time": "10:58"
+    },
+    {
+        "date": "2023-06-12",
+        "description": "6/12/2023 \u2013\n\nat around 5:11 p.m. at the intersection of N E Cherry Lane and NE Cornelius Pass Road . \n This crash involved a vehicle versus a bicyclist. Bicyclist reported  minor injuries.  \n Weather was clear and the pavement was dry.  \n \nDriver said they  were driving northbound o n NE Cornelius Pass Road. They turned into the travel lane with \nintent to turn left onto Cherry Drive. Driver saw bicyclist but thoug ht they could make the turn in time. \nDriver admitted that bicyclist was travelling faster than anticipated. Bicyclist was riding southbound on NE Cornelius Pass when they were struck by a turning vehicle. Bicyclist admitted to travelling fast, however they  didn\u2019t feel it would be an abnormally high speed for the downward slope at that particular location.   \n Driver was cited for dangerous left turn.  \n \n",
+        "in_intersection": "yes",
+        "latitude": 45.530364,
+        "longitude": -122.899769,
+        "severity": "minor injury",
+        "source": "20230725_clean.txt",
+        "street0": "NE Cherry Lane",
+        "street1": "NE Cornelius Pass Rd",
+        "time": "17:11"
+    },
+    {
+        "date": "2023-06-14",
+        "description": "6/14/2023 \u2013\n\nat around 3:46 p.m. at the intersection of E Main Street and NE 55\nth Avenue . \n \nThis crash involved a school bus  versus a motorcyclist . This crash resulted in fatal injuries to the \nmotorcyclist.  \n Weather was clear and the pavement was dry.  \n \nWitness stated bus driver was turning left from NE 55\nth Avenue to travel eastbound on E Main S treet and \nwas struck by the motorcyclist at a high rate of speed. Additional witnesses, witnessed motorcyclist \ntravelling westbound on E Main Street at a high rate of speed, cutting through stopped cars and running \nthe red light at the intersection of NE B orwick and E Main Street.  \n \nNo citations were issued.  \n  \n",
+        "in_intersection": "yes",
+        "latitude": 45.519946,
+        "longitude": -122.926012,
+        "severity": "fatal",
+        "source": "20230725_clean.txt",
+        "street0": "E Main St",
+        "street1": "NE 55th Ave",
+        "time": "15:46"
+    },
+    {
+        "date": "2023-06-16",
+        "description": "6/16/2023 \u2013\n\nat around 8:37 a.m. at the intersection of SE Alexander Street and SE Davis Road . \n \nThis crash involved a vehicle versus a bicyclist. Bicyclist reported  minor injuries.  \n Weather was clear and  the pavement was dry.  \n Driver said they were driving eastbound on SE Davis Road with intent to turn left onto SE Alexander Street. Bicyclist was travelling westbound on SE Davis Road when they were stuck by a turning vehicle. Driver did not state the reasoning for not seeing the pedestrian, however the reporting officer did report that sun and shade may have been a factor in the crash.  \n No citations were issued .\n \n",
+        "in_intersection": "yes",
+        "latitude": 45.494047,
+        "longitude": -122.936538,
+        "severity": "minor injury",
+        "source": "20230725_clean.txt",
+        "street0": "SE Alexander St",
+        "street1": "SE Davis Rd",
+        "time": "08:37"
+    },
+    {
+        "date": "2023-06-22",
+        "description": "6/22/2023 \u2013\n\nat around 4:49 p.m. at the intersection of SE TV Hwy and SE Brookwood Avenue . \n \nThis crash involved a vehicle versus a pedestrian . Pedestrian reporte d minor injuries.  \n \nWeather was clear and the pavement was dry.  \n Driver said they were driving westbound on SE TV Hwy with intent to turn right onto SE Brookwood Avenue. Driver proceeded with turn when their light turned green and struck a pedestrian.  \nPedestrian was waiting to travel from east to west at the intersection. When they received the walk signal they proceeded and was immediately struck by a turning vehicle. Driver stated they did not see the pedestrian due to their grey colored clothing.  \n Driver was cited for failing to yield right of way\n \n",
+        "in_intersection": "yes",
+        "latitude": 45.500446,
+        "longitude": -122.930959,
+        "severity": "minor injury",
+        "source": "20230725_clean.txt",
+        "street0": "SE TV Hwy",
+        "street1": "SE Brookwood Ave",
+        "time": "16:49"
+    }
+]

@@ -1,14 +1,14 @@
 ---
 layout: page
-title: 2022 Fatalities
-permalink: /fatalities2022/
+title: Washington County 2022
+permalink: /washington-county/fatalities2022/
 ---
 
 Below is a map and list of fatalities in road crashes in Washington County, Oregon, in 2022.
 
 This project is loosely inspired by Bike Portland's [Fatality Tracker](https://bikeportland.org/fatality-tracker).
 
-The data is gathered from various [sources](resources/) and may have omissions and mistakes. I appreciate any help keeping this up to date and accurate, see the [github page](https://github.com/barker29/washington-county-oregon-crashes) for how to help.
+The data is gathered from various [sources](../resources/) and may have omissions and mistakes.
 
 ![Washington County crash map](map2022.png)
 
