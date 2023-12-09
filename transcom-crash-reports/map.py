@@ -58,19 +58,31 @@ def roads(ax):
 def crashes(ax, db):
     x = []
     y = []
+    used_labels = []
     for crash in db:
         if "latitude" in crash.keys() and "longitude" in crash.keys():
             color = (0.0, 0.0, 1.0)
             symbol = "."
+            severity = ""
+            victim = "vehicle"
             if "serious" in crash["severity"]:
                 color = (1.0, 1.0, 0.0)
+                severity = "serious"
             if "fatal" in crash["severity"]:
                 color = (1.0, 0.0, 0.0)
+                severity = "fatal"
             if ("pedestrian" in crash["description"].lower() or
                 "bicycl" in crash["description"].lower()):
                 symbol = "x"
-            ax.plot(crash["longitude"], crash["latitude"],
-                    symbol, color=color, markersize=4)
+                victim = "pedestrian"
+            nextlabel = severity + " " + victim
+            if nextlabel in used_labels:
+                ax.plot(crash["longitude"], crash["latitude"],
+                        symbol, color=color, markersize=4)
+            else:
+                used_labels.append(nextlabel)
+                ax.plot(crash["longitude"], crash["latitude"],
+                        symbol, color=color, markersize=4, label=nextlabel)
 
 
 class ClickHandler:
@@ -122,6 +134,7 @@ def draw_map(db, interactive=False):
     # outfile = os.path.join("..", "docs", "map" + str(year) + ".svg")
     # outfile = os.path.join("..", "docs", "map" + str(year) + ".png")
     # plt.savefig(outfile)
+    plt.legend()
     if interactive:
         annot = plt.gca().annotate("", xy=(-123.0, 45.5))
         ch = ClickHandler(db, annot, fig)
