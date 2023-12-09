@@ -6,13 +6,11 @@ or https://mit-license.org/
 """
 
 """
-Someday, in your dreams, you may want to make this interactive, so you can
-click on a crash and look at the crash report / other data.
- One place to start:
+The interactive stuff is pretty weak, not sure it is worth improvling.
+One option is not using the native matplotlib stuff and using an actual
+GUI framework, like Tk, see:
 
 https://matplotlib.org/stable/gallery/user_interfaces/embedding_in_tk_sgskip.html
-
-There's also some native event handling in matplotlib...
 """
 
 import glob
@@ -20,6 +18,7 @@ import json
 import math
 from matplotlib import pyplot as plt
 import os
+import sys
 
 def fill_multipoly(ax, x, y, parts, color):
     for i in range(len(parts)-1):
@@ -105,10 +104,10 @@ class ClickHandler:
         self.fig.canvas.draw_idle()
 
 
-def draw_map(db, interactive=True):
+def draw_map(db, interactive=False):
     """db is a list of dicts, probably loaded from one or more human
     .json files"""
-    fig = plt.figure(figsize=(8.0, 6.0))
+    fig = plt.figure(figsize=(7.5, 6.0))
     fig.set_tight_layout(True)
     # backdrop(plt.gca())
     # cities(plt.gca(), labels=True)
@@ -124,16 +123,20 @@ def draw_map(db, interactive=True):
     # outfile = os.path.join("..", "docs", "map" + str(year) + ".png")
     # plt.savefig(outfile)
     if interactive:
-        annot = plt.gca().annotate("SOMETEXT", xy=(-123.0, 45.5))
+        annot = plt.gca().annotate("", xy=(-123.0, 45.5))
         ch = ClickHandler(db, annot, fig)
         plt.connect('button_press_event', ch)
-    plt.show()
+        plt.show()
+    else:
+        plt.savefig("hillsboro_crashes.png")
 
 
 if __name__ == "__main__":
     db = []
     for fn in glob.glob("*_human.json"):
-        # print(fn)
         with open(fn, "r") as fd:
             db = db + json.load(fd)
-    draw_map(db)
+    if len(sys.argv) > 1 and sys.argv[1] == "--interactive":
+        draw_map(db, interactive=True)
+    else:
+        draw_map(db)
