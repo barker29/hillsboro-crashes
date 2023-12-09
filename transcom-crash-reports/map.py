@@ -66,7 +66,8 @@ def crashes(ax, db):
             severity = ""
             victim = "vehicle"
             if "serious" in crash["severity"]:
-                color = (1.0, 1.0, 0.0)
+                # color = (1.0, 1.0, 0.0)
+                color = (0.6, 0.0, 0.8)
                 severity = "serious"
             if "fatal" in crash["severity"]:
                 color = (1.0, 0.0, 0.0)
