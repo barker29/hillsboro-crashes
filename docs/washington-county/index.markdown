@@ -10,7 +10,7 @@ Archived data from [2022](fatalities2022/) is also available.
 
 This project is loosely inspired by Bike Portland's [Fatality Tracker](https://bikeportland.org/fatality-tracker).
 
-The data is gathered from various [sources](resources/) and may have omissions and mistakes. I appreciate any help keeping this up to date and accurate, see the [github page](https://github.com/barker29/washington-county-oregon-crashes) for how to help.
+The data is gathered from various [sources](resources/) and may have omissions and mistakes. I appreciate any help keeping this up to date and accurate, see the [github page](https://github.com/barker29/hillsboro-crashes) for how to help.
 
 ![Washington County crash map](map2023.png)
 

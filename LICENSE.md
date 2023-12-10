@@ -8,4 +8,4 @@ The data in `metro-data/` comes from Oregon Metro and is distributed under the [
 
 The data in `odot-data/` is derived from data published with no access or republication constraints by the Oregon Department of Transportation. See the disclaimer in `odot-data/DISCLAIMER.md` for an important disclaimer and more information.
 
-The code in `tools/` is distributed under the [MIT License](https://mit-license.org/), see `tools/LICENSE`.
+The code in `tools/` and `transcom-crash-reports/` is distributed under the [MIT License](https://mit-license.org/), see `tools/LICENSE`.

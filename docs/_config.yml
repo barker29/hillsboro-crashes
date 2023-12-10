@@ -10,7 +10,7 @@ title: Hillsboro Crashes
 email: abarker@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Tracking crashes and fatalities in Hillsboro, Oregon.
-baseurl: "/washington-county-oregon-crashes/" # the subpath of your site, e.g. /blog
+baseurl: "/hillsboro-crashes/" # the subpath of your site, e.g. /blog
 url: "https://barker29.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: ors801dot220
 github_username:  barker29
