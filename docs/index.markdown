@@ -5,9 +5,9 @@
 layout: home
 ---
 
-This site is an attempt to do real-time tracking of car crashes in Hillsboro, Oregon.
+This site is an attempt to do ongoing tracking of car crashes in Hillsboro, Oregon.
 
-The [Transportation Committee](https://www.hillsboro-oregon.gov/our-city/commissions-committees-boards) appointed by the City Council receives a monthly report on some crashes in the city. The data here is compiled from those reports.
+Official data from ODOT is released with nearly a two-year delay, so the information here is compiled from  monthly reports to the [Transportation Committee](https://www.hillsboro-oregon.gov/our-city/commissions-committees-boards) under the Hillsboro City Council.
 
 ## Crash map
 
@@ -26,8 +26,9 @@ The [Transportation Committee](https://www.hillsboro-oregon.gov/our-city/commiss
 | 2023-06-14 | E Main St and NE 55th Ave |  | [link](https://hillsboro-oregon.civicweb.net/document/60479/TC%20Crash%20Report%20Memo%207.25.23.pdf) |
 | 2023-09-23 | SE 50th Avenue and E Main Street |  | [link](https://hillsboro-oregon.civicweb.net/document/164356/TC%20Crash%20Report%20Memo%2010.24.23.pdf) |
 | 2023-10-13 | SE Cornelius Pass Road and SW Augusta Lane |  | [link](https://hillsboro-oregon.civicweb.net/document/164356/TC%20Crash%20Report%20Memo%2010.24.23.pdf) |
+| 2023-11-27 | NE Cornell Road and NE Orenco Station Parkway | pedestrian | [link](https://hillsboro-oregon.civicweb.net/document/232854/TC%20Crash%20Report%20Memo%201.23.24.pdf) |
 
-*Table generated on 2023-12-03*
+*Table generated on 2024-01-21*
 
 ## This site's past life
 

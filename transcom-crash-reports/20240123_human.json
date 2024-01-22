@@ -1,0 +1,86 @@
+[
+    {
+        "date": "2023-11-11",
+        "description": "11/11/2023 \u2013 at around 8:51 a.m. at the intersection of SE 4th Avenue an SE Baseline Street.  \n Weather was rainy and pavement surface was wet . \n This crash involved a vehicle versus a pedestrian which resulted in minor injuries.  \n \n \n The driver was traveling westbound on SE Baseline St. A s they approached SE 4th Avenue,  they failed to \nnotice a vehicle stopped in middle lane for a pedestrian who was crossing from north to south on SE \nBaseline St.   \n \nThe pedestrian stopped before crossing south, at SE 4th Ave. and SE Baseline St. Pedestrian observed \nno traffic in the lane closest to them, the traffic in the middle lane stopped, and they observed no  \ntraffic in the far- left lane of SE Baseline St. Pedestrian began to cross SE Baseline St., south, by  \nrunning. The vehicle came out of nowhere and hit them as they ran across the road.  \n An independent witness collaborated the incident actions.  \n The driver was cited for failure to stop and remain stopped for pedestrian. \n Staff visited the crash site to investigate factors that might have caused the crash and found none.\n\n",
+        "in_intersection": "yes",
+        "latitude": 45.520106,
+        "longitude": -122.984446,
+        "severity": "minor injury",
+        "source": "20240123_clean.txt",
+        "street0": "SE 4th Avenue",
+        "street1": "SE Baseline Street",
+        "time": "08:51"
+    },
+    {
+        "date": "2023-11-11",
+        "description": "11/11/2023  \u2013 at around 5:20 p.m. at the intersection of SE Baseline Street and SE 7th Avenue.  \n This crash involved a vehicle versus a pedestrian . Pedestrian  was reported to have minor injuries .  \n Weather was not reported.  \n Witnesses observed the vehicle was travelling without its headlights on and \u201crunning\u201d several red \nlights in the area. Th e vehicle in question ran the red light at the intersection of SE 7th Avenue and SE \nBaseline  and stuck a pedestrian walking south on SE 7th Avenue. The vehicle then fled the scene.   \n \nThe vehicle was located, and the driver was arrested for Failure to Perform Duties of a Driver \u2013  Injury \nAccident and Reckless/Endangering.  \n \nStaff did not visit the crash site to investigate , as the crash factor in this crash was the driver who failed  \nto obey a traffic control device.  \n \n",
+        "in_intersection": "yes",
+        "latitude": 45.520076,
+        "longitude": -122.978995,
+        "severity": "minor injury",
+        "source": "20240123_clean.txt",
+        "street0": "SE Baseline Street",
+        "street1": "SE 7th Avenue",
+        "time": "17:20"
+    },
+    {
+        "date": "2023-11-27",
+        "description": "11/27/2023 \u2013 at around 8:08 p.m. at the intersection of NE Cornell Road and NE Orenco Station Parkway.\n \nThis crash involved a vehicle versus pedestrian where a fatality occurred.  \n \nWeather was clear and pavement surface was dry .  \n \nDriver stated they were driving about 35 to 40 mph in the outside lane of westbound  NE Cornell Road, \napproaching NE Orenco Station Parkway on a green light. The driver did not see the  pedestrian and \nwas not aware of his presence until after his vehicle struck him. Several independent witnesses all \ncorroborated the driver\u2019s assertion that the driver had entered the intersection on a green light. The witnesses further stated the pedestrian attempted to cross NE Cornell Road, in the eastern crosswalk, \nfrom north to south while the pedestrian signal indicated Don\u2019t Walk. It was also noted in the police  \n report that the pedestrian was believed to have an odd personality with erratic behaviors, and had been \nobserved numerous occasions, crossing the same intersection when they did not have the right of way.  \n No citations were issued.  \n Staff did visit the crash site to investigate, lighting is present at the location and staff double checked the \npedestrian signal  which was working as programmed.\n\n",
+        "in_intersection": "yes",
+        "latitude": 45.534086,
+        "longitude": -122.916768,
+        "severity": "fatal",
+        "source": "20240123_clean.txt",
+        "street0": "NE Cornell Road",
+        "street1": "NE Orenco Station Parkway",
+        "time": "20:08"
+    },
+    {
+        "date": "2023-12-12",
+        "description": "12/12/2023 \u2013 at around 6:41 a.m. at the intersection of NE Cornell Road and NE Orenco Station Parkway.\n\n This crash involved a vehicle versus bicycle  where serious injuries occurred.  \n Weather was clear and pavement surface was dry.  \n \nDriver was driving west bound on NE Cornell Rd in the left -hand  lane. They said the light at Orenco Station \nPkwy was green and had been green as they approached. They said they were driving with the flow of \ntraffic and as they entered the intersection, they suddenly saw the bicyclist come out in front of them, and \nthey had no time to react.  \n \nIndependent witnesses (different vehicles) reported they were stopped at the intersection in the \neastbound lane on NE Cornell  Rd. The witnesses reported that the  eastbound light had just turned green \nand that the bicyclist entered the crosswalk (west side) on their  bike, after the driver \u2019s light turned green \nand proceeded northbound on NE Orenco Station Pkwy. One witness stated they had to break to avoid \nhitting the bicyclist as the bicyclist entered the crosswalk. The witness es further explained as the bicyclist \nproceeded in the crosswalk and came into the westbound portion of the crosswalk, the vehicle that was \ntraveling westbound on NE Cornell Rd struck the bicyclist.  \n \nNo citations were issued.  \n \nStaff did not visit the crash site to investigate.\n\n ",
+        "in_intersection": "yes",
+        "latitude": 45.534139,
+        "longitude": -122.916768,
+        "severity": "serious injury",
+        "source": "20240123_clean.txt",
+        "street0": "NE Cornell Road",
+        "street1": "NE Orenco Station Parkway",
+        "time": "06:41"
+    },
+    {
+        "date": "2023-12-13",
+        "description": "12/13/2023 \u2013 at around 1:56 p.m. at the intersection of NE Cornelius Pass Road and E Main Street.  \n This crash involved a vehicle versus vehicle where serious injuries were reported.   \n Weather and pavement surface was not reported.  \n The driver of vehicle # 2, said they w ere north bound on Cornelius Pass Rd and had  a green light as t hey \nwere approaching the intersection at E. Main St. As they crossed over Main  St, the second driver made a \nleft hand turn into their path and collided. T he independent witness, was facing north on Cornelius  Pass in \nthe west bound turn lane for E. Main St. The witness had a clear view of vehicle #2 's light as  they entered \nthe intersection and said it was green.  \n\n",
+        "in_intersection": "yes",
+        "latitude": 45.515406,
+        "longitude": -122.901002,
+        "severity": "serious injury",
+        "source": "20240123_clean.txt",
+        "street0": "NE Cornelius Pass Road",
+        "street1": "E Main Street",
+        "time": "13:56"
+    },
+    {
+        "date": "2023-12-22",
+        "description": "12/22/2023 \u2013 at around 6:51 p.m. at approximately 50 feet west of the intersection of SW 185th Avenue and W Baseline Road.  \n  \n This crash involved a vehicle versus pedestrian where minor injuries were reported.  \n \nWeather was clear and pavement surface was dry. \n The driver said they were westbound in the # 2 lane on W Baseline Rd. They said the light changed to  \ngreen, so they had started to proceed. They estimated their speed to be around 25 mph or less when the pedestrian ran out in front of their car headed northbound. The driver said they slammed on  their brakes;  \nhowever, they were unable to avoid a collision.  \n When contacted , the pedestrian sa id they were fine and uninjured. They just wanted to leave.  They \nappeared to be visibly intoxicated. The pedestrian was noted to have a strong odor of alcohol emanating \nfrom them and  was n oted to be unsteady on their feet and  slurred speech .  \n No citations were issued.  \n Staff did not visit the crash site to investigate.  \n\n",
+        "in_intersection": "no",
+        "latitude": 45.515767,
+        "longitude": -122.867828,
+        "severity": "minor injury",
+        "source": "20240123_clean.txt",
+        "street0": "SW 185th Avenue",
+        "street1": "W Baseline Road",
+        "time": "18:51"
+    },
+    {
+        "date": "2023-12-23",
+        "description": "12/23/2023 \u2013 at around 7:29 p.m. at approximately 100 feet north of the intersection of SE 10th Avenue and SE Maple Street.\n\nThis crash involved a vehicle versus bicyclist where minor injuries were reported.  \n \nWeather was clear and pavement surface was dry.  \n \nThe driver said they were driving home, and they first stopped to make sure the sidewalk was clear before  \neasing forward across it . While still stopped in the driveway the southbound bicyclist ran into the front of \nher car. The driver said the bicyclist was riding on  the sidewalk.  \n \nIt should be noted the bicyclist would have been riding southbound on the northbound side of the street. \nSE 10th Ave. has clearly marked bicycle lanes for both north - and southbound traffic. In this area bicyclists \nare required to use the bicycle lane by statute rather than ride on the sidewalk.  \n \nA companion of the bicyclist said the bicyclist who was hit was riding southbound on the sidewalk ahead of them  when the vehicle pulled out  suddenly and struck her.  \n The bicyclist said they were riding southbound on the sidewalk when the  vehicle pulled out and hit them .  \n No citation s were issued.  \n Staff did not visit the location.  \n",
+        "in_intersection": "no",
+        "latitude": 45.515293,
+        "longitude": -122.974028,
+        "severity": "minor injury",
+        "source": "20240123_clean.txt",
+        "street0": "SE 10th Avenue",
+        "street1": "SE Maple Street",
+        "time": "19:29"
+    }
+]
