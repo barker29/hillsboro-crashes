@@ -1,0 +1,50 @@
+[
+    {
+        "date": "2024-02-01",
+        "description": "2/1/2024 \u2013 at around 6:43 p.m. near the intersection of NE 21st Avenue and NE Montgomery Street.  \nThis crash involved a vehicle versus a pedestrian with serious  injuries.  \nWeather was unknown.  \nThe pedestrian was skateboarding southbound along the center line. They said a car approached from  \nbehind them southbound, so they tried to cross at a diagonal angle in a southeasterly direction to avoid this \nvehicle and was struck by the vehicle .   \n \n The driver said they were traveling at approximately 25 miles per hour north on NE 21st Ave when \nsuddenly,  they struck a pedestrian on a skateboard. They did not see the pedestrian until the  incident \noccurred and did not have any chance on avoiding the collision. The driver said the pedestrian seemed  as if \nthey were attempting to cross the street and did not see the vehicle approach.  \n\nA witness stated they were traveling south on NE 21st Ave and witnessed two subjects riding their skateboards in the middle of the road. The witness stated they observed a vehicle traveling northbound, the witness attempted to honk to signal the two indivi duals of the incoming vehicle.  \n The witness said the skateboarder closest to the middle of the road was struck by the vehicle which they then proceeded to pull over and check on the individual . \n Observation and measurements at crash scene did not indicate high speed as a factor in this crash.  \n Staff visited the location and found that lighting does exist at the location and did not find any obvious crash factors that would have led to the crash.  \n\nNo citations related to the crash were issued.  \n\n",
+        "in_intersection": "no",
+        "latitude": 45.534,
+        "longitude": -122.96078,
+        "severity": "serious injury",
+        "source": "20240227_clean.txt",
+        "street0": "NE 21st Avenue",
+        "street1": "NE Montgomery Street",
+        "time": "18:43"
+    },
+    {
+        "date": "2024-01-22",
+        "description": "1/22/2024 \u2013 at around 8:19 p.m. near the intersection of NE 10th Avenue and E Main Street.  \n \nThis crash involved a vehicle versus a bicyclist with minor injuries.  \n \nWeather was unknown.  \n \nThe driver said they were driving north on NE 10th Avenue and attempted to make a right hand turn onto E \nMain Street. The driver said the bicyclist was heading south on NE 10th Avenue and crossing the \nintersection of E Main Street. The driver believed the bicyclist had gone against the pedestrian traffic control device due to the westbound traffic on E Main Street having a green turn arrow .  \n \nThe bicyclist sated they were not paying attention and knew they were going against the pedestrian signal \nand admitted the crash was their fault.  \n A witness came forth and said they were the first vehicle in the left turn lane on E Main Street, waiting to turn south on SE 10\nth Avenue when the bicyclist had come from their right and crossing in front of their \nvehicle as their left turn light had turned green.    \n Staff did not visit the crash location .  \n No citations were issued.  \n\n",
+        "in_intersection": "yes",
+        "latitude": 45.522298,
+        "longitude": -122.973898,
+        "severity": "minor injury",
+        "source": "20240227_clean.txt",
+        "street0": "NE 10th Avenue",
+        "street1": "E Main Street",
+        "time": "20:19"
+    },
+    {
+        "date": "2024-02-10",
+        "description": "2/10/2024 \u2013 at around 4:08 p.m.  at the intersection of SE 10th Avenue and SE Gumleaf Lane.\n\n This crash involved a vehicle versus a bicyclist with fatal injuries.  \n Weather was cloudy and pavement surface was dry.   \n  \nInvestigation is still ongoing. However what staff knows so far is that a vehicle was traveling south on SE \n10th and turned right onto SE Gumleaf from SE 10 th Ave. Between the Starbucks and the Walgreens. The \njuvenile bicyclist was traveling north on the sidewalk approaching the intersection of SE Gumleaf when they \nwere  struck by the car and ran over.   Driver remained on scene and said they never saw the bi cyclist . \n Staff has not visit ed the crash location.  \n \nUnknow if citations were issued.  \n \n",
+        "in_intersection": "yes",
+        "latitude": 45.520614,
+        "longitude": -122.974054,
+        "severity": "fatal",
+        "source": "20240227_clean.txt",
+        "street0": "SE 10th Avenue",
+        "street1": "SE Gumleaf Lane",
+        "time": "16:08"
+    },
+    {
+        "date": "2024-02-13",
+        "description": "2/13/2024 \u2013 at around 4:00 p.m.  at the intersection of NE 28th Avenue and E Main Street.  \n \nThis crash involved a vehicle versus a juvenile pedestrian  with serious  injuries.  \n \nWeather unknown.  \n \nCrash is still under investigation. What was reported is that the  toddler child was with its mother selling \nvalentines in the church parking lot on NE 28th. Witness statements report that the child ran \\sprinted \nstraight into the road without looking and was struck by a passing truck. Driver stayed on scene and \ncooperated with all aspects of the investigation.   Child was  taken by life flight and will recover.   Injuries \nwere a collapsed lung and some broken ribs.  \n Staff did not visit crash location.  \n\n",
+        "in_intersection": "yes",
+        "latitude": 45.520771,
+        "longitude": -122.954495,
+        "severity": "serious injury",
+        "source": "20240227_clean.txt",
+        "street0": "NE 28th Avenue",
+        "street1": "E Main Street",
+        "time": "16:00"
+    }
+]
