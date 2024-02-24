@@ -27,8 +27,9 @@ Official data from ODOT is released with nearly a two-year delay, so the informa
 | 2023-09-23 | SE 50th Avenue and E Main Street |  | [link](https://hillsboro-oregon.civicweb.net/document/164356/TC%20Crash%20Report%20Memo%2010.24.23.pdf) |
 | 2023-10-13 | SE Cornelius Pass Road and SW Augusta Lane |  | [link](https://hillsboro-oregon.civicweb.net/document/164356/TC%20Crash%20Report%20Memo%2010.24.23.pdf) |
 | 2023-11-27 | NE Cornell Road and NE Orenco Station Parkway | pedestrian | [link](https://hillsboro-oregon.civicweb.net/document/232854/TC%20Crash%20Report%20Memo%201.23.24.pdf) |
+| 2024-02-10 | SE 10th Avenue and SE Gumleaf Lane | bicycle | [link](https://hillsboro-oregon.civicweb.net/document/233521/TC%20Crash%20Report%20Memo%202.9.24.pdf) |
 
-*Table generated on 2024-01-21*
+*Table generated on 2024-02-23*
 
 ## This site's past life
 
