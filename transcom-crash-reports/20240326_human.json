@@ -1,0 +1,62 @@
+[
+    {
+        "date": "2024-02-19",
+        "description": "2/19/2024  \u2013 at around 10:06 p.m. near the intersection of NW 185th Avenue (overpass) and NW Sunset Hwy EB.  \n \nThis crash involved a vehicle versus a pedestrian with serious  injuries.  \n \nWeather was unknown, pavement surface was wet.  \n \n \n The driver was traveling north on NW 185th Avenue and was in the #1 lane as they crowned the hill  \nentering the intersection on a green light. The driver said suddenly  they heard the thud and their \nwindshield shattered sending glass into their face. Driver said they were going around 35 MPH and was \nslowing down for the red light ahead to turn left to get onto the freeway to travel west. Driver said \nthey never saw the pedestrian in the road prior to the collisi on. \n \nA witness was interviewed and said the driver was directly in front of them and they were also driving northbound.  The witness stated they heard a thud and saw a person and shoes fly  over the  Vehicle.  \nThe witness confirmed that the light to go northbound was green and the crosswalk for that intersection was closed and showed responding officers the areas where the crosswalks were taped off \non both sides of the road.  \n Officers responded to the hospital to obtain a statement from the pedestrian. Medical staff advised that the pedestrian had a right leg fracture and possible left leg fracture along with a large laceration to their head and other possible injures. The pede strian said they were travelling work but couldn\u2019t \nremember where they crossed the road and couldn\u2019t remember any other details of the crash.  \n No citations were issued.  \n \nStaff did not visit location as both roadways are not under City jurisdiction.  \n\n",
+        "in_intersection": "no",
+        "latitude": 45.540865,
+        "longitude": -122.867501,
+        "severity": "serious injury",
+        "source": "20240326_clean.txt",
+        "street0": "NW 185th Avenue",
+        "street1": "NW Sunset Hwy EB",
+        "time": "22:06"
+    },
+    {
+        "date": "2024-02-20",
+        "description": "2/20/2024 \u2013 at around 5:12 p.m. at the intersection of NE 6th Avenue and N E Lincoln Street.  \n \nThis crash involved a vehicle versus a bicyclist with no suspected injuries.  \n \nWeather was cloudy, pavement surface was dry . \n \nThe driver stated that the y stopped at the stop sign and cleared the intersection by looking both ways. \nOnce they hit the  gas to drive through, they observed a bicyclist in the intersection. The driver braked \nas fast  as they could however the bicyclist and the vehicle made contact. The bicyclist hit the front side \nbumper on the driver side. The bicyclist fell to the ground, got back up and asked a  passerby to call for \nmedical.  \n \nThe bicy clist stated they were riding their bike and continued through the stop sign (without stopping) . \nThey stated the driver was not paying attention and did not clear the intersection and hit them . They \nthen asked a passerby to call for an ambulance. The bicyclist stated they rolled on to the hood of the \ncar and then fell on the ground almost hitting their head.  They  wanted to go to the hospital to be \ncleared fo r any injuries.  \n \nNo citations were issued.  \n \nStaff did not visit location as bicyclist knowingly failed to obey a traffic control device.  \n \n",
+        "in_intersection": "yes",
+        "latitude": 45.523878,
+        "longitude": -122.98068,
+        "severity": "no injury",
+        "source": "20240326_clean.txt",
+        "street0": "NE 6th Avenue",
+        "street1": "NE Lincoln Street",
+        "time": "17:12"
+    },
+    {
+        "date": "2024-02-29",
+        "description": "2/29/2024 \u2013 at around 6:48 p.m. at the intersection of NE Cornell Road and NE Century Blvd.\n  \nThis crash involved a vehicle versus a pedestrian with minor injuries.  \n Weather was  heavy rain and pavement surface was wet.  \n The driver was driving southbound on NE Century Boulevard preparing to turn eastbound on NE Cornell Road. They said they were travelling about 15 mph as they entered the intersection while the light was turning yellow and turned onto NE Cornell Road. They did not see the pedestrian when they entered the intersection. They struck the passenger on the front of their vehicle. Damage was not observed to the front of the vehicle.  \n \nOfficers responded to hospital and spoke with the pedestrian;  the pedestrian told officers they were \ncrossing southbound with a walk signal across NE Cornell Road when they were struck. The pedestrian \nsaid they were feeling pain in left hip and left leg. Officers called pedestrian a couple days later to \ncheck in and the pedestrian said they had two broken fingers but otherwise no other injuries.  \n Staff did not visit the crash location.  This crash occurred on a County facility.   \n \nNo citations were issued.  \n \n",
+        "in_intersection": "yes",
+        "latitude": 45.53428,
+        "longitude": -122.911843,
+        "severity": "minor injury",
+        "source": "20240326_clean.txt",
+        "street0": "NE Cornell Road",
+        "street1": "NE Century Blvd",
+        "time": "18:48"
+    },
+    {
+        "date": "2024-03-12",
+        "description": "3/12/2024 \u2013 at around 2:45 p.m. just south of the intersection of E Main Street and SE 18th Avenue .  \n This crash involved a vehicle versus a bicyclist with minor injuries.  \n Weather was cloudy and the pavement surface was wet.  \n \nThe bicyclist stated they were traveling east on E Main St. in the bike lane approaching SE 18th Ave.  \nThe bicyclist said that as they were turning right onto SE 18th Ave, they saw a vehicle start to make a \nright onto SE 18th Ave. The v ehicle went into the bike lane prior to the intersection and started their \nturn. The bicyclist stated they made contact with the  vehicle and rode parallel with the v ehicle  for a \nshort time  and then they fell on  their left side. Minor injuries were observed . \n \nThe driver said they were  going the speed limit because they were behind a police  car. The driver said \nthey turned right on SE 18th Avenue and the bicyclist crashed in to the back of their vehicle . \n \nStaff did not visit crash location.  \n No citations were issued.\n \n",
+        "in_intersection": "no",
+        "latitude": 45.521292,
+        "longitude": -122.963728,
+        "severity": "minor injury",
+        "source": "20240326_clean.txt",
+        "street0": "E Main Street",
+        "street1": "SE 18th Avenue",
+        "time": "14:45"
+    },
+    {
+        "date": "2024-03-15",
+        "description": "3/15/2024 \u2013 at around 8:54 a.m. at the intersection of NW 185th Avenue and NE Eider Court.\n\n This crash involved a vehicle versus a bicyclist with no apparent injuries.  \n \nWeather was clear and the pavement surface was dry.   \n  \nThe driver stated they were facing westbound at NE Eider Ct, merging onto NW 185th Avenue with \ntheir traffic light green, when suddenly the bicyclist crashed directly into them . \n \nThe bicyclist confirmed they were riding their bicycle heading northbound with their traffic light being \nred. The bicyclist mentioned that their brakes must not be working properly because they attempted to activate the brakes, but they didn't respond adequately.  \n Staff did not visit crash location.  \n No citations were issued.  \n",
+        "in_intersection": "yes",
+        "latitude": 45.533063,
+        "longitude": -122.867573,
+        "severity": "no injury",
+        "source": "20240326_clean.txt",
+        "street0": "NW 185th Avenue",
+        "street1": "NE Eider Court",
+        "time": "08:54"
+    }
+]
