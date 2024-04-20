@@ -1,0 +1,62 @@
+[
+    {
+        "date": "2024-03-23",
+        "description": "3/23/2024 \u2013 at around 1:08 a.m. near the intersection of NE Cornell Road and NE Walbridge Street.  \n This crash involved a single DUII vehicle into a tree  with serious injuries . \n Weather was recent rainy;  pavement surface was wet . \n Driver was left incapacitated by crash and was unable to provide statement. Witness to crash provided a video of crash. The video showed vehicle travelling eastbound on Cornell approaching the intersection at Century Blvd. After slowing for a red light, th e vehicle drifted into the right lane and then appeared to \naccelerate and continued to accelerate after it left the roadway and impacted the tree. There was no \n \n evidence of braking on scene and video confirmed this. Blood alcohol level was measured to be nearly 4x \nthe legal limit.  \n Staff did not visit location as cause of crash was likely due to DUII.  \n\n",
+        "in_intersection": "yes",
+        "latitude": 45.535244,
+        "longitude": -122.907799,
+        "severity": "serious injury",
+        "source": "20240423_clean.txt",
+        "street0": "NE Cornell Road",
+        "street1": "NE Walbridge Street",
+        "time": "01:08"
+    },
+    {
+        "date": "2024-03-25",
+        "description": "3/25/2024 \u2013 at around 6:23 p.m. at the intersection of SW 185th Avenue and SE Salix Terrace.\n\n This crash involved a vehicle versus a pedestrian with no injuries.  \n \nWeather was raining , pavement surface was dry.  \n \nThe driver stated t hey were westbound on Salix with intent to turn left to travel southbound on 185\nth. \nWhen light turned green, they proceeded with their turn. Driver did see the pedestrian crossing but did not \nsee the pedestrian until impact.   \n The pedestrian stated they were crossing westbound in crosswalk when driver turned into them at very low \nspeed. Pedestrian did fall to the ground, but it did not result in injuries.  \n No citations were issued.  \n While the location is not under Hillsboro  jurisdiction, staff did visit location. Staff did not observe any \nobstructions that would prevent  the driver or pedestrian from seeing one another.   \n\n",
+        "in_intersection": "yes",
+        "latitude": 45.517696,
+        "longitude": -122.867386,
+        "severity": "no injury",
+        "source": "20240423_clean.txt",
+        "street0": "SW 185th Avenue",
+        "street1": "SE Salix Terrace",
+        "time": "18:23"
+    },
+    {
+        "date": "2024-03-31",
+        "description": "3/31/2024 \u2013 at around 3:01 p.m. at the intersection of SE 12th Avenue and SE Baseline Street.\n \nThis crash involved a vehicle versus a pedestrian  with minor  injuries.  \n \nWeather was  unknown, pavement  surface was dry. \n The driver was driving northbound on SE 12\nth with intent to turn left onto SE Baseline. Driver stopped at \nstop sign and proceeded with turn and struck pedestrian in crosswalk. Driver thought the pedestrian wa s \nobstructed by the \u201cA\u201d pillar in their vehicle.  \n The pedestrian told officers they were crossing southbound in the crosswalk on Baseline when the driver \nfailed to stop at their stop sign and struck them.  \n There were no independent witnesses to crash.  \n Staff did not visit the crash location  since driver claimed vision obstruction was caused by vehicle.   \n \nNo citations were issued.  \n \n",
+        "in_intersection": "yes",
+        "latitude": 45.520012,
+        "longitude": -122.97017,
+        "severity": "minor injury",
+        "source": "20240423_clean.txt",
+        "street0": "SE 12th Avenue",
+        "street1": "SE Baseline Street",
+        "time": "15:01"
+    },
+    {
+        "date": "2024-04-01",
+        "description": "4/1/2024 \u2013 at around 5:42 p.m. at the intersection of NE Stucki Avenue and NE Thorncroft Drive.  \n \nThis crash involved a vehicle versus a pedestrian  with minor  injuries.  \n  \n Weather was cl ear and the pavement surface was dry . \n \nThe pedestrian was walking east in the southern crosswalk of the intersection, across NE Stucki Ave. The pedestrian said they were approximately 10 feet into the intersection when they were hit.  \n The driver said they were turning left from westbound NE Thorncroft Dr to southbound NE Stucki Ave.  The driver told officers they did not see the pedestrian crossing in the crosswalk due to the sun in their eyes. The driver said they heard one of their pa ssengers scream but they did not know what they were screaming \nabout. The driver said they saw the pedestrian just before impact, and slammed on the b rakes but was not \nable to stop in time.  \n Staff did not visit crash location  due to sun blindness claim . \n A citation for failure to stop and remain stopped for a pedestrian was issued.  \n\n",
+        "in_intersection": "yes",
+        "latitude": 45.536722,
+        "longitude": -122.876417,
+        "severity": "minor injury",
+        "source": "20240423_clean.txt",
+        "street0": "NE Stucki Avenue",
+        "street1": "NE Thorncroft Drive",
+        "time": "17:42"
+    },
+    {
+        "date": "2024-04-12",
+        "description": "4/12/2024  \u2013 at around 4:01 p.m. at approximately 30 feet east of the intersection of SE Walnut Street and SE 5th Avenue.\n\n This crash involved a vehicle versus a pedestrian with a suspected broken ankle.  \n The pedestrian was attempting to cross SE Walnut St when they were struck by a vehicle. The pedestrian remembered looking to the right and proceeded to cross when a vehicle from the left struck them . The \npedestrian does not recall seeing t he vehicle . \n At the time of the collision the pedestrian was not in a crosswalk and was attempting to cross the  street in \na non -intersection area.  \n The driver had been driving east on SE Walnut St. They recalled they had just stopped at the intersection with SE 5\nth Ave, then proceeded east. Approximately thirty feet east of the intersection, a pedestrian \nstepped out from between two parked cars on the south side of Walnut. The driver observed the pedestrian too late, and the front right corner of the vehicle impacted  the pedestrian, knocking them to the \nground.  \n A witness to the crash, stated they observed the driver driving east on SE 5th Ave, and saw the pedestrian \nstep off the south sidewalk of SE Walnut St, mid -block between SE 5th Ave and SE 6th Ave. The pedestrian \nwalked between two parked vehicles, and directly in front of the truck, which the witness stated was driving normal speed. The witness observed the pedestrian be struck b y the truck, then fall to the ground.  \n \nStaff did not visit crash location.  \n \nNo citations were issued.  \n",
+        "in_intersection": "no",
+        "latitude": 45.517532,
+        "longitude": -122.982404,
+        "severity": "minor injury",
+        "source": "20240423_clean.txt",
+        "street0": "SE Walnut Street",
+        "street1": "SE 5th Avenue",
+        "time": "16:01"
+    }
+]
