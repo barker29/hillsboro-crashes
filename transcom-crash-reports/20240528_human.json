@@ -1,0 +1,62 @@
+[
+    {
+        "date": "2024-04-25",
+        "description": "4/25/2024 \u2013 at around 1:33 p.m. at the intersection of N E Brookwood Parkway and  NE Cornell Road\n \n This crash involved two vehicles with serious injuries . \n Weather was cloudy ; pavement surface was dry . \n Driver of a Nissan 350z was travelling north on Brookwood and lost control as they attempted to make \na right hand turn onto NE Cornell Rd. The driver intentionally accelerated into the turn to cause the \n  vehicle to spin  180 degree s. The vehicle then started travelling south in the northbound lane of travel. \nThe vehicle appeared to be traveling at a high rate of speed prior to losing control. The second vehicle \napproached the intersection northbound, when the 350z collided with it.  Several witnesses to the \ncrash and prior to the crash stated the driver of the 350z was travelling at a high rate of speed and was intentionally \u201cshowing\u201d off with  the spin in the intersection.   \n Driver was taken into custody  with probable cause of reckless driving, reckless endangering,  and \nassault III . \n Staff did not visit location as cause of crash  was caused by reckless behavior.\n \n ",
+        "in_intersection": "yes",
+        "latitude": 45.532719,
+        "longitude": -122.938011,
+        "severity": "serious injury",
+        "source": "20240528_clean.txt",
+        "street0": "NE Brookwood Parkway",
+        "street1": "NE Cornell Road",
+        "time": "13:33"
+    },
+    {
+        "date": "2024-04-28",
+        "description": "4/28/2024 \u2013 at around 12:15 p.m. at approximately 200 feet south of the intersection of NE Century Blvd and NE Westmark Drive.\n\n This crash involved a single vehicle into two trees . Driver was transported  with serious  injuries.  \n Weather was raining , pavement surface was wet. \n According to re porting officer , a skid mark showed the vehicle was traveling south on NE Century Blvd \ncrossed into the northbound lane, struck the curb, and impacted two trees on the east side of the street. There was debris from the vehicle south of the final resting spot and concentra ted southeast of \nthe final resting spot.  \n A witness said he and his colleagues were placing a sign further north on NE Century Blvd. He  said the \nvehicle went by them southbound in excess of 80 MPH. He  said he saw the vehicle begin to lose \ncontrol and start fishtailing. He  said the vehicle disappeared, and that was when they  heard the crash. \nHe and his co -workers went to the crash scene and tried to get the  driver out.    \n Driver was not interviewed . \n Unknown if citations were issued.  \n Staff did not visit location as cause of crash  was caused by reckless behavior.  \n\n",
+        "in_intersection": "no",
+        "latitude": 45.570323,
+        "longitude": -122.909136,
+        "severity": "serious injury",
+        "source": "20240528_clean.txt",
+        "street0": "NE Century Blvd",
+        "street1": "NE Westmark Drive",
+        "time": "24:15"
+    },
+    {
+        "date": "2024-05-14",
+        "description": "5/14/2024 \u2013 at around 4:24 p.m. at  the intersection of NE Walker Road and NE John Olsen Avenue.\n \nThis crash was vehicle versus bicycle with bicyclist having minor injuries (minor scrapes).  \n \nWeather was clear, pavement surface was dry . \n The driver was traveling south on NE John Olsen Ave  with a green light . When the driver proceeded to \nturn right onto NE Walker Rd  they did not see the bicyclist travelling south on  NE John Olsen Ave in the \nbicycle lane and the bicyclist collided with the back right quarter  panel of the vehicle.  \n  \n The bicyclist was riding in the bike lane at around 15 -18 MPH travelling south on NE John Olsen Ave. \nThe light at the intersection was green and they started to slow down when a vehicle turned in front of \nthem. The cyclist applied his brakes but was unable  to stop and hit the back right quarter panel of the \nvehicle . \n The driver was cited for Failure to Yield to Rider in Bicycle Lane.   \n\n",
+        "in_intersection": "yes",
+        "latitude": 45.536064,
+        "longitude": -122.888452,
+        "severity": "minor injury",
+        "source": "20240528_clean.txt",
+        "street0": "NE Walker Road",
+        "street1": "NE John Olsen Avenue",
+        "time": "16:24"
+    },
+    {
+        "date": "2024-05-16",
+        "description": "5/16/2024 \u2013 at around 10:10 p.m. at the intersection of SE TV Hwy and SE Cypress Street.\n\n This crash involved a vehicle and a pedestrian with fatal injuries. The vehicle left the scene.  \nThis crash is still under investigation.  \n Weather and pavement surface was unknown.  \n According to a witness , the vehicle was in the left turn lane on SE Tualatin Valley Highway and turned \nleft onto SE  Cypress Street going fast. The witness saw a pedestrian running across the crosswalk going \neastbound. The truck left the scene headed northbound on SE Cypress Street.  \n Staff did not visit crash location . \n\n",
+        "in_intersection": "yes",
+        "latitude": 45.506797,
+        "longitude": -122.961047,
+        "severity": "fatality",
+        "source": "20240528_clean.txt",
+        "street0": "SE TV Hwy",
+        "street1": "SE Cypress Street",
+        "time": "22:10"
+    },
+    {
+        "date": "2024-05-20",
+        "description": "5/20/2024 \u2013 at around 7:34 p.m. at the intersection of NE Brookwood Parkway just south of NE Shute Road.\n\n This crash involved a single motorcycle with fatal injuries.  \n Weather and pavement surface unknown.  \n A witness stated they were traveling northbound on NE Brookwood and was traveling in the far -right \nlane. They were approaching NE Shute Rd, when they heard a motorcycle (Oregon License Plate M860297) rev their engine. The witness stated the motorcycle began to enter their lane of travel at approximately 20  yards in front of them. The motorcycle kept going right and seemed to lose control. \nThe motorcycle hit the curb, jumped the curb, and hit the tree.  \nCrash reports indicate th e rider was not wearing a helmet.  \n Staff did not visit location as cause of crash  was caused by reckless behavior.  \n",
+        "in_intersection": "no",
+        "latitude": 45.548046,
+        "longitude": -122.927595,
+        "severity": "fatality",
+        "source": "20240528_clean.txt",
+        "street0": "NE Brookwood Parkway",
+        "street1": "NE Shute Road",
+        "time": "19:34"
+    }
+]
