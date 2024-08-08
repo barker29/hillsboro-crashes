@@ -1,0 +1,122 @@
+[
+    {
+        "date": "2024-06-12",
+        "description": "6/12/2024 \u2013 at around 5:11 p.m. at the driveway of 1035 NE 25th Avenue  (808 Grinds) .\n\nThis crash was vehicle versus bicyclist  with the bicyclist having no injuries. \nWeather was clear; pavement surface was dry. \nThe crash occurred in the southbound bicycle lane. The bicycle involved was an electric -assisted bicycle. \nThe rider told me they were riding southbound probably faster than they should have been riding, as \nvehicle traffic was backed up. They said a vehicle took a left from northbound NE 25th Ave through a gap in the stopped vehicles, which placed it directly in their path and they were not able to avoid a collision . \n \n The driver said they were northbound on NE 25th Ave. intending to turn left into the parking lot. When a \ngap presented itself, they pulled through the stopped southbound vehicles. They saw the bicyclist coming quickly, they stopped, and the bicyclist hit t he front of their vehicle.  \n A witness said the cyclist was riding on the sidewalk and said both the driver and the cyclist tried to avoid the crash.  \n No citations were issued . \n Staff did not visit location . \n\n",
+        "in_intersection": "no",
+        "latitude": 45.533245,
+        "longitude": -122.956894,
+        "severity": "no injury",
+        "source": "20240723_clean.txt",
+        "street0": "NE 25th Avenue",
+        "street1": "driveway of 808 Grinds",
+        "time": "17:11"
+    },
+    {
+        "date": "2024-06-12",
+        "description": "6/12/2024 \u2013 at 6:00 p.m. at the intersection of NE Cornell Road and NE Stucki Avenue.\n\n This crash was vehicle versus bicyclist with the bicyclist  having no injuries.  \n Weather was clear; pavement surface was dry.  \n The rider  said they were riding westbound on the southern sidewalk, which was the sidewalk along  \neastbound NE Cornell Rd. They said the crosswalk signal was a red hand, but they saw the westbound \ntraffic  lights were green so decided to go. They further said the brakes on the bicycle were virtually non -\nexistent, so they were unable to stop anyway. They felt since the westbound lights were green this meant they could go, and said the driver carelessly pulled  in front of them. The rider insisted it was the dri ver's \nfault.  When asked why they were  not using the bicycle lane, they said they would\u2019ve  been  hit there  \nanyway. The rider became angry and animated when the officer told the rider by their own admission t hey \nwere  riding on the sidewalk and relied on lights for traffic on the other side of the road to  supersede the \npedestrian control, which was what they should have followed . The rider continued to say it was not their \nfault and they legally could ride into the intersection regardless of what the  pedestrian  control said because \nthe lights for westbound traffic were green. No matter how  the officer tried to explain to the rider that they \nshould have been riding in the westbound bicycle lane and  not westbound on the eastbound sidewalk the \nrider disputed what the officer said and became angrier and angrier.  \n \nThe driver said they were turning right from northbound NE Stucki Ave. onto eastbound NE Cornell Rd. \nThey said they stopped, thought both ways were clear, and started their turn to the right. They said the \nbicycle then crashed into their vehicle.  \n \nA witness said they were traveling westbound on NE Cornell Rd. on a green light. They said the bicyclist was \nriding westbound on the southern sidewalk (eastbound direction). They said they were crossing into the \nintersection when they saw the vehicle slowly turning right from northbound NE Stucki Ave. onto \neastbound NE Cornell Rd. They said the bicyclist hit the vehicle and landed on its driver' s side.  \n \nThe bicyclist was cited for Failure of Bicycle Operator to Use Bike Lane and Unsafe Operation of Bicycle on \nSidewalk.  \n Staff did not visit location.  \n \n",
+        "in_intersection": "yes",
+        "latitude": 45.534708,
+        "longitude": -122.877721,
+        "severity": "no injury",
+        "source": "20240723_clean.txt",
+        "street0": "NE Cornell Road",
+        "street1": "NE Stucki Avenue",
+        "time": "18:00"
+    },
+    {
+        "date": "2024-06-16",
+        "description": "6/16/2024 \u2013 at around 11:19 p.m. at the intersection of NE Evergreen Pkwy and NE Stucki Avenue.   \n  \nThis crash involved three vehicles (Chrysler, 4Runner and Focus) with one driver transported with serious  \ninjuries.  \n Witnesses observed a vehicle (Chrysler)  travelling eastbound on NE Evergreen a s it approached NE Stucki a \nvehicle (4Runner) turned left from NW Evergreen Pkwy to head south on NE Stucki Avenue and the two \nvehicles collided and the 4Runner  flipped twice. The 4Runner flipped up onto th e hood of the third vehicle \n(Focus) which was in the turn lane of NE Stucki Avenue northbound as it prepared to head west on NE \nEvergreen.  \n The driver of the Chrysler was transported with serious injuries and was unable to provide a statement as they could not remember what happened.   The driver of the 4Runner was arrested for DUII, Reckless Driving and Assault IV.  \n Staff did not visit the location.   \n\n",
+        "in_intersection": "yes",
+        "latitude": 45.54063,
+        "longitude": -122.874245,
+        "severity": "serious injury",
+        "source": "20240723_clean.txt",
+        "street0": "NE Evergreen Pkwy",
+        "street1": "NE Stucki Avenue",
+        "time": "23:19"
+    },
+    {
+        "date": "2024-06-21",
+        "description": "6/21/2024 \u2013 at around 1:53 p.m. at the intersection of SE 4th Avenue and SE Baseline Street .\n\n This crash involved two vehicles where both the driver and passenger were transported to area hospitals \nwith serious injuries.  \n Weather unknown . \n According to re porting officer, a driver was driving west, in the right lane of SE Baseline St at about 25 mph. \nAs the driver approached the intersection of SE 4\nth St., they said a silver car came fast across the \nintersection traveling north. They were unable to avoid the collision.  \n \nThe second driver said they were stopped at the stop sign of SE 4th Ave waiting to cross SE Baseline. Drivers \nin the left and middle lane stopped and allowed them  to cross the street but the car in the far -right lane, \ndid not stop and they crashed.  \n \nThe driver was cited for Failure to Obey Traffic Control Device (Stop Sign) .  \n Staff did not visit crash location.  \n\n",
+        "in_intersection": "yes",
+        "latitude": 45.520127,
+        "longitude": -122.984408,
+        "severity": "serious injury",
+        "source": "20240723_clean.txt",
+        "street0": "SE 4th Avenue",
+        "street1": "SE Baseline Street",
+        "time": "13:53"
+    },
+    {
+        "date": "2024-06-24",
+        "description": "6/24/2024 \u2013 at around 7:43 a.m. at the intersection of SE River Road and SE Witch Hazel Road.\n\n This crash was vehicle versus pedestrian with the pedestrian having minor injuries.  \n Weather was clear, pavement surface was dry.  \n The driver was traveling on SE River Rd, southbound, and was turning left on to SE Witch Hazel Rd. They estimated their speed at about 5 mph when the accident occurred. The driver said when they were turning, they heard a thud and then observed something o ut of the corner of their left eye. The driver then realized  \n they hit a pedestrian. The driver said as they were turning the sun was in their eyes, and they did not see \nthe pedestrian crossing the roadway.   \n The pedestrian said they were walking along SE River Rd as they went to cross SE Witch Hazel Rd,  they said \na car was turning left onto SE Witch Hazel Rd from SE River Rd.  The vehicle hit their legs and they fell to the ground and hit their head on the ground.   The driver was cited for Failure to Yield Right of Way.  \n Staff did not visit crash location.   \n\n",
+        "in_intersection": "yes",
+        "latitude": 45.497109,
+        "longitude": -122.945121,
+        "severity": "minor injury",
+        "source": "20240723_clean.txt",
+        "street0": "SE River Road",
+        "street1": "SE Witch Hazel Road",
+        "time": "07:43"
+    },
+    {
+        "date": "2024-06-25",
+        "description": "6/25/2024 \u2013 at around 8:43 a.m. at  the intersection of S 1st Avenue and SW Oak Street.\n\n This crash was vehicle versus bicyclist with the bicyclist having no injuries .  \n Weather was clear, pavement surface was dry.  \n The bicyclist was riding their bicycle on the south sidewalk of eastbound SW Oak St. They went thru the \nintersection on a red crosswalk light, even though the north and southbound traffic had a green light.  The \nbicyclist hit the side of a vehicle which wa s proceeding thru the intersection.  \n \nThe driver stated they were rolling up to the intersection as the light was red and he was in the left lane. As \nthe light turned green,  they proceeded thru the intersection. As they got to the crosswalk area the vehicle \nto the right was still stopped. This is when the bicyclist appeared and hit the passenger side of their vehicle.  \n \nThere were no witnesses who observed crash.   \n \nThe bicyclist was cited for Failure to Obey a Traffic Control Device.  \n Staff did not visit crash location.    \n \n",
+        "in_intersection": "yes",
+        "latitude": 45.518883,
+        "longitude": -122.98986,
+        "severity": "no injury",
+        "source": "20240723_clean.txt",
+        "street0": "S 1st Avenue",
+        "street1": "SW Oak Street",
+        "time": "08:43"
+    },
+    {
+        "date": "2024-06-29",
+        "description": "6/29/2024 \u2013 at around 1:49 a.m. at the intersection of SE 24th and SE TV Hwy.\n \nThis was a three vehicle (F150, Camry & Highlander) rear  end crash resulting in serious injuries to drivers \nand pedestrians.   \n Weather was  unknown . \n \nThe driver of the Camry (middle vehicle) was stopped at a red light when they were rearended by the F150. \nThis impact was hard enough to force them to hit the Highlander.  \n The driver of the Highlander ( first vehicle) was stopped at a red light when they were rearended by the \nCamry. This impact was  with enough force to send them across the intersection.  \n The driver of the F150 (last vehicle) attempted to walk away from the scene and was determined to be \nDUII.  \n  \nThe driver was arrested for DUII, Reckless Endangerment x 5, Reckless Driving, and Hit & Run Felony Failure to Perform the Duties of a Driver.    \n Staff did not visit crash location.   \n\n",
+        "in_intersection": "yes",
+        "latitude": 45.504418,
+        "longitude": -122.955249,
+        "severity": "serious injury",
+        "source": "20240723_clean.txt",
+        "street0": "SE 24th",
+        "street1": "SE TV Hwy",
+        "time": "01:49"
+    },
+    {
+        "date": "2024-07-08",
+        "description": "7/8/2024 \u2013 at around 8:21 a.m. at the intersection of NE Walker Road and NE Stucki Avenue.\n\n This crash was vehicle versus pedestrian with the pedestrian having minor injuries.  \n Weather was clear, pavement surface was dry.  \n The driver said they were traveling westbound on NE Walker Road and was nearing the intersection of NE Stucki Avenue. They had moved into the left of the two right turn lanes and their traffic light was red. They pulled up to the crosswalk to stop and was looking to their left to see any traffic. They said they know that once you have stopped and if the traffic is clear, then they can proceed in making a right turn on the red light. The driver continued with they were watching for traffic and saw it was clear and began to make a right turn onto NE Stucki Avenue when they suddenly hit the pedestrian.  \n The pedestrian said they were walking in the crosswalk at the location heading from East to West and  going \nto Amberglen park a short distance away. They said they had the walk signal indicating they could proceed through the cross walk, and they were struck by a vehicle.  \n \nA witness stated that they and other vehicles on NE Walker Rd were stopped at the light. The witness saw the pedestrian crossing the sidewalk, but the vehicle in front of them decided to drive forward and struck the pedestrian.  \n The driver was cited for Failing to Yield to a Pedestrian in a Crosswalk.     \n Staff did not visit crash location.   \n \n",
+        "in_intersection": "yes",
+        "latitude": 45.53315,
+        "longitude": -122.879589,
+        "severity": "minor",
+        "source": "20240723_clean.txt",
+        "street0": "NE Walker Road",
+        "street1": "NE Stucki Avenue",
+        "time": "08:21"
+    },
+    {
+        "date": "2024-07-14",
+        "description": "7/14/2024 \u2013 at around  11:23 p.m. at the intersection of E Main Street and NE Cornelius Pass Road .  \n \nThis crash involved three vehicles (Mercedes, Lexus and GMC) w ith one driver (Mercedes) fatally injured  \nand other drivers suffering suspected serious injuries .  \n \nWeather w as not reported.  \n \nOfficers arrived on scene and observed a grey Mercedes sitting at the northwest corner of the intersection \nwith heavy damage, fully engulfed  in flames. A single occupant (driver) was deceased inside the Mercedes.  \n \nThe GMC driver whose primary language was Spanish was hardly able to speak due to significant pain,  so \nthey initially were unable to obtain a statement of what had happened. They were transported by AMR \nambulance to Emanuel Hospital.   \n\n Later the driver with difficulty speaking from sustained significant injuries told officers all they could \nremember was they were driving the speed limit, and the light was green. They said suddenly a car appeared and a crash occurred.  \n The GMC driver was very emotional, was crying, officers could tell the whole event had really taken  a \nmassive toll on the drivers mental state.  \n \nThe driver of the Lexus was driving southbound on NE Cornelius Pass Rd, entering the left turn lane for \neastbound W Baseline St. They sat at the traffic control light, which was green for northbound and southbound traffic on Cornelius Pass, with the left tu rn signal being a flashing yellow arrow. They waited for \nnorthbound traffic to clear before making a left turn on the flashing yellow traffic signal. As they started the turn, they she saw a light -colored  small vehicle  (Mercedes)  travelling at a high rate  of speed westbound on \nW Baseline St, blow the red light and enter the intersection. The driver of the Lexus said they had no time \nto react and could not  avoid a collision with the vehicle. They pointed to the crashed GMC  and said they did \nnot think they were struck by the large truck.  The driver of the Lexus was transported for injury evaluation.  \n \nNo citations were issued.      Staff did not visit crash location.  \n\n",
+        "in_intersection": "yes",
+        "latitude": 45.515335,
+        "longitude": -122.901004,
+        "severity": "fatality",
+        "source": "20240723_clean.txt",
+        "street0": "E Main Street",
+        "street1": "NE Cornelius Pass Road",
+        "time": "23:23"
+    },
+    {
+        "date": "2024-07-17",
+        "description": "7/17/2024 \u2013 at around  3:15 a.m. at the intersection of  SW Baseline and SW Dennis Avenue. \n\nThis crash is still under investigation.  \n Initial reports indicate it was a single vehicle crash with a single occupant. Vehicle left the roadway and struck a tree. Speed and alcohol may have contributed to this crash.   \n",
+        "in_intersection": "yes",
+        "latitude": 45.520159,
+        "longitude": -122.995789,
+        "severity": "unknown",
+        "source": "20240723_clean.txt",
+        "street0": "SW Baseline",
+        "street1": "SW Dennis Avenue",
+        "time": "03:15"
+    }
+]
