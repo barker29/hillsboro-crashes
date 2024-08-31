@@ -1,0 +1,62 @@
+[
+    {
+        "date": "2024-07-20",
+        "description": "7/20/2024 \u2013 at around 11:58 p.m. at the intersection of SE TV Hwy and SE Brookwood Avenue.  \n This crash was vehicle versus motorcyclist  with the motorcyclist having fatal injuries . \n Weather was clear; pavement surface was dry. \n The crash occurred on the south side of the intersection just north of the train tracks.  \n \n \n The vehicle was in the turn lane for westbound traffic on TV Hwy to turn left/south onto SE Brookwood \nAvenue. The motorcycle was going straight/east on SE TV Hwy. The crash occurred as they were \nmaking the left turn with a flashing yellow light onto SE Brookwood.  The driver thought there was \nenough distance and time to make the turn.  \n Unknown if citations were issued.  \n\n",
+        "in_intersection": "yes",
+        "latitude": 45.50049,
+        "longitude": -122.930909,
+        "severity": "fatality",
+        "source": "20240827_clean.txt",
+        "street0": "SE TV Hwy",
+        "street1": "SE Brookwood Avenue",
+        "time": "23:58"
+    },
+    {
+        "date": "2024-07-28",
+        "description": "7/28/2024 \u2013 at around 9:58 p.m. at the intersection of SE 10th Avenue and SE Walnut Street.  \n This crash was a four -vehicle rear end crash with suspected serious injuries.  \n Weather was clear; pavement surface was dry.  \n Driver 1 was stopped northbound on SE 10th, just south of SE Walnut St. waiting for the light and heard \na loud crash and then felt impact to the rear of their vehicle.  \n \nDriver two stated they were stopped northbound on SE 10th, just south of SE Walnut St. waiting for the \nlight to turn green when an unknown vehicle rear ended their vehicle.   \n \nDriver 3 was also stopped at the light at SE Walnut ST and heard a loud noise before the impact.  \n\nDriver 4 said that the vehicle in front of them suddenly braked and they were unable to stop in time. \nDriver 4 displayed indicators of impairment and admitted to driving under the influence.  \n \nDriver was arrested for DUII  \n\n",
+        "in_intersection": "yes",
+        "latitude": 45.517466,
+        "longitude": -122.97398,
+        "severity": "serious injury",
+        "source": "20240827_clean.txt",
+        "street0": "SE 10th Avenue",
+        "street1": "SE Walnut Street",
+        "time": "21:58"
+    },
+    {
+        "date": "2024-07-29",
+        "description": "7/29/2024 \u2013 at around 2:45 a.m. on E Main Street approximately 500 ft east of NE 69th Avenue.\n\nThis crash was a single vehicle roll over crash where two occupants had been ejected with suspected \nserious injuries.  \n \nWeather was clear; pavement surface was dry.  \n Both occupants of the vehicle were interviewed and refused to cooperate with officers and with \nhospital staff. Officers on scene believed that the occupants were possibly intoxicated, however \nhospital staff can only obtain blood from the driver. Due to their uncooperative manner, a driver was \nnot identified.  \n \nUnknown if citations were issued at later date.  \n \n",
+        "in_intersection": "no",
+        "latitude": 45.519811,
+        "longitude": -122.911101,
+        "severity": "serious injury",
+        "source": "20240827_clean.txt",
+        "street0": "E Main Street",
+        "street1": "NE 69th Avenue",
+        "time": "02:45"
+    },
+    {
+        "date": "2024-07-31",
+        "description": "7/31/2024 \u2013 at around 3:02 p.m. at the intersection of SE Cornelius Pass Road and SE Frances Street.  \n \nThis crash was a vehicle versus pedestrian with the pedestrian having minor injuries.  \n  \n Weather was clear; pavement surface was dry.  \n \nThe driver said they were in the right southbound lane of SE Cornelius Pass Road and stopped for a red traffic  light at SE Frances Street. They stated they had noticed the pedestrian standing on the southeast \ncorner with their scooter and didn't think much about it. They said their traffic light turned green and they began going southbound and as they got through the intersection, suddenly the pedestrian was \nbouncing across the hood of their car and slamming into the windshield, shattering it, and rolling off onto the ground.  \n The pedestrian wasn't sure  what happened and guessed their pedestrian light must have been red.  \n A witness said the pedestrian was standing on the southeast corner of the intersection waiting to cross the road. Further stating as their traffic light turned green for them to go, the pedestrian left the safety of the sidewalk and began crossing the road from the east to the west across the front of the vehicles \nthat now had a green traffic light to go north and southbound. The witness honked at the pedestrian to warn them not to do that, but that the pedestrian waved them off  in a manner that said they w ere \ngoing to go anyway. The pedestrian then used their scooter to hurry across the road and even angled \nout of the crosswalk arching across the southbound lane.  \n The pedestrian was cited for Failure to Obey Traffic Control Device  \n\n",
+        "in_intersection": "yes",
+        "latitude": 45.508679,
+        "longitude": -122.902035,
+        "severity": "minor injury",
+        "source": "20240827_clean.txt",
+        "street0": "SE Cornelius Pass Road",
+        "street1": "SE Frances Street",
+        "time": "15:02"
+    },
+    {
+        "date": "2024-08-06",
+        "description": "8/6/2024 \u2013 at around 8:31 a.m. at the intersection of NE Cornell Road and NE 25th Avenue.\n\n This crash was a vehicle versus pedestrian with the pedestrian having minor injuries.  \n Weather was clear; pavement surface was dry.  \n The pedestrian said they had just entered the crosswalk on the southeast corner of the intersection and was hit by a vehicle, which was northbound on NE 25th Ave and turning right, eastbound, onto NE Cornell Rd.  \n \nThe driver stated their light was green and they did not see the pedestrian crossing within the \ncrosswalk.  \n \nThe driver was cited for Failing to Yield to a Pedestrian.  \n \nStaff visited the location and did not identify a reason for a driver to fail to see a pedestrian at this location.  \n",
+        "in_intersection": "yes",
+        "latitude": 45.5306675,
+        "longitude": -122.9569559,
+        "severity": "minor injury",
+        "source": "20240827_clean.txt",
+        "street0": "NE Cornell Road",
+        "street1": "NE 25th Avenue",
+        "time": "08:31"
+    }
+]

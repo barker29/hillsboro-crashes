@@ -32,6 +32,7 @@ links = {
     "20240528": "https://hillsboro-oregon.civicweb.net/document/236844/TC%20Crash%20Report%20Memo%205.22.24.pdf",
     "20240625": "https://hillsboro-oregon.civicweb.net/document/237883/TC%20Crash%20Report%20Memo%206.11.24.pdf",
     "20240723": "https://hillsboro-oregon.civicweb.net/document/238735/TC%20Crash%20Report%20Memo%207.18.24.pdf",
+    "20240827": "https://hillsboro-oregon.civicweb.net/document/239558/TC%20Crash%20Report%20Memo%208.13.24.pdf",
 }
 
 def make_table(db):
