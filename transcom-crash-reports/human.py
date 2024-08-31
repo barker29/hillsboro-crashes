@@ -1,5 +1,5 @@
 """
-Copyright (c) 2023 Andrew T. Barker
+Copyright (c) 2024 Andrew T. Barker
 
 This software is distributed under the MIT License, see the LICENSE file
 or https://mit-license.org/
@@ -67,7 +67,22 @@ def guess_streets(d):
     c = d.find(".", b)
     if a == -1 or b == -1 or c == -1:
         return ("", "")
-    return (d[a:b].strip(), d[b+5:c].strip())
+    return (d[a:b].replace("\n", "").strip(), d[b+5:c].replace("\n", "").strip())
+
+
+def guess_severity(d):
+    """input d is a crash report ('description' field). Returns
+    one of ("none", "minor injury", "serious injury", "fatality")"""
+    if "fatal" in d:
+        return "fatality"
+    elif "serious" in d:
+        return "serious injury"
+    elif "minor" in d:
+        return "minor injury"
+    elif "no injur" in d:
+        return "none"
+    else:
+        return ""
 
 
 def human(fin, fout):
@@ -77,6 +92,7 @@ def human(fin, fout):
     for item in jo:
         print(item["description"])
         street0, street1 = guess_streets(item["description"])
+        severity = guess_severity(item["description"])
         if "street0" not in item.keys():
             item["street0"] = prefill_input("street0> ", street0)
         if "street1" not in item.keys():
@@ -84,7 +100,7 @@ def human(fin, fout):
         if "in_intersection" not in item.keys():
             item["in_intersection"] = prefill_input("in_intersection> ", "yes")
         if "severity" not in item.keys():
-            item["severity"] = input("severity> ")
+            item["severity"] = prefill_input("severity> ", severity)
         if "latitude" not in item.keys():
             llat, llong = interpret_coordinates(input("coords> "))
             item["latitude"] = llat
